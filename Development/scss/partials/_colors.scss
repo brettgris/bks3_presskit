@@ -17,6 +17,7 @@ $background-color: $black; //PRE OVERIDE BY INDIVIDUAL PAGES
 
 /************************ OVERLAY **********************/
 $overlay-background: red;
+$overlay-item-background: yellow;
 $overlay-item-hover: pink;
 
 /********************** TEXT COLORS **********************/
@@ -64,11 +65,11 @@ $prod-thumb-hover: grey;
 $gallery-item-background: black;
 
 /************************ VIDEO ************************/
-$video-item-background: $orange-trans-light;
+$video-item-background: $overlay-item-background;
 $video-item-hover: $overlay-item-hover;
 
 /********************** DOWNLOADS **********************/
-$downloads-item-background: $orange-trans-light;
+$downloads-item-background: $overlay-item-background;
 $downloads-item-hover: $overlay-item-hover;
 
 /*********************** FOOTER ************************/

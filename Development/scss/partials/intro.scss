@@ -1,0 +1,61 @@
+$intro-width: 1000;
+$intro-arrow-space: 20px;
+$intro-arrow-width: $intro-width + $intro-arrow-space*2 + $arrow-width*2;
+
+.intro{
+	width: 100%;
+	z-index: 5;
+	padding-top: 0px !important;
+	overflow:hidden;
+
+	.intro-container{
+		height: 500px;
+
+		.intro-item{
+			width:100%;
+			height: 500px;
+			position: absolute;
+			top:0;
+			left:50%;
+			display: none;
+			margin-left: -50%;
+			height:1000px;
+
+			&:first-child{
+				display: block;
+			}
+
+			.intro-animate{
+				position: absolute;
+				top:0;
+				left:0;
+				display: none;
+
+				div{
+					position: absolute;
+					top:0;
+					left:0;
+					width: 100%;
+					height: 100%;
+				}
+			}
+		}
+
+		.intro-arrows{
+			@extend .arrow-container;
+			width: $intro-arrow-width;
+			left:50%;
+			margin-left: $intro-arrow-width/-2;
+			top:325px;
+
+			.next{
+				@extend .nextbtn;
+			}
+
+			.prev{
+				@extend .prevbtn;
+			}
+			
+		}
+	}
+}

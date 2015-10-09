@@ -1,0 +1,13 @@
+//KEYART
+div#keyart.keyart.section
+	div.keyart-container
+		div.bottom-gradient
+		div.left-gradient
+		div.right-gradient
+		img(src="images/bg/keyart.jpg")
+	div.copy-container
+		div.key-logo
+		div.synposis
+			- for (i in synopsis)
+				p !{synopsis[i]}
+		div.key-tunein

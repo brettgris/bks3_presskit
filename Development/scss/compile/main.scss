@@ -1,0 +1,20 @@
+@import "compass/css3";
+
+$imgPath:"../images/";
+
+/************************  VARIABLES  ************************/
+@import '../partials/_colors.scss';
+@import '../partials/_fonts.scss';
+@import '../partials/_breakpoints.scss';
+
+/************************  SECTIONS  ************************/
+@import '../partials/header.scss';
+@import '../partials/globals.scss';
+@import '../partials/intro.scss';
+@import '../partials/keyart.scss';
+@import '../partials/cast.scss';
+@import '../partials/prod.scss';
+@import '../partials/gallery.scss';
+@import '../partials/videos.scss';
+@import '../partials/downloads.scss';
+@import '../partials/footer.scss';

@@ -1,0 +1,146 @@
+/************************ GLOBALS ***********************/
+$section-padding:30px;
+$arrow-width: 29px;
+$arrow-height: 50px;
+
+/************************ HEADER ***********************/
+$menu-height:80px;
+$menu-width:1080px;
+
+//SHOW TA
+$logo-width:267px;
+$logo-height:60px;
+$logo-space:10px;
+
+//STARZ LOGO
+$starzlogo-width:93px;
+$starzlogo-height:30px;
+$starzlogo-space:$logo-space;
+
+//LINKS
+$link-padding: 5px;
+
+//Mobile-link
+$ml-size:35px;
+$ml-span-height:3px;
+$ml-span-width: 80%;
+
+//MOBILE HEIGHTS
+$menu-mobile-height: 50px;
+$logo-mobile-resize: .55;
+$starz-mobile-resize: .86;
+$mm-link-mobile-size: 30px;
+
+//MOBILE MENU
+$mm-width: 300px;
+$mm-item-height: 45px;
+
+/************************ INTRO ************************/
+$intro-width: 1000;
+$intro-arrow-space: 20px;
+$intro-arrow-width: $intro-width + $intro-arrow-space*2 + $arrow-width*2;
+
+/*********************** KEYART ************************/
+$key-width:950px;
+
+$key-logo-width:350;
+$key-logo-ratio: 232/478 *100%;
+
+$key-tunein-width: 350px;
+$key-tunein-ratio: 43/383;
+
+/************************ CAST *************************/
+//THUMBS
+$thumb-padding: 10px;
+$thumb-margin-bottom: 20px;
+$thumb-item-width:65px;
+$thumb-item-height:65px;
+$thumb-item-spacing:10px;
+
+//CHARACTER
+$character-top: $menu-height+20;
+$character-width:526px;
+$character-width-wide: 975px;
+$character-photo-height:300px;
+
+$character-name-width:342px;
+$character-name-height:72px;
+
+//ARROWS
+$arrow-width:29px;
+$arrow-height:50px;
+$arrow-spacing:15px;
+$arrow-container-width: $character-width + ($character-photo-border-size*2)+ ($arrow-width*2) + ($arrow-spacing*2);
+$arrow-top: ($character-photo-height - $arrow-height)/2 + $character-top;
+
+/************************ PROD *************************/
+$prod-container-width: 1100px;
+$prod-width:$prod-container-width*.62;
+$prod-image-width:403px;
+$prod-image-height: 300px;
+
+$prod-list-width:235px;
+
+$prod-thumb-height:32px;
+$prod-thumb-spacing:20px;
+
+$prod-arrows-width:$prod-image-width+$arrow-width*2+100;
+$prod-arrows-top:70px;
+$prod-arrows-top2:150px;
+
+$prod-name-width: 342px;
+$prod-name-height: 72px;
+
+$prod-left:$prod-list-width + ($prod-container-width - ($prod-list-width + $prod-width))/2;
+
+$prod-offcenter: 64%;
+
+/*********************** GALLERY ***********************/
+$gallery-item-width: 180px;
+$gallery-item-height: 130px;
+$gallery-item-spacing: 10px;
+
+$gallery-view-width:1024px;
+$gallery-view-height:612px;
+
+$gallery-item-padding: 20px;
+$gallery-item-size: $gallery-item-width + 2*$gallery-item-border-size + $gallery-item-spacing;
+$gallery-width6: $gallery-item-size*6;
+$gallery-width5: $gallery-item-size*5;
+$gallery-width4: $gallery-item-size*4;
+$gallery-width3: $gallery-item-size*3;
+$gallery-width2: $gallery-item-size*2;
+
+$image-width5: 900px;
+$image-width4: 694px;
+$image-width3: 512px;
+$image-width2: 320px;
+
+/************************ VIDEO ************************/
+$video-container-width: 750px;
+$video-width:640px;
+$video-ratio:percentage( 360/640 );
+$video-padding:85px;
+
+$video-item-height: 118px;
+$video-item-spacing: 15px;
+
+/********************** DOWNLOADS **********************/
+$downloads-width: 1100px;
+
+$downloads-item-height: 75px;
+$downloads-item-spacing: 10px;
+
+$downloads-pdf-indent:65px;
+
+/*********************** FOOTER ************************/
+$footer-height:50px;
+
+$footer-mheight:57px;
+$footer-sheight:35px;
+
+$footer-size: 10px;
+
+$social-height: 20px;
+$social-width:20px;
+$social-padding:5px;

@@ -1,17 +1,3 @@
-$downloads-width: 1100px;
-
-$downloads-item-background: $orange-trans-light;
-$downloads-item-hover: $overlay-color;
-$downloads-item-border: 2px solid rgba(223,148,107,.3);
-$downloads-item-height: 75px;
-$downloads-item-spacing: 10px;
-
-$downloads-pdf-indent:65px;
-
-$downloads-break1: 1150px;
-$downloads-break2: 950px;
-$downloads-break3: 600px;
-
 .downloads-content{
 	@extend .page-overlay;
 	width: $downloads-width;

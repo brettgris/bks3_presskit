@@ -45,6 +45,43 @@ $highlight: $orange;
 /********************** BACKGROUND **********************/
 $background-color: $black;
 
+/************************ OVERLAY **********************/
+$overlay-background: $overlay-color;
+
 /********************** TEXT COLORS **********************/
 $font-color: $black;
 $castprod-font-color: $medlight-grey;
+
+/************************ HEADER ***********************/
+//MOBILE LINK
+$ml-background: rgba(256,256,256,.05);
+//MOBILE MENU
+$mm-background: $menu-bg;
+$mm-hover-background: $black;
+$mm-item-background: $menu-bg;
+
+/************************ INTRO ************************/
+
+/*********************** KEYART ************************/
+
+/************************ CAST *************************/
+$thumb-background: url(#{$imgPath}bg/pattern.jpg) #000 center center no-repeat;
+
+/************************ PROD *************************/
+$prod-background:$cast-overlay;
+
+$prod-thumb-background: transparent;
+$prod-thumb-hover: $cast-overlay;
+
+/*********************** GALLERY ***********************/
+$gallery-item-background: $item-background;
+
+/************************ VIDEO ************************/
+$video-item-background: $orange-trans-light;
+$video-item-hover: $overlay-color;
+
+/********************** DOWNLOADS **********************/
+$downloads-item-background: $orange-trans-light;
+$downloads-item-hover: $overlay-color;
+
+/*********************** FOOTER ************************/

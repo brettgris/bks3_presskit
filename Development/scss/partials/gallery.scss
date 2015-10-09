@@ -1,33 +1,3 @@
-$gallery-item-width: 180px;
-$gallery-item-height: 130px;
-$gallery-item-spacing: 10px;
-$gallery-item-background: $item-background;
-$gallery-item-border-size: 1px;
-$gallery-item-border:$gallery-item-border-size solid $border-interactive;
-$gallery-item-hover:$gallery-item-border-size solid $light-orange;
-
-$gallery-view-width:1024px;
-$gallery-view-height:612px;
-
-$gallery-item-padding: 20px;
-$gallery-item-size: $gallery-item-width + 2*$gallery-item-border-size + $gallery-item-spacing;
-$gallery-width6: $gallery-item-size*6;
-$gallery-width5: $gallery-item-size*5;
-$gallery-width4: $gallery-item-size*4;
-$gallery-width3: $gallery-item-size*3;
-$gallery-width2: $gallery-item-size*2;
-
-$gallery-break6: $gallery-width6+40;
-$gallery-break5: $gallery-width5+40;
-$gallery-break4: $gallery-width4+40;
-$gallery-break3: $gallery-width3+40;
-$gallery-break2: $gallery-width2+40;
-
-$image-width5: 900px;
-$image-width4: 694px;
-$image-width3: 512px;
-$image-width2: 320px;
-
 .gallery-container{
 	@extend .page-overlay;
 	width:$gallery-width6 + $gallery-item-padding*2 - $gallery-item-spacing;

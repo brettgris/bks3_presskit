@@ -1,38 +1,3 @@
-$menu-height:80px;
-$menu-width:1080px;
-$menu-zindex:15;
-
-$menu-border:1px solid $border-color;
-
-//SHOW TA
-$logo-width:267px;
-$logo-height:60px;
-$logo-space:10px;
-
-//STARZ LOGO
-$starzlogo-width:93px;
-$starzlogo-height:30px;
-$starzlogo-space:$logo-space;
-
-//LINK 
-$link-border:1px solid rgba(115,139,156,.4);
-$link-padding: 5px;
-
-//Mobile-link
-$ml-size:35px;
-$ml-border-size: 2px;
-$ml-border-color: $light-grey;
-$ml-border-hover: $white;
-$ml-background: rgba(256,256,256,.05);
-$ml-span-height:3px;
-$ml-span-width: 80%;
-
-//MOBILE HEIGHTS
-$menu-mobile-height: 50px;
-$logo-mobile-resize: .55;
-$starz-mobile-resize: .86;
-$mm-link-mobile-size: 30px;
-
 .header{
 	height:$menu-height;
 	background:$menu-color;
@@ -172,14 +137,6 @@ $mm-link-mobile-size: 30px;
 		}
 	}
 }
-
-$mm-width: 300px;
-$mm-background: $menu-bg;
-$mm-hover-background: $black;
-$mm-item-height: 45px;
-$mm-item-background: $menu-bg;
-$mm-item-border: $border-color;
-$mm-border-height: 1px;
 
 .mobile-menu{
 	position:fixed;

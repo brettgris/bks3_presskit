@@ -1,10 +1,6 @@
-$intro-width: 1000;
-$intro-arrow-space: 20px;
-$intro-arrow-width: $intro-width + $intro-arrow-space*2 + $arrow-width*2;
-
 .intro{
 	width: 100%;
-	z-index: 5;
+	z-index: $intro-zindex;
 	padding-top: 0px !important;
 	overflow:hidden;
 

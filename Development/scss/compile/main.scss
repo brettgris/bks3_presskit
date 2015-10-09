@@ -4,8 +4,12 @@ $imgPath:"../images/";
 
 /************************  VARIABLES  ************************/
 @import '../partials/_colors.scss';
+@import '../partials/_itemnumbers.scss';
+@import '../partials/_borders.scss';
+@import '../partials/_sizes.scss';
 @import '../partials/_fonts.scss';
 @import '../partials/_breakpoints.scss';
+@import '../partials/_zindex.scss';
 
 /************************  SECTIONS  ************************/
 @import '../partials/header.scss';

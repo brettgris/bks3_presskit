@@ -41,7 +41,6 @@ li{
 	clear: both;
 }
 
-$section-padding:30px;
 /***************
 TEXT
 ***************/
@@ -72,8 +71,6 @@ CLOSE
 	}
 }
 
-$arrow-width: 29px;
-$arrow-height: 50px;
 /***************
 ARROWS
 ***************/
@@ -109,8 +106,6 @@ ARROWS
 	background: url(#{$imgPath}/prevbtn.svg) center center no-repeat;
 }
 
-$overlay-background: $overlay-color;
-$overlay-border: 1px solid $border-color;
 /***************
 OVERLAY
 ***************/

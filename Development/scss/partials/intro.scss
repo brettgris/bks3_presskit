@@ -42,7 +42,7 @@
 			width: $intro-arrow-width;
 			left:50%;
 			margin-left: $intro-arrow-width/-2;
-			top:325px;
+			top:$intro-arrows-top;
 
 			.next{
 				@extend .nextbtn;

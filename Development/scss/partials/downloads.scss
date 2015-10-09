@@ -74,7 +74,7 @@
 					@extend .downloads-largefont;
 					margin-left: $downloads-pdf-indent;
 					padding-top: 16px;
-					color:$item-title;
+					color:$onoverlay-title;
 					text-transform: uppercase;
 					font-weight: 700;
 				}
@@ -169,14 +169,14 @@
 					&.contact-name{
 						padding-top: 5px;
 						margin-bottom: 2px;
-						color:$item-title;
+						color:$onoverlay-title;
 						text-transform: uppercase;
 						font-weight: 700;
 					}
 					
 					&.contact-company, &.contact-phone{
 						font-size: 12px;
-						color:$item-text;
+						color:$onoverlay-text;
 						line-height: 12px;
 						margin-bottom: 3px;
 					}

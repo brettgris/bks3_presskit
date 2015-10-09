@@ -73,7 +73,6 @@
 			
 			&-name{
 				@extend .nameitem;
-				color:$highlight;
 				margin-top: 40px;
 			}
 			
@@ -97,7 +96,7 @@
 		}
 		
 		.prod-list{
-			background: url(#{$imgPath}bg/pattern.jpg) #000 center center no-repeat;;
+			background: $prod-background;
 			border-right:$prod-border;
 			border-left:$prod-border;
 			width:$prod-list-width;

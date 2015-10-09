@@ -110,7 +110,7 @@ ARROWS
 OVERLAY
 ***************/
 .page-overlay{
-	background: url(#{$imgPath}bg/pattern.jpg) #000 center center no-repeat;;
+	background: $overlay-background;
 	border:$overlay-border;
 }
 
@@ -120,7 +120,7 @@ Gallery
 .gallery-title{
 	font-size: 18px;
 	margin-top: 12px;
-	color:$item-title;
+	color:$onoverlay-title;
 	text-transform: uppercase;
 	font-weight: 700;
 }
@@ -137,7 +137,7 @@ CAST / PROD
 ***************/
 .quoteitem{
 	text-transform: uppercase;
-	color:$highlight;
+	color:$castprod-title;
 	font-size: 36px;
 	line-height: 36px;
 	text-align: center;
@@ -162,7 +162,7 @@ CAST / PROD
 	text-transform: uppercase;
 	text-align: center;
 	font-size:24px;
-	color: $highlight;
+	color: $castprod-title;
 				
 	@media screen and (max-width: $break-mobile) {
 		background-size:contain;

@@ -1,3 +1,3 @@
-# Ash Vs Evil Dead Press Kit
+# Black Sails 3 Press Kit
 Using Gulp with Jade, Coffescript, + Compass/Scss
 

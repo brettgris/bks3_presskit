@@ -35,8 +35,8 @@ $onoverlay-text: $med-grey;
 /************************ HEADER ***********************/
 $menu-color: yellow;
 
-$link-color:$light-grey;
-$link-hover:$white;
+$link-color:$black;
+$link-hover:$dark-grey;
 
 $link-highlight: red;
 
@@ -50,7 +50,6 @@ $mm-item-background: rgba(67,34,27,.9);
 /************************ INTRO ************************/
 
 /*********************** KEYART ************************/
-$keyart-bg: $black;
 
 /************************ CAST *************************/
 $thumb-background: url(#{$imgPath}bg/pattern.jpg) #000 center center no-repeat;

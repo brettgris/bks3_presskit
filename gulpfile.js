@@ -16,7 +16,7 @@ var concat = require('gulp-concat'),
     fs = require('fs');
 
 var getJsonData = function(file){
-   return JSON.parse(fs.readFileSync('./Development/jade/data/data.json', 'utf8'));
+   return JSON.parse(fs.readFileSync('./Development/jade/data/pages.json', 'utf8'));
 };
 
 gulp.task('jade', function() {

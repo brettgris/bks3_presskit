@@ -1,37 +1,38 @@
 //INTRO
-div#intro.intro.section
-	div.intro-container
-		- for (i in intro)
-			- var sw = intro[i].width
-			- var sh = intro[i].height
-			div.intro-item(class="intro#{i}" n="#{i}" w="#{intro[i].width}" h="#{intro[i].height}" bg="#{intro[i].background}")
-				-for (a in intro[i].items)
-					- var iw = intro[i].items[a].width/sw*100
-					- var ih = intro[i].items[a].height/sh*100
-					- var il = intro[i].items[a].left/sw*100
-					- var it = intro[i].items[a].top/sh*100
-					- var ia = JSON.stringify(intro[i].items[a].animate)
-					- var is = JSON.stringify(intro[i].items[a].set)
-					div.intro-animate(style="width:#{iw}%;height:#{ih}%;left:#{il}%;top:#{it}%;" set="#{is}" animate="#{ia}" delay="#{intro[i].items[a].delay}" multi="#{intro[i].items[a].multiple}")
-						- for (b in intro[i].items[a].divs)
-							- var s = ""
-							- var bi = ""
-							if intro[i].items[a].multiple != true
-								- for (c in intro[i].items[a].divs[b])
-									if c == "background-image"
-										- bi = intro[i].items[a].divs[b][c]
-									else
-										- s += c+":"+intro[i].items[a].divs[b][c]+";"
-								div(style="#{s}" data-src="#{bi}" class="imgLoad")
-							else
-								div.intro-multiple
-									- for (c in intro[i].items[a].divs[b])
-										if c == "background-image"
-											- bi = intro[i].items[a].divs[b][c]
-										else 
-											- s += c+":"+intro[i].items[a].divs[b][c]+";"
-									div(style="#{s}" data-src="#{bi}" class="imgLoad")
-		div.intro-arrows
-			a.next(href="javascript:void(0);")
-			a.prev(href="javascript:void(0);")
+div#intro.intro.section(ng-show="page==='intro'")
+	h1 INTRO
+	//- div.intro-container
+	//- 	- for (i in intro)
+	//- 		- var sw = intro[i].width
+	//- 		- var sh = intro[i].height
+	//- 		div.intro-item(class="intro#{i}" n="#{i}" w="#{intro[i].width}" h="#{intro[i].height}" bg="#{intro[i].background}")
+	//- 			-for (a in intro[i].items)
+	//- 				- var iw = intro[i].items[a].width/sw*100
+	//- 				- var ih = intro[i].items[a].height/sh*100
+	//- 				- var il = intro[i].items[a].left/sw*100
+	//- 				- var it = intro[i].items[a].top/sh*100
+	//- 				- var ia = JSON.stringify(intro[i].items[a].animate)
+	//- 				- var is = JSON.stringify(intro[i].items[a].set)
+	//- 				div.intro-animate(style="width:#{iw}%;height:#{ih}%;left:#{il}%;top:#{it}%;" set="#{is}" animate="#{ia}" delay="#{intro[i].items[a].delay}" multi="#{intro[i].items[a].multiple}")
+	//- 					- for (b in intro[i].items[a].divs)
+	//- 						- var s = ""
+	//- 						- var bi = ""
+	//- 						if intro[i].items[a].multiple != true
+	//- 							- for (c in intro[i].items[a].divs[b])
+	//- 								if c == "background-image"
+	//- 									- bi = intro[i].items[a].divs[b][c]
+	//- 								else
+	//- 									- s += c+":"+intro[i].items[a].divs[b][c]+";"
+	//- 							div(style="#{s}" data-src="#{bi}" class="imgLoad")
+	//- 						else
+	//- 							div.intro-multiple
+	//- 								- for (c in intro[i].items[a].divs[b])
+	//- 									if c == "background-image"
+	//- 										- bi = intro[i].items[a].divs[b][c]
+	//- 									else 
+	//- 										- s += c+":"+intro[i].items[a].divs[b][c]+";"
+	//- 								div(style="#{s}" data-src="#{bi}" class="imgLoad")
+	//- 	div.intro-arrows
+	//- 		a.next(href="javascript:void(0);")
+	//- 		a.prev(href="javascript:void(0);")
 		

@@ -1,22 +1,18 @@
 //PRODUCTION
-div#production.production.section
+div#production.production.section(ng-show="page==='production'" ng-init="prodNum=0")
 	div.prod-container
 		//LIST
 		div.prod-list
-			- for (i in prod)
-				a.t-prod(href="javascript:void" n="#{i}") !{prod[i].name}
+			a.t-prod(ng-repeat="Prod in prod" ng-click="thumbClick($index,'prodNum')" class=" {{(prodNum==$index)?'selected':''}} " ng-bind-html="safeHTML(Prod.name)")
 		//ARROWS
-		div.prod-arrows
-			a.prod-next(href="javascript:void(0);")
-			a.prod-prev(href="javascript:void(0);")
+		div.prod-arrows(class="{{(prod[prodNum].image==true)?'withimage':''}}")
+			a.prod-next(ng-click="changeItem(1,'prodNum', 'prod')")
+			a.prod-prev(ng-click="changeItem(-1,'prodNum', 'prod')")
 		//PROD BIOS
 		div.prod-content
-			- for (i in prod)
-				div.prod(id="#{prod[i].safename}" image="#{prod[i].image}")
-					if (prod[i].image)
-						div.prod-image(style="background-image:url(images/prod/#{prod[i].safename}_l.jpg)")
-					div.prod-copy
-						div.prod-name !{prod[i].name}
-						div.prod-position #{prod[i].role}
-						- for (p in prod[i].desc)
-							p !{prod[i].desc[p]}
+			div.prod(ng-repeat="Prod in prod" ng-show="$index==prodNum")
+				div.prod-image(ng-if="prod[$index].image" style="background-image:url(images/prod/{{Prod.safename}}_l.jpg)")
+				div.prod-copy
+					div.prod-name(ng-bind-html="safeHTML(Prod.name)")
+					div.prod-position(ng-bind-html="safeHTML(Prod.role)")
+					p(ng-repeat="p in Prod.desc" ng-bind-html="safeHTML(p)")

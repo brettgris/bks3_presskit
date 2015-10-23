@@ -48,7 +48,6 @@
 		width: $character-width;
 		margin-left: -1*($character-width+$character-photo-border-size*2)/2;
 		top: $character-top;
-		display:none;
 		
 		@media screen and (max-height: $break-tabheight) {
 			width: $character-width-wide;

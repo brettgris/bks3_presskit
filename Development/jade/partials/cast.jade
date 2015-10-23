@@ -1,21 +1,19 @@
 //CAST
-div#cast.cast.section
+div#cast.cast.section(ng-show="page==='cast'" ng-init="castNum=0")
 	//THUMBS
 	div.thumb-container
 		div.thumb-list
-			- for (i in cast)
-				a.t-cast(href="javascript:void(0);" style="background-image:url(images/cast/#{cast[i].safename}_t.jpg)" n="#{i}")
+			a.t-cast(ng-repeat="Cast in cast" ng-click="thumbClick($index,'castNum')" class=" {{(castNum==$index)?'selected':''}} " style="background-image:url(images/cast/{{Cast.safename}}_t.jpg)")
 	//ARROWS
 	div.cast-arrows
-		a.cast-next(href="javascript:void(0);")
-		a.cast-prev(href="javascript:void(0);")
+		a.cast-next(ng-click="changeItem(1,'castNum', 'cast')")
+		a.cast-prev(ng-click="changeItem(-1,'castNum', 'cast')")
 	//CHARACTER BIOS
 	div.character-content
-		- for (i in cast)
-			div.character(id="#{cast[i].safename}")
-				div.character-image(style="background-image:url(images/cast/#{cast[i].safename}_l.jpg)")
-				div.character-copy
-					div.character-name !{cast[i].name}
-					div.actor-name !{cast[i].actor}
-					div.character-desc !{cast[i].desc}
+		div.character(ng-repeat="Cast in cast" ng-show="$index==castNum")
+			div.character-image(style="background-image:url(images/cast/{{Cast.safename}}_l.jpg)")
+			div.character-copy
+				div.character-name(ng-bind-html="safeHTML(Cast.name)")
+				div.actor-name(ng-bind-html="safeHTML(Cast.actor)")
+				div.character-desc(ng-bind-html="safeHTML(Cast.desc)")
 

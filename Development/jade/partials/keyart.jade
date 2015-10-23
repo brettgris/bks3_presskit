@@ -1,5 +1,5 @@
 //KEYART
-div#keyart.keyart.section
+div#keyart.keyart.section(ng-show="page==='synopsis'")
 	div.keyart-container
 		div.bottom-gradient
 		div.left-gradient
@@ -8,6 +8,5 @@ div#keyart.keyart.section
 	div.copy-container
 		div.key-logo
 		div.synposis
-			- for (i in synopsis)
-				p !{synopsis[i]}
+			p(ng-repeat="p in synopsis" ng-bind-html="safeHTML(p)")
 		div.key-tunein

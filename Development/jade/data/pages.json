@@ -1,0 +1,39 @@
+{
+    "pages": [{
+        "name": "Synopsis",
+        "path": "synopsis",
+        "external": false,
+        "background": "black no-repeat center top"
+    }, {
+        "name": "Cast",
+        "path": "cast",
+        "external": false,
+        "background": "black no-repeat center top "
+    }, {
+        "name": "Production Bios",
+        "path": "production",
+        "external": false,
+        "background": "black no-repeat center top"
+    }, {
+        "name": "Gallery",
+        "path": "gallery",
+        "external": false,
+        "background": "black no-repeat center top"
+    }, {
+        "name": "Videos",
+        "path": "videos",
+        "external": false,
+        "background": "black no-repeat center top"
+    }, {
+        "name": "Screening Room",
+        "path": "https://microsites.starz.com/ScreeningRoom/Account/Login",
+        "external": true,
+        "highlight": true,
+        "background": ""
+    }, {
+        "name": "Press Materials",
+        "path": "downloads",
+        "external": false,
+        "background": "black no-repeat center top"
+    }]
+}

@@ -1,19 +1,19 @@
 //VIDEOS
-div#video.videos.section
+div#video.videos.section(ng-show="page==='videos'" ng-init="videoNum=-1")
 	div.video-list
 		//VIDEO CONTAINER
-		div.video-container
-			a.closevideo(href="javascript:void(0);") CLICK TO CLOSE VIDEO
+		div.video-container(ng-show="videoNum>=0")
+			a.closevideo(ng-click="videoNum=-1") CLICK TO CLOSE VIDEO
 			div.videoplayer
-				div.videoplayer-content
+				div.videoplayer-content(ng-if="videoNum>=0" ng-cloak)
+					iframe(width="100%" height="100%" frameborder="0" ng-src="{{safeURL(videos[videoNum].path)}}")
 			div.player-copy
-				div.video-name
-				div.video-desc
+				div.video-name {{videos[videoNum].name}}
+				div.video-desc {{videos[videoNum].desc}}
 		//VIDEO ITEMS
-		div.video-items
-			- for (i in videos)
-				a.video-item(href="javascript:void(0);" style="background-image:url(images/video/#{videos[i].thumb})" path="#{videos[i].path}" n="#{i}" name="#{videos[i].name}" desc="#{videos[i].desc}")
-					div.video-copy
-						div.video-name #{videos[i].name}
-						div.video-desc #{videos[i].desc}
-						div.clickheretoplay Click here to play
+		div.video-items(ng-show="videoNum<0")
+			a.video-item(ng-repeat="Video in videos" ng-click="thumbClick($index,'videoNum')" style="background-image:url(images/video/{{Video.thumb}})")
+				div.video-copy
+					div.video-name {{Video.name}}
+					div.video-desc {{Video.desc}}
+					div.clickheretoplay Click here to play

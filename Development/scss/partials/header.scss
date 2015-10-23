@@ -58,7 +58,6 @@
 			text-align: center;
 			position:absolute;
 			width: $menu-width - ( $logo-width + $logo-space * 2 + $starzlogo-width + $starzlogo-space * 2);
-			height: $menu-height;
 			top: ( $menu-height - $font-size - 1 )/2;
 			left:$logo-width + $logo-space * 2;
 			
@@ -146,7 +145,6 @@
 	top:0px;
 	left:0px;
 	overflow: hidden;
-	display: none;
 	border-right: 1px solid $mm-item-border;
 	
 	@media screen and (max-width: $break-mobile){

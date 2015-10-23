@@ -1,18 +1,17 @@
 doctype html
-html
+html(ng-app="PressKit")
 	head
 		meta(http-equiv="Content-Type" content="text/html; charset=utf-8")
 		meta(name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no")
 
-		title Ash Vs Evil Dead Press Kit
+		title Black Sails Season 3 Press Kit
 
 		link(href="css/main.css" rel="stylesheet" type="text/css")
-	body
+	body(ng-controller="PressKitController" ng-cloak ng-init="page='#{pages[6].path}';pagebg='#{pages[6].background}'; " style="background:{{pagebg}}")
 		div.container
 			include partials/header.jade
 
 			div.content
-				include partials/intro.jade
 				include partials/keyart.jade
 				include partials/cast.jade
 				include partials/production.jade

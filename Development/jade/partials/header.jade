@@ -2,30 +2,29 @@
 div.header
 	div.header-container
 		//LOGO
-		a.logo(path="intro" href="javascript:void(0);")
+		a.logo(ng-click="menuClick('#{pages[0].path}','#{pages[0].background}')" href="javascript:void(0);")
 
 		//MENU
 		div.menu
-			- for (i in links)
-				if links[i].external
-					a.mlink.mhighlight(href="#{links[i].path}" target="_blank") #{links[i].name}
+			- for (i in pages)
+				if pages[i].external
+					a.mlink(ng-click="mobilemenu=false" href="#{pages[i].path}" target="_blank" class="#{pages[i].highlight==true ? 'mhighlight' : ''}") #{pages[i].name}
 				else
-
-					a.mlink.plink(class="l#{links[i].path}" href="javascript:void(0);" path="#{links[i].path}" bg="#{links[i].background}") #{links[i].name}
+					a.mlink.plink(ng-click="menuClick('#{pages[i].path}','#{pages[i].background}')" class="l#{pages[i].path}" path="#{pages[i].path}") #{pages[i].name}
 
 		//HEADER LOGO
 		a.headerlogo(href="http://www.starz.com/originals/ashvsevildead" target="_blank")
 
 		//MOBILE LINK
-		a.mobile-link(href="javascript:void(0);")
+		a.mobile-link(ng-click="mobilemenu = !mobilemenu")
 			- for (i=0;i<3;i++)
 				span
 
 //MOBILE MENU
-div.mobile-menu
+div.mobile-menu(ng-show="mobilemenu" ng-init="mobilemenu = false" ng-cloak)
 	ul.menu-list
-		- for (i in links)
-			if links[i].external
-				a.mmlink.mhighlight(href="#{links[i].path}" target="_blank") #{links[i].name}
+		- for (i in pages)
+			if pages[i].external
+				a.mmlink(ng-click="mobilemenu=false" href="#{pages[i].path}" target="_blank"  class="#{pages[i].highlight==true ? 'mhighlight' : ''}") #{pages[i].name}
 			else
-				a.mmlink.mplink(href="javascript:void(0);" path="#{links[i].path}" bg="#{links[i].background}") #{links[i].name}
+				a.mmlink.mplink(ng-click="menuClick('#{pages[i].path}','#{pages[i].background}')") #{pages[i].name}

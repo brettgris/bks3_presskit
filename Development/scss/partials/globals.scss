@@ -23,6 +23,7 @@ body{
 a{
 	text-decoration: none;
 	color:$font-color;
+	cursor:pointer;
 }
 
 li{
@@ -39,6 +40,10 @@ li{
 
 .clear{
 	clear: both;
+}
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
 }
 
 /***************
@@ -208,7 +213,6 @@ PAGES
 		}
 		
 		.section{
-			display: none;
 			position: relative;
 			padding-top: $section-padding;
 			

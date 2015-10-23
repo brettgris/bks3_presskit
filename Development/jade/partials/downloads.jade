@@ -1,15 +1,14 @@
 //DOWNLOADS
-div#downloads.downloads.section
+div#downloads.downloads.section(ng-show="page==='downloads'")
 	div.downloads-content
 		//PDFS
 		div.downloads
 			h3 DOWNLOAD PDF FILES
 			ul.downloads-list
-				-for (i in pdfs)
-					li
-						a(href="#{pdfs[i].path}" target="_blank")
-							div.download-name #{pdfs[i].name}
-							div.clickto CLICK HERE TO DOWNLOAD
+				li(ng-repeat="PDF in pdfs")
+					a(href="{{PDF.path}}" target="_blank")
+						div.download-name {{PDF.name}}
+						div.clickto CLICK HERE TO DOWNLOAD
 		br.clear
 		//MEDIA ROOM
 		div.mediaroom
@@ -21,12 +20,11 @@ div#downloads.downloads.section
 		div.press-contacts
 			h3 PRESS CONTACTS
 			ul.contacts
-				-for (i in contacts)
-					li
-						a(href="mailto:#{contacts[i].email}?subject=Ash%20Vs%20Evil%20Dead%20Presskit")
-							div.contact-name #{contacts[i].name}
-							div.contact-company #{contacts[i].company}
-							div.contact-phone #{contacts[i].phone}
-							div.contact-email #{contacts[i].email}
+				li(ng-repeat="Contact in contacts")
+					a(href="mailto:{{Contact.email}}?subject=BLack%20Sails%203%20Presskit")
+						div.contact-name {{Contact.name}}
+						div.contact-company {{Contact.company}}
+						div.contact-phone {{Contact.phone}}
+						div.contact-email {{Contact.email}}
 		br.clear
 		br.clear

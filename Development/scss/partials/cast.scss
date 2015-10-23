@@ -48,6 +48,52 @@
 		width: $character-width;
 		margin-left: -1*($character-width+$character-photo-border-size*2)/2;
 		top: $character-top;
+
+		&.ng-hide-add, &.ng-hide-remove{
+			@include transition-property(all);
+  			@include transition-duration(0s);
+  			@include transition-timing-function(linear);
+		}
+
+		&.forward.ng-hide-add-active, &.forward.ng-hide-remove-active, &.backward.ng-hide-add-active, &.backward.ng-hide-remove-active{
+			@include transition-property(all);
+  			@include transition-duration(.2s);
+  			@include transition-timing-function(linear);
+		}
+
+		&.forward.ng-hide-add {
+			left:50%;
+			opacity:1;
+		}
+		&.forward.ng-hide-add.ng-hide-add-active { 
+			left:0%;
+			opacity:0;
+		}
+		&.forward.ng-hide-remove {
+			left:100%;
+			opacity: 0;
+		}
+		&.forward.ng-hide-remove.ng-hide-remove-active {
+			left:50%;
+			opacity:1;
+		}
+
+		&.backward.ng-hide-add {
+			left:50%;
+			opacity:1;
+		}
+		&.backward.ng-hide-add.ng-hide-add-active { 
+			left:100%;
+			opacity:0;
+		}
+		&.backward.ng-hide-remove {
+			left:0%;
+			opacity: 0;
+		}
+		&.backward.ng-hide-remove.ng-hide-remove-active {
+			left:50%;
+			opacity:1;
+		}
 		
 		@media screen and (max-height: $break-tabheight) {
 			width: $character-width-wide;

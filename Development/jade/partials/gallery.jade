@@ -5,7 +5,7 @@ div#gallery.gallery.section(ng-show="page==='gallery'" ng-init="photoNum=-1")
 		div.gallery-view(ng-show="photoNum>=0")
 			a.g-close(ng-click="photoNum=-1") CLICK TO CLOSE IMAGE
 			div.image-view
-				img(ng-if="photoNum>=0" src="images/gallery/f/{{photos[photoNum].path}}" ng-cloak)
+				img(ng-repeat="Photo in photos" ng-src="images/gallery/f/{{Photo.path}}" ng-show="$index==photoNum" ng-cloak)
 			div.image-desc {{photos[photoNum].caption }}
 			div.g-arrows
 				a.g-next(ng-click="changeItem(1,'photoNum', 'photos')")

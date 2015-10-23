@@ -104,6 +104,7 @@
 			height: $gallery-view-height;
 			background: black;
 			margin: auto;
+			position: relative;
 			
 			@media screen and (max-width: $gallery-break6) {
 				width: $image-width5;
@@ -128,6 +129,32 @@
 			img{
 				width:100%;
 				height:100%;
+				position: absolute;
+
+				&.ng-hide-add, &.ng-hide-remove{
+					@include transition-property(opacity);
+					@include transition-duration(0s);
+					@include transition-timing-function(linear);
+				}
+
+				&.ng-hide-add-active, &.ng-hide-remove-active{
+					@include transition-property(opacity);
+					@include transition-duration(.2s);
+					@include transition-timing-function(linear);
+				}
+
+				&.ng-hide-add {
+					opacity:1;
+				}
+				&.ng-hide-add.ng-hide-add-active { 
+					opacity:0;
+				}
+				&.ng-hide-remove {
+					opacity: 0;
+				}
+				&.ng-hide-remove.ng-hide-remove-active {
+					opacity:1;
+				}
 			}
 		}
 		

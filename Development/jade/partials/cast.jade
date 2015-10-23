@@ -10,7 +10,7 @@ div#cast.cast.section(ng-show="page==='cast'" ng-init="castNum=0")
 		a.cast-prev(ng-click="changeItem(-1,'castNum', 'cast')")
 	//CHARACTER BIOS
 	div.character-content
-		div.character(ng-repeat="Cast in cast" ng-show="$index==castNum")
+		div.character(ng-repeat="Cast in cast" ng-show="$index==castNum" class="{{(direction)?'forward':'backward'}}")
 			div.character-image(style="background-image:url(images/cast/{{Cast.safename}}_l.jpg)")
 			div.character-copy
 				div.character-name(ng-bind-html="safeHTML(Cast.name)")

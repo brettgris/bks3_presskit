@@ -1,16 +1,22 @@
 do ->
 	app = angular.module 'PressKit', ['ngAnimate']
-	app.controller 'PressKitController', ['$scope','$http','$filter','$sce', ($scope,$http,$filter,$sce) ->
+	app.controller 'PressKitController', ['$scope','$http','$filter','$sce','$timeout', ($scope,$http,$filter,$sce,$timeout) ->
 		$http.get('data/data.json').then (data) ->
 			$.extend $scope, data.data
 
-		$scope.thumbClick = (id,v) ->
-			$scope[v] = id
+		$scope.thumbClick = (i,v) ->
+			if i>$scope[v] then $scope.direction = true else $scope.direction = false
+			$timeout ->
+				$scope[v] = i
+			,1
 
 		$scope.changeItem = (i,v,a) ->
-			$scope[v] += i
-			if $scope[v]<0 then $scope[v]=$scope[a].length-1
-			if $scope[v]==$scope[a].length then $scope[v]=0
+			if i>0 then $scope.direction = true else $scope.direction = false
+			$timeout ->
+				$scope[v] += i
+				if $scope[v]<0 then $scope[v]=$scope[a].length-1
+				if $scope[v]==$scope[a].length then $scope[v]=0
+			,1
 
 		$scope.safeHTML = (s) ->
 			$sce.trustAsHtml s
@@ -23,7 +29,7 @@ do ->
 			$scope.pagebg = bg
 			$scope.mobilemenu = false
 			$scope.videoNum = -1
-			$scope.galleryNum = -1
+			$scope.photoNum = -1
 			$scope.castNum = 0
 			$scope.prodNum = 0
 

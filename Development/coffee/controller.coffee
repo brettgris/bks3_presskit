@@ -1,6 +1,6 @@
 do ->
 	app = angular.module 'PressKit', ['ngAnimate']
-	app.controller 'PressKitController', ['$scope','$http','$filter','$sce','$timeout', ($scope,$http,$filter,$sce,$timeout) ->
+	app.controller 'PressKitController', ['$scope','$http','$filter','$sce','$timeout','$window', ($scope,$http,$filter,$sce,$timeout,$window) ->
 		$http.get('data/data.json').then (data) ->
 			$.extend $scope, data.data
 
@@ -32,6 +32,13 @@ do ->
 			$scope.photoNum = -1
 			$scope.castNum = 0
 			$scope.prodNum = 0
+
+		do $scope.windowSize = ->
+			$scope.contentHeight = $window.innerHeight-Number( $('.content').css('top').slice(0,-2) )-$('.footer').height()
+
+		angular.element($window).bind 'resize', ->
+			$scope.windowSize()
+			$scope.$apply()
 
 		$scope
 	]

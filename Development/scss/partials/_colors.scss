@@ -6,59 +6,62 @@ $red:#ed1e2e;
 $orange: #df946b;
 $light-orange: #efd4d1;
 $light-grey: #ddd;
-$medlight-grey: #a6a6a6;
+$medlight-grey: #aaa;
 $med-grey: #666;
 $dark-grey:#404040;
-$orange-trans-light: rgba(67,34,27,.3);
-$orange-trans: rgba(67,34,27,.65);
+$yellow: #ebca84;
 
 /********************** BACKGROUND **********************/
 $background-color: $black; //PRE OVERIDE BY INDIVIDUAL PAGES
 
 /************************ OVERLAY **********************/
-$overlay-background: red;
-$overlay-item-background: yellow;
-$overlay-item-hover: pink;
+$overlay-background: url(#{$imgPath}bg/paper.png) center center;
+$overlay-item-background: rgba(38,23,3,.75);
+$overlay-item-hover: rgba(38,23,3,.95);
 
 /********************** TEXT COLORS **********************/
 $font-color: $black;
 
 $castprod-font-color: $medlight-grey;
-$castprod-title: cyan;
+$castprod-title: $yellow;
 
-$inpagelink-color: $med-grey;
-$inpagelink-hover: $light-orange;
+$inpagelink-color: $yellow;
+$inpagelink-hover: $yellow;
 
-$onoverlay-title: $orange;
-$onoverlay-text: $med-grey;
+$onoverlay-title: $white;
+$onoverlay-text: $medlight-grey;
+
+$closebtn-color: $med-grey;
+$closebtn-hover: $black;
 
 /************************ HEADER ***********************/
-$menu-color: yellow;
+$menu-color: $black;
 
-$link-color:$black;
-$link-hover:$dark-grey;
+$link-color:$light-grey;
+$link-hover:$white;
 
-$link-highlight: red;
+$link-highlight: $yellow;
 
 //MOBILE LINK
 $ml-background: rgba(256,256,256,.05);
 //MOBILE MENU
-$mm-background: rgba(67,34,27,.9);
+$mm-background: rgba(38,23,3,.3);
 $mm-hover-background: $black;
-$mm-item-background: rgba(67,34,27,.9);
+$mm-item-background: rgba(38,23,3,.9);
 
 /************************ INTRO ************************/
 
 /*********************** KEYART ************************/
 
 /************************ CAST *************************/
-$thumb-background: url(#{$imgPath}bg/pattern.jpg) #000 center center no-repeat;
+$thumb-background: url(#{$imgPath}bg/pattern.jpg) #000 center center repeat-x;
 
 /************************ PROD *************************/
-$prod-background:lime;
+$prod-background: url(#{$imgPath}bg/prodlist.jpg) $yellow center center;
 
 $prod-thumb-background: transparent;
-$prod-thumb-hover: grey;
+$prod-thumb-hover: $overlay-item-hover;
+$prod-thumb-color: $dark-grey;
 
 /*********************** GALLERY ***********************/
 $gallery-item-background: black;
@@ -66,11 +69,14 @@ $gallery-item-background: black;
 /************************ VIDEO ************************/
 $video-item-background: $overlay-item-background;
 $video-item-hover: $overlay-item-hover;
+$videoname-color: $black;
 
 /********************** DOWNLOADS **********************/
 $downloads-item-background: $overlay-item-background;
 $downloads-item-hover: $overlay-item-hover;
 
+$downloads-header-color: $black;
+
 /*********************** FOOTER ************************/
-$footer-background: pink;
+$footer-background: $black;
 $footer-color: $med-grey;

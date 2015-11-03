@@ -14,7 +14,7 @@ $key-height-break:800px;
 /************************ CAST *************************/
 $break-tabheight:900px;
 $break-cast-medium: 980px;
-$break-cast-small: $character-width + 10;
+$break-cast-small: $thumb-width + 10;
 
 /************************ PROD *************************/
 $prod-image-break: $prod-image-width+50;
@@ -31,8 +31,8 @@ $gallery-break2: $gallery-width2+40;
 $video-break1: $video-container-width + 2*$video-padding+20;
 
 /********************** DOWNLOADS **********************/
-$downloads-break1: 1150px;
-$downloads-break2: 950px;
-$downloads-break3: 600px;
+$downloads-break1: 1100px;
+$downloads-break2: 1000px;
+$downloads-break3: 700px;
 
 /*********************** FOOTER ************************/

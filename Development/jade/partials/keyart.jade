@@ -7,6 +7,7 @@ div#keyart.keyart.section(ng-show="page==='synopsis'" style="height:{{contentHei
 		img(src="images/bg/keyart.jpg")
 	div.copy-container
 		div.key-logo
+			div
 		div.synposis
 			p(ng-repeat="p in synopsis" ng-bind-html="safeHTML(p)")
 		div.key-tunein

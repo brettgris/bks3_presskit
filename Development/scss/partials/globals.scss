@@ -68,11 +68,12 @@ CLOSE
 	text-align: center;
 	width:100%;
 	margin: 5px auto 10px auto;
-	color: $inpagelink-color;
+	color: $closebtn-color;
 	font-size: 12px;
+	font-weight: 700;
 	
 	&:hover{
-		color:$inpagelink-hover;
+		color: $closebtn-hover;
 	}
 }
 
@@ -116,6 +117,8 @@ OVERLAY
 ***************/
 .page-overlay{
 	background: $overlay-background;
+	background-size:100% 100%;
+	background-repeat: no-repeat;
 	border:$overlay-border;
 }
 

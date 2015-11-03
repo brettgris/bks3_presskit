@@ -2,22 +2,22 @@
 div#downloads.downloads.section(ng-show="page==='downloads'")
 	div.downloads-content
 		//PDFS
-		div.downloads
+		div.downloads.dl-section
 			h3 DOWNLOAD PDF FILES
 			ul.downloads-list
 				li(ng-repeat="PDF in pdfs")
 					a(href="{{PDF.path}}" target="_blank")
 						div.download-name {{PDF.name}}
 						div.clickto CLICK HERE TO DOWNLOAD
-		br.clear
+			br.clear
 		//MEDIA ROOM
-		div.mediaroom
+		div.mediaroom.dl-section
 			h3 HIGH RESOLUTION IMAGES
 			div.mediaroom-list
 				a(href="http://starz.mediaroom.com/index.php?s=56" target="_blank")
 					span Visit STARZ Media Room to download high resolution images and videos
 		//PRESS CONTACTS
-		div.press-contacts
+		div.press-contacts.dl-section
 			h3 PRESS CONTACTS
 			ul.contacts
 				li(ng-repeat="Contact in contacts")
@@ -26,5 +26,4 @@ div#downloads.downloads.section(ng-show="page==='downloads'")
 						div.contact-company {{Contact.company}}
 						div.contact-phone {{Contact.phone}}
 						div.contact-email {{Contact.email}}
-		br.clear
-		br.clear
+			br.clear

@@ -28,7 +28,7 @@ gulp.task('jade', function() {
                 this.emit('end');
         }}))
         .pipe(jade({
-            pretty: false
+            pretty: true
         }))
         .pipe(gulp.dest("Production/"));
 });
@@ -45,7 +45,7 @@ gulp.task('sass', function() {
 	        'sass': 'Development/scss/compile',
 	        'css': 'Production/css',
 	        'images': 'Production/images',
-	        'style': 'compressed'
+	        'style': 'nested'
         }))
         .on('error', function(err) {})
         .pipe(gulp.dest('Production/css'));

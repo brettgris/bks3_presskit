@@ -1,343 +1,141 @@
 {
     "synopsis": [
-        "&#8220;Ash vs Evil Dead&#8221; is the long-awaited follow-up to the classic horror film series The Evil Dead from original filmmakers Sam Raimi, Rob Tapert, and Bruce Campbell and Craig DiGregorio.",
-        "Campbell reprises his role as Ash, the stock boy, aging lothario and chainsaw-handed monster hunter who has spent the last 30 years avoiding responsibility, maturity and the terrors of the Evil Dead. When a Deadite plague threatens to destroy all of mankind, Ash is finally forced to face his demons -personal and literal.  Destiny, it turns out, has no plans to release the unlikely hero from &#8220;Evil&#8217;s&#8221; grip."
+        "Proin convallis laoreet tortor, et aliquet diam rhoncus id. Nullam in velit nunc. Suspendisse sit amet elementum libero, ut elementum neque. Praesent sit amet varius lacus, ac ullamcorper urna. Duis mollis laoreet nibh, vitae laoreet felis ornare sit amet. Nulla ac urna leo. Nulla non mauris pellentesque, convallis neque sit amet, tempus tortor. Nullam rutrum mauris cursus orci ultrices faucibus. ",
+        "Donec sit amet nisl finibus, interdum magna a, convallis nunc. Nam rutrum fermentum ante, ac euismod lectus placerat ac. Quisque eu justo ac quam feugiat interdum at at enim. Vestibulum facilisis malesuada nunc, nec sollicitudin lectus auctor quis. Praesent tellus nunc, consectetur a fermentum vel, laoreet et orci."
     ],
     "cast": [{
-        "safename": "ash",
-        "name": "ASHLEY &#8220;ASH&#8221; WILLIAMS",
-        "actor": "Bruce Campbell",
-        "desc": "Ash returns as the blowhard heroic monster fighter now struggling with the limitations of his middle-aged self. It was over 30 years ago, while vacationing in the woods with friends, he encountered creatures of unspeakable evil. Ash survived the battle, but it cost him his hand and his sense of security. He is now America&#8217;s oldest one-handed stock boy. Responsibility and ambition are not part of his limited vocabulary. Since that fateful night in the woods, Ash has been looking over his shoulder, afraid that one day the Evil Dead would return for him. Keeping a low profile, he has successfully avoided them.... until he makes one very stupid mistake."
+        "safename": "flint",
+        "name": "CAPTAIN FLINT",
+        "actor": "Toby Stephens",
+        "desc": "A former Naval officer, disgraced and betrayed, Captain Flint is now the face of grim death in the West Indies."
     }, {
-        "safename": "ruby",
-        "name": "RUBY",
-        "actor": "Lucy Lawless",
-        "desc": "A seductive and reclusive figure well steeped in the ancient mythology surrounding the Evil Dead. She has determined that Ash was the sole survivor and the cause of the supernatural massacre that murdered her family over 30 years ago. Now suddenly, the evil has resurfaced. After all these years, Ruby is finally closing in on Ash."
+        "safename": "eleanor",
+        "name": "ELEANOR GUTHRIE",
+        "actor": "Hannah New",
+        "desc": "Exiled from her home and sentenced to hang, Eleanor is now London&#8217;bvs most notorious convict. Granted an opportunity to return to Nassau in the service of its new governor, her survival hinges on one question: can she let go of the past?"
     }, {
-        "safename": "pablo",
-        "name": "PABLO SIMON BOLIVAR",
-        "actor": "Ray Santiago",
-        "desc": "Pablo is Ash&#8217;s coworker and loyal friend. He recognizes that fate has put Ash in the center of a battle of good vs. evil. Pablo feels that his destiny is to fight alongside Ash. Originally trained to follow in his uncle&#8217;s footsteps to become a Brujo, a Honduran shaman, Pablo has left his legacy behind to pursue the American Dream. He dreams of romance with his comrade in arms, Kelly, but he suffers as his love remains unrequited. Pablo is the only one who believes in Ash even when Ash doubts himself."
+        "safename": "silver",
+        "name": "SILVER",
+        "actor": "Luke Arnold",
+        "desc": "Once an outcast, now the beloved and respected quartermaster of Flint&#8217;s crew. But when Flint&#8217;s campaign of terror crosses over into madness, it falls to Silver to locate the man within the monster, before it&#8217;s too late."
     }, {
-        "safename": "kelly",
-        "name": "KELLY MAXWELL",
-        "actor": "Dana DeLorenzo",
-        "desc": "Kelly was once a sweet girl, but has become hardened and cynical by the cards life has dealt her. Now she only desires payback for what the Deadites have done to those close to her. Unwilling to let go of her rage she won&#8217;t let others get too close. With her family destroyed, she turns to Ash and Pablo, the only ones who have ever stood by her. She will not stop until the last evil Deadite is destroyed. "
+        "safename": "max",
+        "name": "MAX",
+        "actor": "Jessica Parker Kennedy",
+        "desc": "With Eleanor exiled, Max is now the nexus between the pirates and the street, a position of great power and influence. But when the return of civilization threatens to unseat her, Max sets a plan in motion that will have dire consequences for the island, as well as her relationship with Anne Bonny."
     }, {
-        "safename": "amanda",
-        "name": "AMANDA FISHER",
-        "actor": "Jill Marie Jones",
-        "desc": "Amanda is a respected Michigan State Police Detective. She finds her career on the line following the bizarre and grisly murder of her partner for which she is blamed. She knows that whoever or whatever killed him must be stopped. Her investigations lead to Ash as the likely suspect. To clear her name, she must find Ash and quickly bring him to justice even if it means killing him."
+        "safename": "billy",
+        "name": "BILLY BONES",
+        "actor": "Tom Hopper",
+        "desc": "Still mistrustful of his leadership, Billy must set aside his feelings for the sake of his crew&#8217;s survival. But when a new front opens in the war on civilization, Billy sees a different role for himself. One where he need never be beholden to Flint again."
+    }, {
+        "safename": "vane",
+        "name": "CAPTAIN CHARLES VANE",
+        "actor": "Zach McGowan",
+        "desc": "Allied with former enemies. Forced to betray his own values. Marked for death by civilization. For Captain Charles Vane, the costs of defending Nassau continue to mount. Is he strong enough to survive what&#8217;s coming?"
+    },{
+        "safename": "rackham",
+        "name": "JACK RACKHAM",
+        "actor": "Toby Schmitz",
+        "desc": "Sitting atop a fortune in Spanish gold, Rackham is finally in a position to win friends, secure his reputation and preserve Nassau for the ages. But when civilization returns to reclaim its island, he will learn that money can only buy so much&#8230;"
+    }, {
+        "safename": "anne",
+        "name": "ANNE BONNY",
+        "actor": "Clara Paget",
+        "desc": "A beacon of loyalty in a sea of shifting alliances, Bonny is caught between her partnership with Rackham, and her love for Max. But when upheaval on the island forces unpleasant truths to the surface, Bonny must choose once and for all where and with whom she belongs."
+    }, {
+        "safename": "scott",
+        "name": "MR. SCOTT",
+        "actor": "Hakeem Kae-Kazim",
+        "desc": "More than anyone, Scott recognizes the perils of a Nassau without Eleanor Guthrie. With the ground shifting beneath his feet, he must make a decision to protect that which he truly loves."
+    }, {
+        "safename": "teach",
+        "name": "EDWARD TEACH",
+        "actor": "Ray Stevenson",
+        "desc": "One of the most notorious pirates to have ever lived, Edward Teach, also known as Blackbeard, returns to the account to settle some unfinished business. But a great deal has changed in his absence, and to cement his legacy he will have to challenge Nassau&#8217;s most powerful&#8230; at sea. On land. And at the end of a sword."
     }],
     "prod": [{
-        "safename": "samraimi",
-        "name": "SAM RAIMI",
-        "role": "Executive Producer/Director, Episode 101",
+        "safename": "prod1",
+        "name": "PRODUCTION NAME 1",
+        "role": "Executive Producer/Director",
         "desc": [
-            "Sam Raimi has directed one the industry&#8217;s most successful film franchises ever&#8212;the blockbuster <em>Spider-Man</em> trilogy, which has grossed $2.5 billion at the global box office. All three films reside in the industry&#8217;s Top 25 highest grossing titles of all time.",
-            "In addition to the franchise&#8217;s commercial success, <em>Spider-Man</em> (2002) won that year&#8217;s People&#8217;s Choice Award as Favorite Motion Picture, earned a pair of Oscar<sup>&reg;</sup> nominations (for VFX and Best Sound) and also collected two GRAMMY<sup>&reg;</sup> nominations (for Best Score and Chad Kroeger&#8217;s song &#8220;Hero&#8221;). The sequel (2004) won the Academy Award<sup>&reg;</sup> for Best Visual Effects (with two more nominations, Best Sound and Sound Editing) and two BAFTA nominations (for VFX and Best Sound), among dozens of other honors.",
-            "Most recently, Raimi is known for directing <em>Oz the Great and the Powerful</em>, a commanding prequel to one of Hollywood&#8217;s most beloved stories. Grossing nearly a quarter of a billion dollars at the worldwide box office, <em>Oz</em> has also been elected for awards across the board, including a nomination at the People&#8217;s Choice Awards for Favorite Family Movie, and winning Film Music at the BMI Film & TV Awards.",
-            "Apart from creating one of Hollywood&#8217;s landmark film series, Raimi&#8217;s eclectic resume includes the gothic thriller <em>The Gift</em>, starring Cate Blanchett, Hilary Swank, Keanu Reeves, Greg Kinnear and Giovanni Ribisi; the acclaimed suspense thriller <em>A Simple Plan</em>, which starred Bill Paxton, Billy Bob Thornton and Bridget Fonda (for which Thornton earned an Academy Award<sup>&reg;</sup> nomination for Best Supporting Actor and Scott B. Smith landed a nomination for Best Adapted Screenplay); his baseball homage, <em>For Love of the Game</em>, with Kevin Costner and Kelly Preston; the western <em>The Quick and the Dead</em>, starring Leonardo DiCaprio, Sharon Stone, Russell Crowe and Gene Hackman; and the supernatural thriller, <em>Drag Me to Hell</em>, with Alison Lohman and Justin Long.",
-            "Raimi began his career in his native Michigan after directing his own <em>Super 8</em> movies as a teenager. He left his studies at Michigan State University to form Renaissance Pictures with future producer Rob Tapert and their longtime friend, actor Bruce Campbell, with whom he made his very first film, <em>Within the Woods</em>, a short horror film they used to raise money to make a feature. That resulting horror classic, <em>The Evil Dead</em> (1982), financed and produced with investments from local business people and doctors, became a hit at the 1982 Cannes Film Festival and spawned a sequel, <em>Evil Dead 2: Dead By Dawn</em> (1987), which, like the original, showcased Raimi&#8217;s inventive, imaginative direction and offbeat humor.",
-            "Raimi next turned to the fantasy genre, writing and directing the comic book-inspired <em>Darkman</em> (1990), starring Liam Neeson and Frances McDormand, then followed with 1993&#8217;s <em>Army of Darkness</em>, a comic sword and sorcery fantasy starring Bruce Campbell.",
-            "The mid-&#8217;90s also found Raimi producing two telefilms (with friend and partner Tapert) that would become the genesis of a pair of highly popular syndicated series&#8212;&#8220;Hercules: The Legendary Journeys&#8221; (on which he served as executive producer during the program&#8217;s four-year run) and the successful companion series, &#8220;Xena: Warrior Princess&#8221; which aired from 1995-2001. His television work also includes executive producing the CBS series &#8220;American Gothic&#8221; and STARZ graphic sword and sandals series, &#8220;Spartacus: War of the Damned.&#8221;",
-            "Raimi continued his collaboration with Tapert in his production company Ghost House Pictures, which produced such films as <em>The Grudge</em>, <em>Boogeyman</em>, <em>30 Days of Night</em>, <em>The Messengers</em> and <em>The Possession</em>.",
-            "Raimi&#8217;s work has been a favorite on the film festival circuit, with the filmmaker winning a Best Director honor for <em>Darkman</em> at the 1990 Sitges-Catalonian Festival in Spain; the Critics Award for <em>Army of Darkness</em> at the 1992 Fantasporto Festival in Portugal; the Golden Raven, also for <em>Army of Darkness</em>, at the 1992 Brussels International Festival; and a Grand Prize nomination for the same title at the Avoriaz Fantastic Film Festival in France. Raimi himself has also won the Saturn Award twice (<em>Spider-Man 2</em>, along with a George Pal Memorial Award) from the Academy of Science Fiction, Horror and Fantasy."
-        ],
-        "image": true
-    },{
-        "safename": "robtapert",
-        "name": "ROB TAPERT",
-        "role": "Executive Producer",
-        "desc": [
-            "Rob Tapert is the longstanding producing partner of acclaimed director Sam Raimi. Tapert and Raimi have been working together since they met at Michigan State University where they formed the Society for Creative Film Making. After producing the horror cult classic <em>Evil Dead</em>, Tapert continued to collaborate with Raimi on <em>Evil Dead II: Dead by Dawn</em>, <em>Darkman</em> and <em>Army of Darkness</em> and went on to serve as executive producer on Raimi&#8217;s suspense thriller <em>The Gift</em>, starring Cate Blanchett and the action western <em>The Quick and the Dead</em>, starring Leonardo DiCaprio, Sharon Stone, and Gene Hackman. Tapert also executive produced the action features <em>Hard Target</em> and <em>Timecop</em>, starring Jean-Claude Van Damme.",
-            "Tapert executive produced the long running worldwide sensation TV series &#8220;Hercules: The Legendary Journeys&#8221; and &#8220;Xena: Warrior Princess&#8221;, and later &#8220;Legend of the Seeker&#8221; and the STARZ breakout hit &#8220;Spartacus.&#8221; &#8220;Spartacus&#8221; and &#8220;Legend of the Seeker&#8221; both played in over 150 markets worldwide.", 
-            "In 2002, Tapert and Raimi formed Ghost House Pictures with Mandate Pictures. Ghost House was conceived to produce feature films that would deliver great scares and offer horror fans a thrill ride experience. Tapert has since produced a string of #1 box office hits that started with <em>The Grudge</em>, that grossed $187 million worldwide, and continued with <em>Boogeyman</em>, <em>The Messengers</em>, <em>30 Days of Night</em>, <em>The Possession</em> and the remake of <em>Evil Dead</em>. In 2009, Tapert produced Raimi's first directorial effort under Ghost House: the critically acclaimed <em>Drag Me To Hell</em>."
-        ],
-        "image": true
-    },{
-        "safename": "brucecampbell",
-        "name": "BRUCE CAMPBELL",
-        "role": "Executive Producer",
-        "desc": [
-            "In 1979 with his Detroit friends, Sam Raimi and Rob Tapert, Campbell raised $350,000 for a low-budget film, <em>Evil Dead</em>, in which he starred and co-executive produced. Completed piecemeal over four years, the film first gained notoriety in England where it became the best-selling video of 1983, beating out <em>Poltergeist</em>. After its appearance at Cannes, where Stephen King dubbed it &#8220;the most ferociously original horror film of the year,&#8221; New Line Cinema stepped forward to release <em>Evil Dead</em> in the U.S.", 
-            "After co-producing <em>Crimewave</em>, Campbell moved to Los Angeles and quickly gained a foothold producing or starring in genre films such as the <em>Maniac Cop</em> series, <em>Lunatics: A Love Story</em>, <em>Moontrap</em> and <em>Mindwarp</em>, a post-apocalyptic <em>Jeremiah Johnson</em>, during which he met his wife-to-be, filmmaker, Ida Gearon.",
-            "Campbell then rejoined his Detroit colleagues to star and co-produce the second and third films in the <em>Evil Dead</em> trilogy, completing 12 years of work on the cult favorite. This rough-and-tumble background was a plus as Campbell made his foray into television, first starring in the highly touted Fox series &#8220;The Adventures Of Brisco County Jr.,&#8221; then as a recurring guest-star on the hit show &#8220;Lois and Clark: The New Adventures of Superman.&#8221; With these under his belt, Campbell easily made the transition to director, helming numerous episodes and recurring as the King of Thieves in the #1 syndicated &#8220;Hercules: The Legendary Journeys&#8221;, and its follow-up phenomenon, &#8220;Xena: Warrior Princess.&#8221;",
-            "Bruce has since expanded his range on television, with appearances in Disney's TV movies <em>Gold Rush</em>, and their update of <em>The Love Bug</em>. He teamed up with Fox again for the hit TV film <em>Tornado!</em>, and starred in NBC's top-rated <em>In The Line of Duty: Blaze of Glory.</em> Following decidedly dramatic turns on the acclaimed series &#8220;Homicide: Life on the Street&#8221; and &#8220;The X-Files,&#8221; he enjoyed a recurring role on Showtime&#8217;s edgy TV industry comedy, &#8220;Beggars and Choosers.&#8221;",
-            "At the invitation of ABC, Campbell ventured into the world of sitcoms with a recurring role on ABC's Emmy-nominated &#8220;Ellen,&#8221; participating in one of the three touted &#8220;out&#8221; episodes. But Campbell didn't abandon his film roots. During that time, he had featured roles in the blockbuster <em>Congo</em>, <em>John Carpenter's Escape From LA</em>, and the award-winning independent crime drama, <em>Running Time</em>. He followed these up with roles in Paramount's romantic comedy, <em>Serving Sara</em>, Jim Carrey's <em>The Majestic</em>, and all three of Sam Raimi's blockbuster <em>Spider-Man</em> movies. After a return to episodic television in the swashbuckling series, &#8220;Jack of All Trades,&#8221; Campbell took the title role in MGM's cult sleeper <em>Bubba Ho-Tep</em>. His directorial debut, <em>Man with the Screaming Brain</em>, premiered on the Sci Fi Channel, and Dark Horse Comics published the comic adaptation. Campbell has since made the leap into other forms of entertainment, and is enjoying his role as an author with back-to-back New York Times bestsellers: a memoir entitled &#8220;If Chins Could Kill: Confessions of a B Movie Actor,&#8221; and his first novel, &#8220;Make Love the Bruce Campbell Way.&#8221;",
-            "In the multi-media industry, Campbell provided voices on cutting-edge video games for Activision, THQ and Nova Logic - and he also enjoyed voicing characters for Disney&#8217;s animated TV series &#8220;Tarzan&#8221; and the Warner Brothers feature <em>The Ant Bully</em>. He also voiced the character of Mayor Shelbourne in the animated hit <em>Cloudy With a Chance of Meatballs</em>. In 2011, Campbell voiced the role of Rod Torque Redline in <em>Cars 2</em>, the sequel to the smash Disney animated feature.",
-            "Most recently, Campbell directed and starred as himself in <em>My Name is Bruce</em>, a spoof of his B-movie career, then re-teamed with Disney for their fun-filled hit, <em>Sky High</em>.",
-            "In 2013, Bruce co-produced the hit remake of <em>Evil Dead</em>, joined his filmmaking pal Sam Raimi on <em>Oz, The Great and Powerful</em>, and completed an impressive seven-year run on spy show &#8220;Burn Notice,&#8221; USA&#8217;s #1 series on cable.",
-            "Campbell continues to share his acting and filmmaking experiences by lecturing at universities, including Northwestern, Carnegie Mellon and Stanford. He currently resides with his wife, Ida Gearon, in Oregon."
-        ],
-        "image": true
-    },{
-        "safename": "craigdigregorio",
-        "name": "CRAIG DiGREGORIO",
-        "role": "Executive Producer, Showrunner",
-        "desc": [
-            "Craig DiGregorio is a producer and writer, with a background in both genre and comedy, including: &#8220;Workaholics,&#8221; a Comedy Central sitcom starring Blake Anderson, Adam De Vine and Anders Holm; &#8220;Chuck,&#8221; an action-comedy/spy drama NBC series starring Zachary Levi and Yvonne Strahovski: &#8220;Da Ali G Show,&#8221; an HBO variety show starring Sacha Baron Cohen; and &#8220;Reaper,&#8221; that focuses on Sam Oliver (Bret Harrison), a &#8220;reaper&#8221; who works for the Devil by retrieving souls that have escaped from Hell."
-        ],
-        "image": true
-    },{
-        "safename": "ivanraimi",
-        "name": "IVAN RAIMI",
-        "role": "Co-Executive Producer",
-        "desc": [
-            "Ivan Raimi is a screenwriter of many horror and fantasy-sci films, as well as a comic book author. He is a frequent co-writer and collaborator with his brother, Sam Raimi. His film credits include: <em>Easy Wheels</em> (1987), <em>Darkman</em> (1990), <em>Army of Darkness</em> (1993), <em>Spider-Man 3</em> (2007) and <em>Drag Me to Hell</em> (2011). He is currently training for and helping to develop NASA's &#8220;Writers To Mars&#8221; program. When not writing or working as a private investigator, he practices emergency medicine in the Midwest."
+            "Nulla placerat lacus quis tempor lacinia. Proin eget finibus tortor, eget suscipit mi. Mauris ac eros ac ante accumsan porta id in dolor. Ut vitae odio fringilla, dignissim quam ac, porttitor nibh. Ut nunc diam, fermentum id metus ac, consequat aliquam nibh. Duis fringilla vel felis sit amet consectetur.",
+            "In sit amet tortor id sapien malesuada cursus hendrerit non risus. Ut molestie dignissim nisl vitae volutpat. Sed auctor ligula ut lacus feugiat volutpat. Proin sed pellentesque odio. Vestibulum quis orci vel leo scelerisque scelerisque nec a erat. Donec in ipsum non est fringilla cursus. Phasellus pharetra varius interdum. Nunc vel lacinia orci. Mauris vitae porttitor mi, a condimentum orci. Morbi at sollicitudin diam."
         ],
         "image": false
     },{
-        "safename": "robwright",
-        "name": "ROB WRIGHT",
-        "role": "Co-Executive Producer",
+        "safename": "prod2",
+        "name": "PRODUCTION NAME 2",
+        "role": "Executive Producer/Director",
         "desc": [
-            "Rob Wright has been a writer and producer on such television shows as &#8220;Grimm,&#8221; &#8220;Drop Dead Diva,&#8221; &#8220;Las Vegas&#8221; and &#8220;Charmed.&#8221; He also co-created the 2012 series &#8220;The Mob Doctor,&#8221; but it&#8217;s because of &#8220;Ash vs Evil Dead&#8221; that his kids think he&#8217;s groovy."
+            "Nulla placerat lacus quis tempor lacinia. Proin eget finibus tortor, eget suscipit mi. Mauris ac eros ac ante accumsan porta id in dolor. Ut vitae odio fringilla, dignissim quam ac, porttitor nibh. Ut nunc diam, fermentum id metus ac, consequat aliquam nibh. Duis fringilla vel felis sit amet consectetur.",
+            "In sit amet tortor id sapien malesuada cursus hendrerit non risus. Ut molestie dignissim nisl vitae volutpat. Sed auctor ligula ut lacus feugiat volutpat. Proin sed pellentesque odio. Vestibulum quis orci vel leo scelerisque scelerisque nec a erat. Donec in ipsum non est fringilla cursus. Phasellus pharetra varius interdum. Nunc vel lacinia orci. Mauris vitae porttitor mi, a condimentum orci. Morbi at sollicitudin diam."
         ],
         "image": false
     },{
-        "safename": "nickbassett",
-        "name": "NICK BASSETT",
-        "role": "Production Designer",
+        "safename": "prod3",
+        "name": "PRODUCTION NAME 3",
+        "role": "Executive Producer/Director",
         "desc": [
-            "New Zealander Nick Bassett worked with &#8220;Ash vs Evil Dead&#8221; Executive Producer Rob Tapert as Supervising Art Director on &#8220;Spartacus: War of the Damned&#8221; (33 episodes) and &#8220;Spartacus: Gods of the Arena&#8221; (6 episodes) for STARZ. He was Art Director on the Rob Tapert/Sam Raimi Ghost House Pictures feature <em>Boogeyman</em> and on their Pacific Renaissance Pictures &#8220;Young Hercules&#8221; (20 episodes).",
-            "He was Supervising Art Director on <em>Crouching Tiger, Hidden Dragon: The Green Legend</em>, recently filmed in New Zealand and China. He was also a member of the team that won the 2010 Art Directors Guild Award for excellence in production design in a fantasy film for <em>Avatar</em>, for which he was Art Director. In addition, Bassett was a joint nominee for a 2004 Primetime Emmy Art Direction Award for <em>Ike: Countdown to D-Day</em> that was filmed in Auckland.",
-            "His extensive list of Art Director credits includes the UK/German co-production &#8220;Mee-Shee: The Water Giant,&#8221; filmed in Auckland, Canada and London, and Martin Campbell&#8217;s <em>Vertical Limit</em>, filmed in New Zealand&#8217;s South Island mountains.",
-            "His New Zealand feature film credits include <em>Perfect Creature</em>, <em>Samoan Wedding</em>, <em>Naming Number Two</em> and <em>Under the Mountain</em>.",
-            "Alongside his film work, Bassett designs major commercial installations for SPUR, creating bespoke design and build projects like the famous Telecom Tree."
-        ],
-        "image": true
-    },{
-        "safename": "barbaradarragh",
-        "name": "BARBARA DARRAGH",
-        "role": "Costume Designer",
-        "desc": [
-            "Barbara Darragh is an Emmy-nominated New Zealand costume designer with numerous feature film and television drama credits. Her Emmy nomination was for the U.S. STARZ Original Series &#8220;Spartacus,&#8221; produced by Rob Tapert. She also designed costumes for Tapert&#8217;s five &#8220;Hercules&#8221; telemovies that preceded the &#8220;Hercules: The Legendary Journeys&#8221; series.",
-            "She won the New Zealand Film Award (2014) for her costume design of <em>The Dead Lands</em>, the Maori martial arts movie directed by Toa Fraser now in release in the U.S. She also designed costumes for <em>Beyond the Edge</em>, the ascent of Everest docudrama directed by Leanne Pooley and produced by <em>The Dead Lands</em> producer Matthew Metcalfe.",
-            "She won New Zealand Screen Awards for costume design on <em>River Queen</em> (2006), directed by Vincent Ward and <em>The End of the Golden Weather</em> (1992), directed by Ian Mune. Other feature films include <em>Bridge to Terabithia</em>, <em>The Frighteners</em> directed by Peter Jackson and several of New Zealand&#8217;s early features including <em>The Last Tattoo</em>, <em>The Footstep Man</em> directed by Leon Narbey and <em>Came a Hot Friday</em> by Ian Mune."
+            "Nulla placerat lacus quis tempor lacinia. Proin eget finibus tortor, eget suscipit mi. Mauris ac eros ac ante accumsan porta id in dolor. Ut vitae odio fringilla, dignissim quam ac, porttitor nibh. Ut nunc diam, fermentum id metus ac, consequat aliquam nibh. Duis fringilla vel felis sit amet consectetur.",
+            "In sit amet tortor id sapien malesuada cursus hendrerit non risus. Ut molestie dignissim nisl vitae volutpat. Sed auctor ligula ut lacus feugiat volutpat. Proin sed pellentesque odio. Vestibulum quis orci vel leo scelerisque scelerisque nec a erat. Donec in ipsum non est fringilla cursus. Phasellus pharetra varius interdum. Nunc vel lacinia orci. Mauris vitae porttitor mi, a condimentum orci. Morbi at sollicitudin diam."
         ],
         "image": false
     },{
-        "safename": "rogermurray",
-        "name": "ROGER MURRAY",
-        "role": "Prosthetics Designer/Props Supervisor",
+        "safename": "prod4",
+        "name": "PRODUCTION NAME 4",
+        "role": "Executive Producer/Director",
         "desc": [
-            "Roger Murray and his company Main Reactor won the Best Makeup award at the Fright Night Awards 2014 and were nominated for the Saturn Awards for work on the Robert Tapert/Sam Raimi Ghosthouse Pictures <em>Evil Dead</em> remake. They also won Best Makeup at the 2013 Moa New Zealand Film Awards for the New Zealand feature <em>White Lies</em>.",
-            "In addition to <em>Evil Dead</em> (2013), Murray has worked with Rob Tapert on both of the &#8221;Spartacus&#8221; series for STARZ, the Ghost House Pictures features <em>30 Days of Night</em> and <em>Boogeyman</em>, &#8221;The Legend of The Seeker&#8221; (ABC Network), &#8220;Xena: Warrior Princess&#8221; and &#8220;Jack of All Trades&#8221; for Tapert&#8217;s Pacific Renaissance Pictures.",
-            "Murray and his wife Felicity Letcher established Main Reactor in 2002. Recent productions featuring Main Reactor&#8217;s work include <em>Crouching Tiger, Hidden Dragon: The Green Destiny</em>, the TNT pilot &#8220;Lumen,&#8221; the MTV series &#8220;The Shannara Chronicles,&#8221; Emperor, Andrew Adamson&#8217;s <em>Mr. Pip</em> and the Maori martial arts movie <em>The Dead Lands</em>.",
-            "Other credits include <em>The Warrior&#8217;s Way</em>, <em>The Chronicles of Narnia: The Lion, the Witch and the Wardrobe and Prince Caspian</em>, <em>Mee-Shee: The Water Giant</em>; <em>Aliens in the Attic</em> and <em>The Almighty Johnsons</em>."
-        ],
-        "image": true
-    },{
-        "safename": "marneymckenna",
-        "name": "MARNEY McKENNA",
-        "role": "Property Master",
-        "desc": [
-            "Props Master, Art Director and Set Dresser, Australian Marney McKenna has a number of Australian feature films to her credit, including the upcoming drama <em>Holding the Man</em>, directed by Neil Armfield (<em>Candy</em>) and starring Guy Pearce and Anthony LaPaglia, along with the Fred Schepisi drama <em>The Eye of the Storm</em>, starring Charlotte Rampling and Geoffrey Rush.",
-            "The Production Designer of this film, Melinda Doring, won the AACTA (Australian Academy of Cinema and Television Arts) Production Design award, recognition for the overall design team, of which McKenna was a key member.",
-            "Another recent feature is the comedy <em>Now Add Honey</em>, directed by Wayne Hope and starring Robyn Butler, Lucy Fry and Portia de Rossi, that is due for cinema release in Australia in November 2015. She was the Art Director for the 2012 horror thriller <em>Wail Away</em>, directed by Mark Lipkin.",
-            "Her television productions include the acclaimed ABC series &#8220;The Slap&#8221; and the upcoming &#8220;Glitch,&#8221; as well as the high-rating Network 10 comedy/drama &#8220;Offspring&#8221; and Playmaker Media&#8217;s drama &#8220;House Husbands.&#8221;",
-            "She has also written and directed a short film, Knockers, and worked as Production Designer on two short films: <em>To Choose in the Darkness</em> and <em>Land of Returns</em>."
-        ],
-        "image": true
-    },{
-        "safename": "denisekim",
-        "name": "DENISE KUM",
-        "role": "Makeup and Hair Designer/Makeup Effects 101",
-        "desc": [
-            "Denise Kum joined STARZ/Pacific Renaissance as Makeup, Hair and Prosthetics Designer during &#8220;Spartacus: Vengeance&#8221; and for the final season of &#8220;Spartacus: War Of The Damned.&#8221; She is setting up the make-up, hair and prosthetics design for the &#8220;Ash vs Evil Dead&#8221; series and working with director Sam Raimi on the first episode, before handing the department over to Jane O&#8217;Kane.",
-            "As Makeup & Hair Artist she has worked on numerous films internationally, including <em>Pan</em>, <em>The Imitation Game</em>, <em>Exodus: Gods & Kings</em>, <em>Pirates of The Carribean: On Stranger Tides</em>, <em>Clash of The Titans</em>, <em>Sherlock Holmes</em> and <em>The Last Samurai</em>.",
-            "As Makeup and Hair Designer her feature film credits include <em>The Vintner&#8217;s Luck</em>, <em>Death Defying Acts</em>, <em>North Country</em>, <em>Aeon Flux</em>, <em>In My Father&#8217;s Den</em> and <em>Memory and Desire</em>. She has twice won New Zealand Film Awards for feature films <em>Savage Honeymoon</em> and <em>Channelling Baby</em> and was nominated for <em>Whale Rider</em> and <em>Love Birds</em>.",
-            "She has also worked as Makeup and Hair Artist for music videos for Basement Jaxx and Sir Paul McCartney and a multitude of acclaimed commercials such as H&M&#8217;s &#8220;Beckham&#8217;s Hustle,&#8221; Lady Dior&#8217;s &#8220;Dancing Lady&#8221; and Nike&#8217;s &#8220;Home Game.&#8221;",
-            "While she was studying Sculpture at The Elam School Of Fine Arts in Auckland, New Zealand, she became enamored with and co-opted into the filmmaking process. Since that time, she has been continually working as both Artist and Makeup Artist. She moved to London in 1999, where she completed a Master of Fine Arts at the prestigious Goldsmiths College.",
-            "Her artwork is included in public collections such as The Museum of New Zealand, Te Papa Tongarewa, The Financial Times London, Saatchi and Saatchi and The Chartwell Collection, Auckland."
-        ],
-        "image": true
-    },{
-        "safename": "janeokane",
-        "name": "JANE O&#8217;KANE",
-        "role": "Makeup and Hair Designer/Makeup Effects 102-110",
-        "desc": [
-            "UK-born and trained Jane O&#8217;Kane migrated to New Zealand in 1995 where she transformed her theatre makeup and special effects background into film and television work, beginning with &#8220;Hercules: The Legendary Journeys.&#8221; Next she moved to &#8220;Xena: Warrior Princess,&#8221; initially on Second Unit, then later as Makeup and Hair Designer/Head of Department. She worked on Amazon High as an Assistant and &#8220;Cleopatra 2525&#8221; as Key Artist. She was Head of Department on &#8220;Jack of All Trades&#8221; and later on all series of &#8220;Spartacus: Blood and Sand,&#8221; &#8220;Spartacus: Gods of the Arena,&#8221; &#8220;Spartacus: Vengeance&#8221; and &#8220;Spartacus: War of the Damned.&#8221;",
-            "Other productions with &#8220;Ash vs Evil Dead&#8221; Executive Producers Rob Tapert and Sam Raimi are their Ghost House Pictures features <em>The Grudge</em> (Japan), <em>30 Days of Night</em> and <em>Evil Dead</em> (2013).",
-            "She now works internationally, including <em>Guardians of the Galaxy</em>, <em>Heart of the Sea</em> in the United Kingdom, <em>The Chronicles of Narnia: Prince Caspian</em> in the Czech Republic, <em>Aeon Flux</em> in Germany and <em>Tropical Journeys</em> in Fiji.",
-            "Her most recent features are Pete&#8217;s Dragon and <em>Crouching Tiger, Hidden Dragon: The Green Legend</em>, both filmed in New Zealand. Other feature films include The Warrior&#8217;s Way, <em>Bridge to Terabithia</em> and Peter Jackson&#8217;s <em>The Frighteners</em>. Her New Zealand film credits include <em>Whale Rider</em>, <em>In My Father&#8217;s Den</em>, <em>Perfect Strangers</em>, <em>Samoan Wedding</em>, <em>The Vintner&#8217;s Luck</em> and <em>The Dark Horse</em>."
+            "Nulla placerat lacus quis tempor lacinia. Proin eget finibus tortor, eget suscipit mi. Mauris ac eros ac ante accumsan porta id in dolor. Ut vitae odio fringilla, dignissim quam ac, porttitor nibh. Ut nunc diam, fermentum id metus ac, consequat aliquam nibh. Duis fringilla vel felis sit amet consectetur.",
+            "In sit amet tortor id sapien malesuada cursus hendrerit non risus. Ut molestie dignissim nisl vitae volutpat. Sed auctor ligula ut lacus feugiat volutpat. Proin sed pellentesque odio. Vestibulum quis orci vel leo scelerisque scelerisque nec a erat. Donec in ipsum non est fringilla cursus. Phasellus pharetra varius interdum. Nunc vel lacinia orci. Mauris vitae porttitor mi, a condimentum orci. Morbi at sollicitudin diam."
         ],
         "image": false
-    },{
-        "safename": "georgeritchie",
-        "name": "GEORGE RITCHIE",
-        "role": "VFX Supervisor",
-        "desc": [
-            "Emmy Award-nominated VFX artist, New Zealander George Ritchie has worked on &#8220;Ash vs Evil Dead&#8221; Executive Producer Rob Tapert&#8217;s productions since &#8220;Hercules: The Legendary Journeys&#8221; and &#8220;Xena: Warrior Princess.&#8221;",
-            "A fine arts painting graduate, he started with Tapert&#8217;s Pacific Renaissance Pictures as a Set Finisher/Scenic Artist and progressed to miniatures, painted backdrops and traditional matte paintings before joining the in-house visual effects house PRPVFX Ltd as a Digital Matte Painter, Lead Artist and VFX Supervisor from 2008.",
-            "Following &#8220;Hercules: The Legenary Journeys&#8221; and &#8220;Xena: Warrior Princess&#8221;, he worked on VFX for &#8220;Jack of All Trades,&#8221; that starred &#8220;Ash vs Evil Dead&#8221; star Bruce Campbell, <em>Legend of the Seeker</em>, &#8220;Spartacus: Gods of the Arena&#8221; and &#8220;Spartacus: War of the Damned,&#8221; along with the features <em>Boogeyman</em>, <em>30 Days of Night</em> and <em>Evil Dead</em> (2013).",
-            "His 2004 Emmy nomination for Outstanding Individual Achievement in a Craft: Graphic Design & Art Direction was for his matte painting work on the Discovery Channel documentary <em>Nefertiti Resurrected</em>.",
-            "In 2010, he was nominated for a Qantas Film & TV Award (New Zealand) Best Visual Effects award, for his work as VFX Supervisor and Lead Artist on Niki Caro&#8217;s feature <em>The Vintner&#8217;s Luck</em>.",
-            "Other productions he has worked on in roles varying from VFX, matte painting and digital modeling include several seasons of the Disney series &#8220;Power Rangers,&#8221; feature films <em>The Bridge to Terabithia</em>, <em>The Warrior&#8217;s Way</em>, <em>Emperor</em>, <em>Green Lantern</em>, <em>The Devil&#8217;s Double</em> and <em>The Imaginarium of Dr. Parnassus</em>."
-        ],
-        "image": false
-    },{
-        "safename": "josephloduca",
-        "name": "JOSEPH LODUCA",
-        "role": "Composer",
-        "desc": [
-            "By the age of 15 (1973), Joseph LoDuca was opening for rock legends Bob Seger and Ted Nugent in smoky Detroit clubs and sneaking into Jeff Beck concerts. He was hooked. He went on to train formally in classical music at the University of Michigan and in New York City. He plugged into the jazz scene and submerged himself in cultures from around the world. Prior to his career as a movie composer, he performed through the United States and Europe as a jazz artist. Among his recordings is the GRAMMY-nominated &#8220;Nat Cole Songbook&#8221; with vocalist Mark Murphy in 1987.",
-            "His credits include two Primetime Emmy Awards, 11 Primetime Emmy nominations and &#8220;Most Performed Underscore&#8221; recognitions from ASCAP for four consecutive years. He garnered a César Nomination &#8211; &#8220;Meilleure Musique Écrite Pour Un Film&#8221; (Best Music) for the French international movie <em>Brotherhood of the Wolf</em> (2001), as well as being lauded as Horror Film Composer of the Year for his score to <em>Army of Darkness</em> (1992). LoDuca created the soundtracks for the highest-rated syndicated TV Series &#8220;Xena: Warrior Princess&#8220; (1995), &#8220;Hercules: The Legendary Journeys&#8221; (1995), and the critically acclaimed <em>American Gothic</em> (1995), as well as over 20 movie scores and &#8220;TV Series Leverage&#8221; (2008) for TNT and &#8220;Spartacus: War of the Damned&#8221; (2010) for STARZ. His more recent work includes music for the British movie <em>Patagonia</em> (2010), that includes song collaborations with Duffy, Bryn Terfel and Angelo Badalamenti, and TV Series &#8220;The Librarians&#8221; (2014)."
-        ],
-        "image": false
-    },{
-        "safename": "stuartthorp",
-        "name": "STUART THORP",
-        "role": "Stunt Coordinator",
-        "desc": [
-            "United Kingdom-born New Zealander Stuart Thorp has carved out a successful international career since his first work as a stunt performer on &#8220;Ash vs Evil Dead&#8221; Executive Producer Rob Tapert&#8217;s  &#8220;Hercules: The Legendary Journeys&#8221; and &#8220;Xena: Warrior Princess&#8221; in the 1990s. He subsequently worked for Tapert on the STARZ Original Series &#8220;Spartacus,&#8221; as well as the features <em>Boogeyman</em> and <em>30 Days of Night</em>.",
-            "Notable credits to date include working as Stunt Coordinator on James Cameron&#8217;s <em>Avatar</em> (for which he was a co-nominee for the Red Bull-sponsored Taurus Stunt Coordinator/Second Unit Director award) and Stunt Coordinator for <em>Zero Dark Thirty</em>, directed by Oscar-winner Catherine Bigelow.",
-            "He was assistant Stunt Coordinator for all three films in the <em>Chronicles of Narnia trilogy: The Lion, The Witch and The Wardrobe, Prince Caspian and The Dawn Treader</em>, as well as Nicholas Cage&#8217;s <em>Ghost Rider: Spirit of Vengeance</em>.",
-            "His most recent film is <em>Mechanic: Resurrection</em>, starring Jason Statham. Before that, he did <em>Jupiter Ascending</em> for the Wachowskis. He was member of the team nominated for the SAG Stunt Ensemble award for the recent critically acclaimed David Ayer/Brad Pitt war actioner <em>Fury</em>. He also worked in Morocco on the Paul Greengrass feature <em>Green Zone</em>, starring Matt Damon.",
-            "Also interested in developing the New Zealand industry, he served as president of Stunt Guild of New Zealand 2004-2010."
-        ],
-        "image": true
-    }],
-    "photos": [{
-        "path": "1.jpg",
-        "caption": "Bruce Campbell (as Ash)"
-    }, {
-        "path": "2.jpg",
-        "caption": "Bruce Campbell (as Ash)"
-    }, {
-        "path": "3.jpg",
-        "caption": "Bruce Campbell (as Ash)"
-    }, {
-        "path": "4.jpg",
-        "caption": "Bruce Campbell (as Ash)"
-    }, {
-        "path": "5.jpg",
-        "caption": "Bruce Campbell (as Ash)"
-    }, {
-        "path": "7.jpg",
-        "caption": "Bruce Campbell (as Ash)"
-    }, {
-        "path": "8.jpg",
-        "caption": "Bruce Campbell (as Ash), Dana DeLorenzo (as Kelly)"
-    }, {
-        "path": "9.jpg",
-        "caption": "Bruce Campbell (as Ash), Ray Santiago (as Pablo)"
-    }, {
-        "path": "10.jpg",
-        "caption": "Bruce Campbell (as Ash), Ray Santiago (as Pablo), Dana DeLorenzo (as Kelly)"
-    }, {
-        "path": "12.jpg",
-        "caption": "BTS Shot of Bruce Campbell (as Ash) , Sam Raimi (Director & Executive Producer)"
-    }, {
-        "path": "13.jpg",
-        "caption": "BTS Shot of Bruce Campbell (as Ash)"
-    }, {
-        "path": "14.jpg",
-        "caption": "BTS Shot of Jill Marie Jones (as Amanda), Mike Edward (as Carson), Marissa Stott (as Lucy)"
-    }, {
-        "path": "15.jpg",
-        "caption": "BTS Shot of Ray Santiago (as Pablo), Sam Raimi (Director, Executive Producer), Dana DeLorenzo (as Kelly)"
-    }, {
-        "path": "17.jpg",
-        "caption": "Dana DeLorenzo (as Kelly)"
-    }, {
-        "path": "18.jpg",
-        "caption": "Dana DeLorenzo (as Kelly), Bruce Campbell (as Ash), Ray Santiago ( as Pablo)"
-    }, {
-        "path": "20.jpg",
-        "caption": "Jill Marie Jones (as Amanda)"
-    }, {
-        "path": "21.jpg",
-        "caption": "Jill Marie Jones (as Amanda)"
-    }, {
-        "path": "22.jpg",
-        "caption": "Jill Marie Jones (as Amanda), Kelson Henderson (as Lionel Hawkins)"
-    }, {
-        "path": "24.jpg",
-        "caption": "Lucy Lawless (as Ruby)"
-    }, {
-        "path": "25.jpg",
-        "caption": "Lucy Lawless (as Ruby)"
-    }, {
-        "path": "26.jpg",
-        "caption": "Lucy Lawless (as Ruby), Kelson Henderson (as Lionel Hawkins)"
-    }, {
-        "path": "28.jpg",
-        "caption": "Marissa Stott (as Lucy)"
-    }, {
-        "path": "29.jpg",
-        "caption": "Necronomicon Ex Mortis"
-    }, {
-        "path": "30.jpg",
-        "caption": "Ray Santiago (as Pablo)"
-    }, {
-        "path": "31.jpg",
-        "caption": "Ray Santiago (as Pablo), Bruce Campbell (as Ash), Dana DeLorenzo (as Kelly)"
-    }, {
-        "path": "32.jpg",
-        "caption": "Ray Santiago (as Pablo), Bruce Campell (as Ash)"
-    }, {
-        "path": "33.jpg",
-        "caption": "Ray Santiago (as Pablo), Dana DeLorenzo (as Kelly)"
-    }, {
-        "path": "34.jpg",
-        "caption": "Ray Santiago (as Pablo), Dana DeLorenzo (as Kelly)"
-    }, {
-        "path": "36.jpg",
-        "caption": "Robert Tapert (Executive Producer), Bruce Campbell ( Executive Producer and Ash), Sam Raimi (Director & Executive Producer)"
-    }, {
-        "path": "39.jpg",
-        "caption": "Sian Davis (as Mrs. Johnson)"
-    }, {
-        "path": "40.jpg",
-        "caption": "Sian Davis (as Mrs. Johnson)"
     }],
     "videos": [{
-        "name": "Trailer",
+        "name": "Video 1",
         "desc": "",
         "path": "https://www.starz.com/videos/embed/b50c0f20720d4d89bf7b1c200fcfa214",
-        "thumb": "herotrailer.jpg"
+        "thumb": "video.jpg"
     }, {
-        "name": "The Reluctant Hero And His Crew",
+        "name": "Video 3",
         "desc": "",
         "path": "https://www.starz.com/videos/embed/13cbd00afdeb40d9a2e77dcd9c9b3133",
-        "thumb": "reluctanthero.jpg"
+        "thumb": "video.jpg"
     }, {
-        "name": "The World of Ash vs Evil Dead",
+        "name": "Video 3",
         "desc": "",
         "path": "https://www.starz.com/videos/embed/dec37aac463e416a94ec2e5b700f49dd",
-        "thumb": "insidelook.jpg"
+        "thumb": "video.jpg"
     }, {
-        "name": "Bringing the Dead to Life",
+        "name": "Video 4",
         "desc": "",
         "path": "https://www.starz.com/videos/embed/65b551708fc842fa8790131efcf1bb48",
-        "thumb": "deadtolife.jpg"
+        "thumb": "video.jpg"
     }],
     "pdfs": [{
         "name": "Synopsis",
-        "path": "pdfs/ashvsevildead_synopsis.pdf"
+        "path": "pdfs/blacksails_synopsis.pdf"
     }, {
         "name": "Character Descriptions",
-        "path": "pdfs/ashvsevildead_characterdesc.pdf"
+        "path": "pdfs/blacksails_characterdesc.pdf"
     }, {
         "name": "Cast Bios",
-        "path": "pdfs/ashvsevildead_castbios.pdf"
+        "path": "pdfs/blacksails_castbios.pdf"
     }, {
         "name": "Production Bios",
-        "path": "pdfs/ashvsevildead_productionbios.pdf"
+        "path": "pdfs/blacksails_productionbios.pdf"
     }, {
         "name": "Cast Credits",
-        "path": "pdfs/ashvsevildead_castcredits.pdf"
+        "path": "pdfs/blacksails_castcredits.pdf"
     }, {
         "name": "Production Credits",
-        "path": "pdfs/ashvsevildead_productioncredits.pdf"
+        "path": "pdfs/blacksails_productioncredits.pdf"
     }, {
         "name": "Production Notes",
-        "path": "pdfs/ashvsevildead_productionnotes.pdf"
+        "path": "pdfs/blacksails_productionnotes.pdf"
     }, {
         "name": "Episode Synopses",
-        "path": "pdfs/ashvsevildead_episodesynopses.pdf"
+        "path": "pdfs/blacksails_episodesynopses.pdf"
     }],
     "contacts": [{
         "name": "Theano Apostolou",

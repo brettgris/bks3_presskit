@@ -17,7 +17,7 @@
 		.thumb-list{
 			height: $thumb-item-height + $thumb-item-border-size * 2;
 			margin: ($thumb-padding - 1) auto 0 auto;
-			width: ( $thumb-item-width + $thumb-item-border-size*2 )*$character-count + ($thumb-item-spacing * ($character-count - 1));
+			width: $thumb-width;
 			overflow: hidden;
 			
 			.t-cast{

@@ -51,6 +51,7 @@
 			
 			.video-name{
 				@extend .gallery-title;
+				color:$videoname-color;
 			}
 			
 			.video-desc{

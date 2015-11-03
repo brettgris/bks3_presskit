@@ -151,6 +151,33 @@
 		width:100%;
 		border:none;
 	}
+
+	&.ng-hide-add, &.ng-hide-remove{
+		@include transition-property(height,opacity);
+		@include transition-duration(0s);
+		@include transition-timing-function(linear);
+	}
+	&.ng-hide-add-active, &.ng-hide-remove-active{
+		@include transition-property(height,opacity);
+		@include transition-duration(.2s);
+		@include transition-timing-function(linear);
+	}
+	&.ng-hide-add {
+		opacity:1;
+		height:100%;
+	}
+	&.ng-hide-add.ng-hide-add-active { 
+		opacity:0;
+		height:0%;
+	}
+	&.ng-hide-remove {
+		opacity: 0;
+		height:0%;
+	}
+	&.ng-hide-remove.ng-hide-remove-active {
+		opacity:1;
+		height:100%;
+	}
 	
 	.menu-list{
 		width:100%;
@@ -159,8 +186,7 @@
 		right:0px;
 		top:$menu-height;
 		background: $mm-background;
-		
-		
+
 		@media screen and (max-width: $break-mobile){
 			top: $menu-mobile-height;
 		}

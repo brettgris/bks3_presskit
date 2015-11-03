@@ -85,36 +85,51 @@
 			width:50%;	
 		}
 		
-		.synposis{
-			@extend .textblock;
-			width:80%;
-			margin: auto;
-			
-			@media screen and (min-width:$key-width) and (max-height:$key-height-break){
-				width:90%;	
-			}	
-			
-			p{
-				margin-bottom: 10px;
-			}
-		}
+		
 		
 		.key-logo{
-			width:$key-logo-width+px;
-			width:100%*.4;
-			padding-top:$key-logo-ratio*.4;
-			background: url(#{$imgPath}ta_large.png) center top no-repeat;
-			background-size: 100% 100%;
-			margin: 0 auto 15px auto;
+			margin: 0 auto;
+			@include background-image(linear-gradient(rgba(0,0,0,0), rgba(0,0,0,1) 70%));
+
+			div{
+				width:100%*.4;
+				padding-top:$key-logo-ratio*.4;
+				background: url(#{$imgPath}ta_large.png) center top no-repeat;
+				background-size: 100% 100%;
+				margin: auto;
+			}
 			
 			@media screen and (max-width: $key-width) {
 				margin-top:20px;
-				margin-bottom:10px;
+				padding-bottom: 10px;
 			}
 				
 			@media screen and (min-width:$key-width) and (max-height:$key-height-break){
 				margin-top:20px;
-				margin-bottom:10px;
+				padding-bottom: 10px;
+				background-image: none;
+
+			}
+		}
+
+		.synposis{
+			@extend .textblock;
+			width:100%;
+			background: $black;
+			padding-top: 10px;
+
+			@media screen and (min-width:$key-width) and (max-height:$key-height-break){
+				background: transparent;
+			}
+			
+			p{
+				width:80%;
+				margin: auto;
+				margin-bottom: 10px;
+
+				@media screen and (min-width:$key-width) and (max-height:$key-height-break){
+					width:90%;
+				}
 			}
 		}
 		

@@ -1,10 +1,10 @@
 /************************ GLOBALS ***********************/
-$border-color: rgba(239,212,209,.25);
-$border-interactive:rgba(239,212,209,.5);
+$border-color: rgba(235,202,132,.4);
+$border-interactive:rgba(235,202,132,.4);
 $border-hover:$white;
 
-$overlay-border: 1px solid $border-color;
-
+//$overlay-border: 1px solid $border-color;
+$overlay-border: none;
 /************************ HEADER ***********************/
 $menu-border:1px solid $border-color;
 $link-border:1px solid rgba(115,139,156,.4);
@@ -23,18 +23,20 @@ $mm-border-height: 1px;
 /*********************** KEYART ************************/
 
 /************************ CAST *************************/
-$thumb-border:1px solid $border-color;
+$thumb-border:1px solid rgba(0,0,0,.5);
 $thumb-item-border-size:1px;
-$thumb-border-color:$border-interactive;
+$thumb-border-color:rgba(0,0,0,.5);
 $thumb-border-hover:$border-hover;
 
 $character-photo-border-size:1px;
-$character-photo-border-color:$border-color;
+$character-photo-border-color:rgba(0,0,0,.5);
 
 /************************ PROD *************************/
-$prod-image-border: 1px solid $border-color;
-$prod-border:1px solid $border-color;
+$prod-image-border: 1px solid rgba(0,0,0,.5);
+$prod-border:1px solid rgba(0,0,0,.5);
 $prod-border-light:1px solid transparent;
+
+$prod-thumb-border-hover: 1px solid rgba(0,0,0,.5);
 
 /*********************** GALLERY ***********************/
 $gallery-item-border-size: 1px;
@@ -42,9 +44,9 @@ $gallery-item-border:$gallery-item-border-size solid $border-interactive;
 $gallery-item-hover:$gallery-item-border-size solid $light-orange;
 
 /************************ VIDEO ************************/
-$video-item-border: 2px solid rgba(223,148,107,.3);
+$video-item-border: 1px solid rgba(0,0,0,.2);
 
 /********************** DOWNLOADS **********************/
-$downloads-item-border: 2px solid rgba(223,148,107,.3);
+$downloads-item-border: 1px solid rgba(0,0,0,.2);
 
 /************************ FOOTER ***********************/

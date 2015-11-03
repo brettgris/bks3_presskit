@@ -2,6 +2,7 @@
 	@extend .page-overlay;
 	width: $downloads-width;
 	margin: 0 auto 100px auto;
+	padding: 30px 0 50px 0;
 	
 	@media screen and (max-width: $downloads-break1) {
 		width:90%;	
@@ -10,17 +11,16 @@
 	@media screen and (max-width: $break-mobile) {
 		width:100%;
 		margin-bottom: 35px;
-		border:1px solid transparent;
 	}
 			
 	h3{
 		margin-top: 20px;
-		margin-left: 25px;
-		color: $light-grey;
+		//margin-left: 25px;
+		color: $downloads-header-color;
 	}
 	
 	.downloads-section{
-		width:95%;
+		width:100%;
 		margin: 10px auto 0 auto;
 	}
 	
@@ -39,9 +39,14 @@
 		height:100%;
 		display: block;
 	}
-	
+
 	.downloads-largefont{
-		font-size:16px;
+		font-size:14px;
+	}
+
+	.dl-section{
+		width:85%;
+		margin:auto;
 	}
 	
 	.downloads-list{
@@ -73,10 +78,18 @@
 				.download-name{
 					@extend .downloads-largefont;
 					margin-left: $downloads-pdf-indent;
-					padding-top: 16px;
+					padding-top: 20px;
 					color:$onoverlay-title;
 					text-transform: uppercase;
 					font-weight: 700;
+
+					@media screen and (max-width: $downloads-break1) {
+						padding-top: 14px;
+					}
+					
+					@media screen and (max-width: $downloads-break2) {
+						padding-top: 20px;	
+					}
 				}
 				
 				.clickto{
@@ -125,7 +138,7 @@
 				span{
 					display: block;
 					margin-left: 70px;
-					padding-top: 18px;
+					padding-top: 21px;
 					width:80%;
 					
 					@media screen and (max-width: $break-mobile) {

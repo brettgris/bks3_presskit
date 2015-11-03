@@ -10,7 +10,7 @@ div#production.production.section(ng-show="page==='production'" ng-init="prodNum
 			a.prod-prev(ng-click="changeItem(-1,'prodNum', 'prod')")
 		//PROD BIOS
 		div.prod-content
-			div.prod(ng-repeat="Prod in prod" ng-show="$index==prodNum")
+			div.prod(ng-repeat="Prod in prod" ng-show="$index==prodNum" class="{{(direction)?'forward':'backward'}}")
 				div.prod-image(ng-if="prod[$index].image" style="background-image:url(images/prod/{{Prod.safename}}_l.jpg)")
 				div.prod-copy
 					div.prod-name(ng-bind-html="safeHTML(Prod.name)")

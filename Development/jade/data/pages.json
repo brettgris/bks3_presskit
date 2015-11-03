@@ -8,22 +8,22 @@
         "name": "Cast",
         "path": "cast",
         "external": false,
-        "background": "black no-repeat center top "
+        "background": "url(images/bg/shipstorm.jpg) black no-repeat center top "
     }, {
         "name": "Production Bios",
         "path": "production",
         "external": false,
-        "background": "black no-repeat center top"
+        "background": "url(images/bg/river.jpg) black no-repeat center top"
     }, {
         "name": "Gallery",
-        "path": "gallery",
-        "external": false,
+        "path": "http://starz.mediaroom.com/index.php?s=64&cat=81",
+        "external": true,
         "background": "black no-repeat center top"
     }, {
         "name": "Videos",
         "path": "videos",
         "external": false,
-        "background": "black no-repeat center top"
+        "background": "url(images/bg/fireships.jpg) black no-repeat center top"
     }, {
         "name": "Screening Room",
         "path": "https://microsites.starz.com/ScreeningRoom/Account/Login",
@@ -34,6 +34,6 @@
         "name": "Press Materials",
         "path": "downloads",
         "external": false,
-        "background": "black no-repeat center top"
+        "background": "url(images/bg/ships.jpg) black no-repeat center top"
     }]
 }

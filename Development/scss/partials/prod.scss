@@ -18,7 +18,8 @@
 			padding-bottom:100px;
 			position: absolute;
 			width:$prod-width;
-			left: $prod-left;
+			margin-left: $prod-width/-2 + .12*$prod-container-width;
+			left:50%;
 			top:30px;
 			
 			@media screen and (max-width: $prod-container-width) {
@@ -38,28 +39,81 @@
 			}
 
 			&.ng-hide-add, &.ng-hide-remove{
-				@include transition-property(opacity);
+				@include transition-property(all);
 				@include transition-duration(0s);
 				@include transition-timing-function(linear);
 			}
 
-			&.ng-hide-add-active, &.ng-hide-remove-active{
-				@include transition-property(opacity);
+			&.forward.ng-hide-add-active, &.forward.ng-hide-remove-active, &.backward.ng-hide-add-active, &.backward.ng-hide-remove-active{
+				@include transition-property(all);
 				@include transition-duration(.2s);
 				@include transition-timing-function(linear);
 			}
 
-			&.ng-hide-add {
+			&.forward.ng-hide-add {
+				left:50%;
 				opacity:1;
+
+				@media screen and (max-width: $prod-container-width) {
+					left:$prod-offcenter;
+				}
+				
+				@media screen and (max-width: $prod-arrow-break) {
+					left:50%;
+				}
 			}
-			&.ng-hide-add.ng-hide-add-active { 
+			&.forward.ng-hide-add.ng-hide-add-active { 
+				left:0%;
 				opacity:0;
 			}
-			&.ng-hide-remove {
+			&.forward.ng-hide-remove {
+				left:100%;
 				opacity: 0;
 			}
-			&.ng-hide-remove.ng-hide-remove-active {
+			&.forward.ng-hide-remove.ng-hide-remove-active {
+				left:50%;
 				opacity:1;
+
+				@media screen and (max-width: $prod-container-width) {
+					left:$prod-offcenter;
+				}
+				
+				@media screen and (max-width: $prod-arrow-break) {
+					left:50%;
+				}
+			}
+
+			&.backward.ng-hide-add {
+				left:50%;
+				opacity:1;
+
+				@media screen and (max-width: $prod-container-width) {
+					left:$prod-offcenter;
+				}
+				
+				@media screen and (max-width: $prod-arrow-break) {
+					left:50%;
+				}
+			}
+			&.backward.ng-hide-add.ng-hide-add-active { 
+				left:100%;
+				opacity:0;
+			}
+			&.backward.ng-hide-remove {
+				left:0%;
+				opacity: 0;
+			}
+			&.backward.ng-hide-remove.ng-hide-remove-active {
+				left:50%;
+				opacity:1;
+
+				@media screen and (max-width: $prod-container-width) {
+					left:$prod-offcenter;
+				}
+				
+				@media screen and (max-width: $prod-arrow-break) {
+					left:50%;
+				}
 			}
 			
 			&-image{
@@ -71,10 +125,6 @@
 				background-repeat: no-repeat;
 				margin-bottom: 20px;
 				background-size: cover;
-
-				@media screen and (max-width: $prod-container-width) {
-					width: 80%;
-				}
 				
 				@media screen and (max-width: $prod-image-break) {
 					width:100%;
@@ -117,6 +167,7 @@
 		
 		.prod-list{
 			background: $prod-background;
+			background-size: 100% auto;
 			border-right:$prod-border;
 			border-left:$prod-border;
 			width:$prod-list-width;
@@ -146,7 +197,7 @@
 				border-top:1px solid transparent;
 				border-bottom:1px solid transparent;
 				margin-bottom: 1px;
-				color: $med-grey;
+				color: $prod-thumb-color;
 				
 				&:first-child{
 					margin-top: 10px;
@@ -154,8 +205,8 @@
 				
 				&:hover, &.selected{
 					background: $prod-thumb-hover;
-					border-top:1px solid $border-color;
-					border-bottom:1px solid $border-color;
+					border-top:$prod-thumb-border-hover;
+					border-bottom:$prod-thumb-border-hover;
 					color:white;
 				}
 			}
@@ -179,7 +230,7 @@
 				width:90%;
 				left:50%;
 				margin-left: -45%;
-				top:40px
+				top:60px
 			}
 			
 			&.withimage{
@@ -187,11 +238,7 @@
 				
 				@media screen and (max-width: $prod-arrow-break) {
 					//top:$prod-arrows-top2*.5;
-					top:60px;
-				}
-
-				@media screen and (max-width: $break-cast-small) {
-					top: $prod-image-height*.5 +40;
+					top:85px;
 				}
 			}
 			

@@ -1,115 +1,332 @@
 {
     "synopsis": [
-        "Proin convallis laoreet tortor, et aliquet diam rhoncus id. Nullam in velit nunc. Suspendisse sit amet elementum libero, ut elementum neque. Praesent sit amet varius lacus, ac ullamcorper urna. Duis mollis laoreet nibh, vitae laoreet felis ornare sit amet. Nulla ac urna leo. Nulla non mauris pellentesque, convallis neque sit amet, tempus tortor. Nullam rutrum mauris cursus orci ultrices faucibus. ",
-        "Donec sit amet nisl finibus, interdum magna a, convallis nunc. Nam rutrum fermentum ante, ac euismod lectus placerat ac. Quisque eu justo ac quam feugiat interdum at at enim. Vestibulum facilisis malesuada nunc, nec sollicitudin lectus auctor quis. Praesent tellus nunc, consectetur a fermentum vel, laoreet et orci."
+        "In the wake of the burning of Charles Town, all the New World lives in fear of Captain Flint. But when his campaign of terror crosses over into madness, and new threats emerge to challenge his supremacy, it falls to John Silver to locate the man within the monster, before Flint&#8217;s war against the world consumes them all. Meanwhile, on the pirate island of Nassau, it&#8217;s a new day. With Eleanor Guthrie facing judgment in London, Jack Rackham sits atop a fortune in Spanish gold, hoping to secure his legacy as a king among thieves. To do so, he&#8217;ll have to compete with the return of one of history&#8217;s most notorious captains, who holds a different vision for their home, as well as a complicated past with Rackham&#8217;s chief ally, Captain Charles Vane. All will be tested when a new opponent arrives to claim Nassau, one the pirates could never have anticipated. It knows them. It understands them. And in the blink of an eye, it will do the one thing they never thought possible&#8230; turn them against each other."
     ],
     "cast": [{
         "safename": "flint",
         "name": "CAPTAIN FLINT",
         "actor": "Toby Stephens",
+        "quoteheight":62,
         "desc": "A former Naval officer, disgraced and betrayed, Captain Flint is now the face of grim death in the West Indies."
     }, {
         "safename": "eleanor",
         "name": "ELEANOR GUTHRIE",
         "actor": "Hannah New",
+        "quoteheight":103,
         "desc": "Exiled from her home and sentenced to hang, Eleanor is now London&#8217;bvs most notorious convict. Granted an opportunity to return to Nassau in the service of its new governor, her survival hinges on one question: can she let go of the past?"
     }, {
         "safename": "silver",
         "name": "SILVER",
         "actor": "Luke Arnold",
+        "quoteheight":98,
         "desc": "Once an outcast, now the beloved and respected quartermaster of Flint&#8217;s crew. But when Flint&#8217;s campaign of terror crosses over into madness, it falls to Silver to locate the man within the monster, before it&#8217;s too late."
     }, {
         "safename": "max",
         "name": "MAX",
         "actor": "Jessica Parker Kennedy",
+        "quoteheight":100,
         "desc": "With Eleanor exiled, Max is now the nexus between the pirates and the street, a position of great power and influence. But when the return of civilization threatens to unseat her, Max sets a plan in motion that will have dire consequences for the island, as well as her relationship with Anne Bonny."
     }, {
         "safename": "billy",
         "name": "BILLY BONES",
         "actor": "Tom Hopper",
+        "quoteheight":100,
         "desc": "Still mistrustful of his leadership, Billy must set aside his feelings for the sake of his crew&#8217;s survival. But when a new front opens in the war on civilization, Billy sees a different role for himself. One where he need never be beholden to Flint again."
     }, {
         "safename": "vane",
         "name": "CAPTAIN CHARLES VANE",
         "actor": "Zach McGowan",
+        "quoteheight":100,
         "desc": "Allied with former enemies. Forced to betray his own values. Marked for death by civilization. For Captain Charles Vane, the costs of defending Nassau continue to mount. Is he strong enough to survive what&#8217;s coming?"
-    },{
+    }, {
         "safename": "rackham",
         "name": "JACK RACKHAM",
         "actor": "Toby Schmitz",
+        "quoteheight":100,
         "desc": "Sitting atop a fortune in Spanish gold, Rackham is finally in a position to win friends, secure his reputation and preserve Nassau for the ages. But when civilization returns to reclaim its island, he will learn that money can only buy so much&#8230;"
     }, {
         "safename": "anne",
         "name": "ANNE BONNY",
         "actor": "Clara Paget",
+        "quoteheight":100,
         "desc": "A beacon of loyalty in a sea of shifting alliances, Bonny is caught between her partnership with Rackham, and her love for Max. But when upheaval on the island forces unpleasant truths to the surface, Bonny must choose once and for all where and with whom she belongs."
     }, {
         "safename": "scott",
         "name": "MR. SCOTT",
         "actor": "Hakeem Kae-Kazim",
+        "quoteheight":100,
         "desc": "More than anyone, Scott recognizes the perils of a Nassau without Eleanor Guthrie. With the ground shifting beneath his feet, he must make a decision to protect that which he truly loves."
     }, {
         "safename": "teach",
         "name": "EDWARD TEACH",
         "actor": "Ray Stevenson",
+        "quoteheight":100,
         "desc": "One of the most notorious pirates to have ever lived, Edward Teach, also known as Blackbeard, returns to the account to settle some unfinished business. But a great deal has changed in his absence, and to cement his legacy he will have to challenge Nassau&#8217;s most powerful&#8230; at sea. On land. And at the end of a sword."
     }],
     "prod": [{
-        "safename": "prod1",
-        "name": "PRODUCTION NAME 1",
-        "role": "Executive Producer/Director",
+        "safename": "STEINBERG",
+        "name": "JONATHAN E. STEINBERG",
+        "role": "Co-Creator, Writer, Executive Producer",
         "desc": [
-            "Nulla placerat lacus quis tempor lacinia. Proin eget finibus tortor, eget suscipit mi. Mauris ac eros ac ante accumsan porta id in dolor. Ut vitae odio fringilla, dignissim quam ac, porttitor nibh. Ut nunc diam, fermentum id metus ac, consequat aliquam nibh. Duis fringilla vel felis sit amet consectetur.",
-            "In sit amet tortor id sapien malesuada cursus hendrerit non risus. Ut molestie dignissim nisl vitae volutpat. Sed auctor ligula ut lacus feugiat volutpat. Proin sed pellentesque odio. Vestibulum quis orci vel leo scelerisque scelerisque nec a erat. Donec in ipsum non est fringilla cursus. Phasellus pharetra varius interdum. Nunc vel lacinia orci. Mauris vitae porttitor mi, a condimentum orci. Morbi at sollicitudin diam."
+            "Jonathan E. Steinberg is currently the showrunner and co-creator of the STARZ Original series &#8220;Black Sails.&#8221; Before that, he was the executive producer and creator of &#8220;Human Target,&#8221; which he developed along with Wonderland Sound and Vision, DC Comics, Warner Bros., and FOX, and a co-creator and producer of the CBS series &#8220;Jericho.&#8221;  He is a graduate of Harvard University and the University of Pennsylvania Law School."
         ],
         "image": false
-    },{
-        "safename": "prod2",
-        "name": "PRODUCTION NAME 2",
-        "role": "Executive Producer/Director",
+    }, {
+        "safename": "LEVINE",
+        "name": "ROBERT LEVINE",
+        "role": "Co-Creator, Writer, Executive Producer",
         "desc": [
-            "Nulla placerat lacus quis tempor lacinia. Proin eget finibus tortor, eget suscipit mi. Mauris ac eros ac ante accumsan porta id in dolor. Ut vitae odio fringilla, dignissim quam ac, porttitor nibh. Ut nunc diam, fermentum id metus ac, consequat aliquam nibh. Duis fringilla vel felis sit amet consectetur.",
-            "In sit amet tortor id sapien malesuada cursus hendrerit non risus. Ut molestie dignissim nisl vitae volutpat. Sed auctor ligula ut lacus feugiat volutpat. Proin sed pellentesque odio. Vestibulum quis orci vel leo scelerisque scelerisque nec a erat. Donec in ipsum non est fringilla cursus. Phasellus pharetra varius interdum. Nunc vel lacinia orci. Mauris vitae porttitor mi, a condimentum orci. Morbi at sollicitudin diam."
+            "Robert Levine is co-creator of the STARZ Original series &#8220;Black Sails&#8221; where he also serves as an executive producer.  His previous credits include &#8220;Touch&#8221; for 20th Century Fox Television, &#8220;Human Target&#8221; for Warner Bros. Television, and &#8220;Harpers Island&#8221; and &#8220;Jericho&#8221; for CBS/Paramount Studios.  A graduate of Denison University, he currently lives in Los Angeles."
         ],
         "image": false
-    },{
-        "safename": "prod3",
-        "name": "PRODUCTION NAME 3",
-        "role": "Executive Producer/Director",
+    }, {
+        "safename": "BAY",
+        "name": "MICHAEL BAY",
+        "role": "Executive Producer",
         "desc": [
-            "Nulla placerat lacus quis tempor lacinia. Proin eget finibus tortor, eget suscipit mi. Mauris ac eros ac ante accumsan porta id in dolor. Ut vitae odio fringilla, dignissim quam ac, porttitor nibh. Ut nunc diam, fermentum id metus ac, consequat aliquam nibh. Duis fringilla vel felis sit amet consectetur.",
-            "In sit amet tortor id sapien malesuada cursus hendrerit non risus. Ut molestie dignissim nisl vitae volutpat. Sed auctor ligula ut lacus feugiat volutpat. Proin sed pellentesque odio. Vestibulum quis orci vel leo scelerisque scelerisque nec a erat. Donec in ipsum non est fringilla cursus. Phasellus pharetra varius interdum. Nunc vel lacinia orci. Mauris vitae porttitor mi, a condimentum orci. Morbi at sollicitudin diam."
+            "Michael Bay is one of the entertainment industry&#8217;s most successful filmmakers, currently listed as the fourth highest-grossing director of all time.  Characterized by his aggressive visual style and high-octane action sequences that have become his cinematic signature, the films that Bay has directed and produced, through his two production companies, have grossed over $7.3 billion worldwide.",
+            "Bay&#8217;s directing resume includes the films <i>Bad Boys</i> and <i>Bad Boys II</i>, both of which starred Will Smith and Martin Lawrence; <i>The Rock</i>, which starred Nicolas Cage and Sean Connery; <i>Armageddon</i>, which starred Ben Affleck and Bruce Willis; <i>Pearl Harbor</i>, which starred Affleck, Josh Hartnett, and Kate Beckinsale; <i>The Island</i>, which starred Ewan McGregor and Scarlett Johansson; <i>Pain & Gain</i>, based on an unbelievable true crime story, starring Mark Wahlberg, Dwayne Johnson, and Anthony Mackie; and the <i>Transformers</i> franchise: <i>Transformers</i>, <i>Transformers: Revenge of the Fallen</i>, and <i>Transformers: Dark of the Moon</i>, which starred Shia LaBeouf, Josh Duhamel, Tyrese Gibson, and John Turturro.",
+            "On June 27, 2014 Paramount Pictures released the fourth film in the franchise, <i>Transformers: Age of Extinction</i>, starring Mark Wahlberg, Stanley Tucci, Kelsey Grammer, and newcomers Nicola Peltz and Jack Reynor.  The film grossed $302 million in its opening weekend, bringing the franchise total to more than $3.8 billion for its worldwide theatrical release, making it the highest grossing movie of 2014.",
+            "At present Bay is directing and producing a film of a different genre, a passion project based on Mitchell Zuckoff's non-fiction bestseller, <i>13 Hours</i>, which chronicles the last, harrowing hours of an American diplomatic outpost in Benghazi, Libya, the night of September 11, 2012.  The film stars John Krasinski, James Badge Dale, Pablo Schreiber, Max Martini, David Denman, and Dominic Fumusa.  The production wrapped mid-summer and is slated for release in 2016.",
+            "In addition to motion pictures, Bay currently has two successful television series on the air: STARZ&#8217;s pirate action adventure &#8220;Black Sails,&#8221; starring Toby Stephens, Hannah New, Zach McGowan, and Luke Arnold, which is filmed in Cape Town, South Africa; and TNT&#8217;s &#8220;The Last Ship,&#8221; starring Eric Dane, Rhona Mitra, and Adam Baldwin, shot, in part, aboard a real U.S. Navy destroyer.  Also for TNT, Bay and longtime friend and collaborator, Jerry Bruckheimer, are currently set to produce a serialized action-drama chronicling the burgeoning drug trade in south Florida in the 1970&#8217;s.",
+            "Bay is the principal partner of Platinum Dunes, which he founded in 2001 with Brad Fuller and Andrew Form.  The company was originally conceived to give talented commercial and video directors a chance to break into the feature-film world.  Most recently, the company released the enormously popular <i>Teenage Mutant Ninja Turtles</i>, starring Megan Fox, Will Arnett, and William Fichtner for Paramount Pictures.  The film earned box office receipts of more than $485 million around the world.  A sequel is currently in production in New York City with Megan Fox, Will Arnett, and the Turtles -- Alan Ritchson, Noel Fisher, Pete Ploszek, and Jeremy Howard -- reprising their roles.  The film also stars Stephen Amell, Brain Tee, Tyler Perry, and Laura Linney.",
+            "In 2013 Platinum Dunes produced <i>The Purge</i>, in tandem with Blumhouse Productions, for Universal Pictures for a mere $3 million.  The film grossed $34.1 million its opening weekend, eventually earning over $89 million.  Last summer&#8217;s sequel, <i>The Purge: Anarchy</i>, grossed $29.8 million its opening weekend, garnering $112 million worldwide.  A third installment is being prepared for production later this year.",
+            "The company also produced the thriller <i>Ouija</i>, released by Universal Pictures on October 24, 2014.  The film, which was made for $5 million, has grossed over $102 million in box office receipts.  A follow-up to the <i>Ouija</i> horror saga is currently in the works.",
+            "Also for Paramount, the filmmakers released the low budget thriller <i>Project Almanac</i>, this past January 2015.  The film introduces a cast of exciting, new talent including Jonny Weston, Sofia Black-D'Elia, Sam Lerner, Allen Evangelista, and Virginia Gardner as a group of friends who embark on the adventure of their lives when they stumble upon secret designs for an experimental time machine.  The film is directed by Dean Israelite.",
+            "Next up the production team will begin a reinvention of <i>Friday the 13th</i> set to go before cameras in Atlanta in 2015.  In addition, they are working on <i>Inherit the Earth</i>, a live action film based on the IDW <i>Comic Zombies vs. Robots</i> to be directed by Andrew Adamson for Sony Pictures.",
+            "A graduate of Wesleyan University and Art Center College of Design, Bay has won virtually every major award in the commercial industry, including the Cannes Lions International Festival of Creativity&#8217;s Golden Lion, the Grand CLIO and the Directors Guild of America&#8217;s Outstanding Directorial Achievement in Commercials award.  His &#8220;Got Milk?&#8221; campaign resides in the permanent collection of New York&#8217;s Museum of Modern Art. ",
+            "A Los Angeles native, Bay now resides in Miami."
         ],
         "image": false
-    },{
-        "safename": "prod4",
-        "name": "PRODUCTION NAME 4",
-        "role": "Executive Producer/Director",
+    }, {
+        "safename": "PLATINUMDUNES",
+        "name": "<span>BRAD FULLER AND ANDREW FORM OF PLATINUM DUNES</span>",
+        "role": "Executive Producers",
         "desc": [
-            "Nulla placerat lacus quis tempor lacinia. Proin eget finibus tortor, eget suscipit mi. Mauris ac eros ac ante accumsan porta id in dolor. Ut vitae odio fringilla, dignissim quam ac, porttitor nibh. Ut nunc diam, fermentum id metus ac, consequat aliquam nibh. Duis fringilla vel felis sit amet consectetur.",
-            "In sit amet tortor id sapien malesuada cursus hendrerit non risus. Ut molestie dignissim nisl vitae volutpat. Sed auctor ligula ut lacus feugiat volutpat. Proin sed pellentesque odio. Vestibulum quis orci vel leo scelerisque scelerisque nec a erat. Donec in ipsum non est fringilla cursus. Phasellus pharetra varius interdum. Nunc vel lacinia orci. Mauris vitae porttitor mi, a condimentum orci. Morbi at sollicitudin diam."
+            "Andrew Form and Brad Fuller founded Platinum Dunes in 2001, along with partner Michael Bay.  Established with the intent of creating opportunities for first-time directors, the partners strive to make commercially viable films on modest budgets for a global audience.  Since its inception, the company has released 13 films.  In August 2014, the partners renewed their three-year first-look deal with Paramount Pictures.",
+            "In 2013 Platinum Dunes produced <i>The Purge</i> for Universal Pictures for a mere $3 million.  The innovative sleeper hit surprised the industry when it grossed $34.1 million its opening weekend.  Last summer's sequel, <i>The Purge: Anarchy</i>, grossed $29.8 million its opening weekend, earning $112 million worldwide.  A third installment is being prepared for production later this year.",
+            "Fuller and Form produced <i>Teenage Mutant Ninja Turtles</i>, starring Megan Fox, Will Arnett, and William Fichtner for Paramount Pictures.  The film opened in August 2014 and to date has garnered more than $485 million.  Fox and Arnett have returned for the sequel currently filming in New York City.  The producers are delighted to welcome Stephen Amell, Brian Tee, Tyler Perry, and Laura Linney to the all-star cast which also includes Alan Ritchson, Noel Fisher, Pete Ploszek, and Jeremy Howard as the Turtles.  The film will be released on June 3, 2016.",
+            "On October 24, 2014 Universal released the Platinum Dunes produced <i>Ouija</i>, a horror film based on the popular Hasbro board game.  Made for $5 million, the film has made over $102 million in box office receipts.  A follow-up to the <i>Ouija</i> horror saga is currently in the works.",
+            "Also for Paramount, the filmmakers released the low budget thriller <i>Project Almanac</i>, this past January 2015.  The film introduces a cast of exciting new talent including Jonny Weston, Sofia Black-D'Elia, Sam Lerner, Allen Evangelista, and Virginia Gardner as a group of friends who embark on the adventure of their lives when they stumble upon secret designs for an experimental time machine.  The film is directed by Dean Israelite.",
+            "Next up the production team will begin work on <i>Friday the 13th</i> set to go before cameras in Atlanta this summer.  In addition, they are working on <i>Inherit the Earth</i>, based on the IDW <i>Comic Zombies vs. Robots</i> to be directed by Andrew Adamson for Sony Pictures.",
+            "Last year the Platinum Dunes partners made their first foray into television with two hugely successful shows.  &#8220;Black Sails,&#8221; starring Toby Stephens, debuted on STARZ on January 25, 2014; the second season began airing January 24, 2015.  &#8220;The Last Ship,&#8221; starring Eric Dane, first aired on TNT on June 22 and will soon premiere its second season this June 21, 2015."
+        ],
+        "image": false
+    }, {
+        "safename": "SHOTZ",
+        "name": "DAN SHOTZ",
+        "role": "Executive Producer",
+        "desc": [
+            "Dan Shotz is an executive producer of the STARZ Original series &#8220;Black Sails.&#8221; His previous credits include developing and producing the series &#8220;Common Law&#8221; for the USA network as well as &#8220;Harper&#8217;s Island&#8221; and fan-favorite &#8220;Jericho&#8221; for CBS Television. Shotz was formerly a partner with director Jon Turteltaub at Junction Entertainment, the company responsible for the films <i>National Treasure</i> and the sequel <i>National Treasure: Book of Secrets</i> among others. A graduate of Wesleyan University, Shotz is a New York Times Bestselling author having co-written the graphic novel &#8220;Jericho Season 3: Civil War&#8221; for IDW Publishing."
+        ],
+        "image": false
+    }, {
+        "safename": "SYMES",
+        "name": "CHRIS SYMES",
+        "role": "Executive Producer",
+        "desc": [
+            "Symes completed studies at Bath Academy of Art with first class honors in 1985 before pursuing his career in film and television production.  During several years of freelance work, he began producing music videos, and in 1991 joined Hollywood-based Propaganda Films (<i>Sleepers</i>, <i>The Portrait of a Lady</i>, <i>Wild at Heart</i>). He became head of European production in 1994, and a year later was named managing director of Propaganda Films Europe, where he was responsible for the entire European division budget, all aspects of production, and the development of new projects and creative talent.",
+            "Symes has served as co-producer on <i>Resident Evil</i> and <i>AVP: Alien vs Predator</i>.  He executive produced <i>Eragon</i> and <i>Hellboy II: The Golden Army</i>.  He was also supervising producer on &#8220;Halo 4: Forward Unto Dawn.&#8221;"
+        ],
+        "image": false
+    }, {
+        "safename": "WICHT",
+        "name": "DAVID WICHT",
+        "role": "Co-Executive Producer",
+        "desc": [
+            "David Wicht, founder and CEO of Film Afrika, is an award-winning filmmaker based in Los Angeles and Cape Town. Originally from South Africa, he started in the industry as writer/director before moving to the UK where he did an MBA and pursued a career in film production and financing. David returned to South Africa after the fall of apartheid and has since managed over 75 films and 100 television episodes with all the major US studios and networks as well as the larger European majors, putting him at the forefront of the revival of the post-apartheid film industry. David is the founder of the Film Industry Learner Mentorship program, the largest privately funded non-profit training program in the country for filmmakers disadvantaged by apartheid."
+        ],
+        "image": false
+    }, {
+        "safename": "KANE",
+        "name": "BRAD CALEB KANE",
+        "role": "Co-Executive Producer",
+        "desc": [
+            "Brad has spent the last three years working on the hit STARZ Original series, &#8220;Black Sails.&#8221; On the feature side he recently wrote <i>Uprising</i> for Sony, <i>The Unlimited</i> for Walt Disney Studios, and <i>Red Wagon</i> with Wolfgang Petersen attached to direct and <i>Viewmaster</i> for DreamWorks with Kurtzman/Orci attached to produce. He received tremendous acclaim for his Richard Pryor biopic which has gone through various attachments including Marlon Wayans, and Bill Condon, among others. Brad also adapted <i>The Historian</i> based on the bestselling novel for Sony and Red Wagon. In terms of television work, Brad previously worked on the J.J. Abrams series, &#8220;Fringe,&#8221; and adapted the feature &#8220;Crash&#8221; for STARZ. In addition to this tremendously varied CV, Brad spent much of his youth acting on Broadway and was the singing voice for Walt Disney&#8217;s <i>Aladdin</i>."
+        ],
+        "image": false
+    }, {
+        "safename": "SAKHAROV",
+        "name": "ALIK SAKHAROV",
+        "role": "Co-Executive Producer and Director Episode 301, 305, and 310",
+        "desc": [
+            "In 1985, Sakharov entered the U.S. film scene as director of <i>The Russian Touch</i> &#8211; a topical documentary about the Russian people comprising the third wave of immigration to the United States. In 1992, he directed a silent short film <i>Pausa</i> &#8211; a visual meditation dedicated to the memory of the great poet of cinema Andrei Tarkovsky.",
+            "Sakharov began sharing the responsibilities of a lighting cameraman in 1985 in the New York industrial video scene, eventually progressing to shooting music videos, commercials, and narrative films.",
+            "He served as director of photography on numerous feature films, as well as a formidable number of programs for network television and premium cable, most notably for HBO with such projects as &#8220;The Sopranos&#8221; (38 episodes), &#8220;Rome&#8221; (9 episodes), &#8220;Sex and The City,&#8221;  and &#8220;Game of Thrones.&#8221;",
+            "As a member of &#8221;The Sopranos&#8221; creative ensemble, Sakharov was honored twice, in 2002 and 2004, by the American Film Institute's A Year of Excellence Award.",
+            "In 2004, Sakharov earned the 19th Annual ASC Awards nomination for Outstanding Achievement in Cinematography in a single camera category for &#8220;The Sopranos&#8221; episode &#8216;Long Term Parking.&#8217;",
+            "In 2007, Sakharov won the Primetime Emmy&reg; Award for Outstanding Cinematography for the &#8220;Rome&#8221; episode &#8220;Passover.&#8221;",
+            "Since 2006, Sakharov has worked primarily (and from 2010 exclusively) as a television director, with credits including: &#8220;Boardwalk Empire,&#8221; &#8220;Game of Thrones,&#8221; &#8220;Rome,&#8221; &#8220;Dexter,&#8221; &#8220;The Americans,&#8221; &#8220;Brotherhood,&#8221; &#8220;Easy Money,&#8221; &#8220;Rubicon,&#8221; &#8220;Flesh and Bone,&#8221; and &#8220;Marco Polo.&#8221;"
+        ],
+        "image": false
+    }, {
+        "safename": "HEYNS",
+        "name": "NINA HEYNS",
+        "role": "Producer",
+        "desc": [
+            "One of South Africa&#8217;s most experienced line producers, Nina Heyns has worked on many of the films and television series produced locally.",
+            "Nina&#8217;s film credits include <i>After the Rain</i>, <i>Boesman and Lena</i>, <i>The Diamond Hunters</i>, <i>Borderline</i>, <i>Pavement</i>, <i>Consequence</i>, <i>Blast</i>, <i>Poseidon Adventure</i>, <i>Scorpion King</i>, <i>Endgame</i>, <i>Free Willy 2</i>, <i>Lost Boys: The Thirst</i>, <i>Sniper Reloaded</i>, and <i>Dark Tide</i>.",
+            "Her television credits include &#8220;Treasure Guards&#8221; and &#8220;Labyrinth.&#8221;"
+        ],
+        "image": false
+    }, {
+        "safename": "BRYTUS",
+        "name": "JONATHAN BRYTUS",
+        "role": "Producer",
+        "desc": [
+            "Originally from Dayton, Ohio, Jonathan began his career in television post-production on the HBO series &#8220;Carnival.&#8221; Since then Jonathan has worked on the Emmy Award&reg;-winning shows &#8220;Rome,&#8221; &#8220;Mad Men,&#8221; &#8220;The Pacific,&#8221; and &#8220;Game of Thrones.&#8221; He has overseen post-production around the U.S. and in Australia, Northern Ireland, South Africa, and Croatia. Jonathan is currently working as a Supervising Producer on the fourth season of &#8220;Black Sails&#8221; on STARZ."
+        ],
+        "image": false
+    }, {
+        "safename": "HENRY",
+        "name": "ERIK HENRY",
+        "role": "Producer & Senior Visual Effects Supervisor",
+        "desc": [
+            "Senior Visual Effects Supervisor Erik Henry is the recipient of a Creative Arts Emmy Award&reg; for Outstanding Visual Effects in a Supporting Role for his season one work on &#8220;Black Sails.&#8221; Erik also received a Primetime Emmy Award&reg; for Outstanding Special Visual Effects for a Miniseries, Movie or Special for his work on the HBO film &#8220;John Adams.&#8221; For the same project, Erik received a VES Award for Outstanding Visual Effects in a Broadcast Miniseries, Movie or Special.",
+            "He was part of the team, working as a visual effects assistant editor, that won the Academy Award&reg; for Visual Effects for <i>Total Recall</i> and <i>The Abyss</i>.",
+            "Erik has also worked as a 2-D to 3-D conversion supervisor, bringing us the James Cameron classic <i>Titanic</i> into 3-D.",
+            "Erik&#8217;s other credits include, among others: <i>About Schmidt</i>, <i>Alien: Resurrection</i>, <i>Rendition</i>, and cult classic <i>Snakes on a Plane</i>."
+        ],
+        "image": false
+    }, {
+        "safename": "ETTLIN",
+        "name": "LUKAS ETTLIN",
+        "role": "Associate Producer & Director Episode 302 and 306",
+        "desc": [
+            "Lukas Ettlin studied at the prestigious NYU Tisch School of the Arts film program, where he lensed <i>Genesis</i> and <i>Catastrophe</i>, which won top awards, including the ASC&#8217;s Arthur Miller Heritage Award for Best Cinematography in 2000.",
+            "In the following years he served as the director of photography on commercials and music videos for a wide range of artists. In 2005 he was nominated by the MVPA for Best Cinematography on Marilyn Manson&#8217;s &#8220;Personal Jesus&#8221; video. ",
+            "In 2005 Lukas shot New Line&#8217;s <i>Texas Chainsaw Massacre: The Beginning</i>, followed by the Weinstein Company's <i>Fanboys</i> and <i>The Take</i>, an Official Selection at the 2007 Toronto Film Festival starring John Leguizamo. Continuing his work for Michael Bay, Ettlin filled in as an additional director of photography on mega blockbuster <i>Transformers</i>. In 2006 Variety magazine nominated Ettlin as one of their &#8216;10 Cinematographers to Watch.&#8217;",
+            "In 2007 and 2008 he lensed Summit Entertainment&#8217;s <i>Never Back Down</i> and <i>The Killing Room</i> as well as the Kevin Spacey drama <i>Shrink</i>. The latter two premiered at Sundance 2009.  Also in 2008, Ettlin joined Paramount&#8217;s <i>Middle Men</i>, directed by George Gallo and starring Luke Wilson, Giovanni Ribisi, and James Caan.",
+            "In recent years Ettlin teamed up with Liebesman for a third time for Sony&#8217;s alien invasion drama <i>Battle: Los Angeles</i> and worked again with longtime collaborator Brad Furman on Lakeshore&#8217;s <i>Lincoln Lawyer</i>, starring Matthew McConaughey. Most recently he lensed the TV pilots for &#8220;Battlestar Galactica&#8221; prequel &#8220;Blood & Chrome&#8221; as well as TNT&#8217;s &#8220;The Last Ship.&#8221;",
+            "Lukas was previously a director of photography for season one and two, directed episode 209, and was a resident director for season three including episodes 302 and 306 of &#8220;Black Sails.&#8221;"
+        ],
+        "image": false
+    }, {
+        "safename": "SCHWARTZ",
+        "name": "STEFAN SCHWARTZ",
+        "role": "Director Episodes 303 and 308",
+        "desc": [
+            "Stefan Schwartz teamed up with Richard Holmes at York University and formed The Gruber Brothers. The duo made a number of films together including, <i>Bonded</i>, broadcast on BBC 2, and the award-winning short <i>The Lake</i> starring Frances Barber. Stefan made his feature film debut with <i>Soft Top Hard Shoulder</i> (1992) starring Peter Capaldi and Phyllis Logan, which went on to win two BAFTAs in Scotland and the London Film Festival's prestigious audience award. Building on this success in 1995 he directed &#8220;Giving Tongue,&#8221; shown as part of BBC2′s &#8220;Wicked Women&#8221; series and in 1996 wrote and directed <i>Shooting Fish</i>, a crime-caper comedy starring Kate Beckinsale which won several awards and made over twenty million dollars worldwide.",
+            "He then signed a three-year deal to write and direct for Miramax and wrote screenplays for them, teaming up with notable producers such as Laurence Bender and Jennifer and Suzanne Todd before directing <i>The Abduction Club</i> (2001) for Pathe Films.",
+            "His next film as writer/director was the romantic comedy <i>The Best Man</i> starring Stuart Townsend, Amy Smart, and Seth Green in 2005.",
+            "In television he directed &#8220;Hustle,&#8221; the award-winning &#8220;Spooks,&#8221; and &#8220;The Ghost Train&#8221; for Lynda La Plante before moving on to the ground-breaking series, &#8220;Luther&#8221; for the BBC. In the US he has directed several episodes of the critically acclaimed &#8220;Crash&#8221; with Dennis Hopper, joined the STARZ series &#8220;Camelot&#8221; which he directed for and also co-executive produced, and directed for the much praised &#8220;Dexter&#8221; series. Additional television credits include &#8220;Being Human,&#8221; &#8220;House,&#8221; &#8220;White Collar,&#8221; &#8220;Jo,&#8221; &#8220;The Walking Dead,&#8221; &#8220;Revenge,&#8221; &#8220;Low Winter Sun,&#8221; &#8220;Those Who Kill,&#8221; &#8220;The Americans,&#8221; &#8220;Flesh and Bone,&#8221; and &#8220;Power.&#8221; "
+        ],
+        "image": false
+    }, {
+        "safename": "BOYUM",
+        "name": "STEVE BOYUM",
+        "role": "Director Episodes 304 & 309",
+        "desc": [
+            "Raised in Los Angeles, Steve Boyum, a former world-class surfer, skier and motocross racer, began a career in film and television as a stuntman on the television movie &#8220;The Other Side of the Mountain&#8221; in 1973.  His tenure in stunts and acting spanned 25 years on such films as <i>Rollerball</i>,  <i>Apocalypse Now</i>, <i>The Blues Brothers</i>, <i>Bound For Glory</i>, <i>1941</i>, <i>Big Wednesday</i>, <i>True Romance</i>, <i>Falling Down</i>, <i>Days of Thunder</i>, <i>Predator</i>,  and many television series including &#8220;The A-Team&#8221; and &#8220;The Dukes of Hazzard.&#8221;",
+            "Mr. Boyum later moved into cinematography and directing second unit, participating on numerous films, before transitioning to directing and producing.  Most recently, he produced or directed CBS&#8217;s &#8220;Hawaii Five-0,&#8221; CW&#8217;s &#8220;Supernatural,&#8221; NBC&#8217;s &#8220;Revolution,&#8221; and is currently a director/co-executive producer of the new STARZ Original series &#8220;Black Sails.&#8221;"
+        ],
+        "image": false
+    }, {
+        "safename": "BAILEY",
+        "name": "ROB BAILEY",
+        "role": "Director Episode 307",
+        "desc": [
+            "Rob Bailey is an English television director. He has directed episodes of &#8220;The Wire,&#8221; &#8220;CSI: Crime Scene Investigation,&#8221; &#8220;Gotham,&#8221; and was a producer and regular director for &#8220;CSI: New York.&#8221; For &#8220;The Wire&#8221; he directed the tenth episode of the second season, &#8216;Storm Warnings,&#8217; in 2003. He returned in 2004 to direct the third episode of the third season &#8216;Dead Soldiers.&#8217; His repertoire as a director includes &#8220;Grimm,&#8221; &#8220;Ringer,&#8221; &#8220;Treme,&#8221; &#8220;CSI: New York,&#8221; &#8220;The Wire,&#8221; &#8220;CSI: Crime Scene Investigation,&#8221; and &#8220;Criminal Minds.&#8221;"
+        ],
+        "image": false
+    }, {
+        "safename": "STRUTHERS",
+        "name": "GAVIN STRUTHERS",
+        "role": "Director of Photography",
+        "desc": [
+            "Gavin Struthers is a UK based freelance director of photography.",
+            "Gavin discovered stills photography at an early age, developing and printing his own work before studying Graphics, Fine Art and Photography at UCA (UK).",
+            "He began a career as a cinematographer following his graduation from the National Film & TV School where he was mentored by Freddie Francis, BSC.  He preceded to shoot a number of documentaries, researching and shooting his first project for Channel Four in 1997.",
+            "Gavin then moved into drama and commercials. Shooting on both film and high definition cameras, he was also the director of photography on the BBC&#8217;s first 3D HD broadcast, shot on Pananvision&#8217;s Genesis camera system.",
+            "Gavin has shot a diverse range of projects including: <i>Outpost</i> (Sony Pictures), <i>Your Life in Their Hands</i> (RTS award winner), BAFTA award-winning &#8220;Shameless&#8221; (C4), &#8220;Secret Diary Of A Call Girl&#8221; (ITV/Showtime), &#8220;Garrow&#8217;s Law&#8221; (BBC/PBS), Golden Globe&reg;, Emmy&reg;, and BAFTA award-winning &#8220;Downton Abbey&#8221; (ITV/PBS), &#8220;Endeavour&#8221; (TV Movie Pilot), &#8220;Shetland&#8221; (TV Pilot), &#8220;Foyles War,&#8221; and BAFTA award-winning &#8220;Last Tango In Halifax&#8221; (BBC/PBS). Recently he shot the sci-fi series &#8220;Halo: Nightfall&#8221; for Scott Free Productions, directed by Sergio Mimica-Gezzan and &#8220;Marco Polo&#8221; (season two) for Netflix.",
+            "Gavin has held Masterclasses in Cinematography in both London (for Arri) and Olso (for the Norwegian Society of Cinematographers)."
+        ],
+        "image": false
+    }, {
+        "safename": "LUTHER",
+        "name": "DAVID LUTHER",
+        "role": "Director of Photography",
+        "desc": [
+            "David Luther is a director of photography, based in London, who in the course of his career has worked on long list of highly successful and critically acclaimed television dramas for the likes of Sky, Starz, the BBC, Channel 4 and ITV and who has just been nominated for an ASC Award for Outstanding Achievement in Cinematography for his work on BBC&#8217;s and Starz&#8217;s historical drama &#8220;The White Queen.&#8221; ",
+            "Having made his name in commercials at the start of his career working for the likes of Dunhill, Sony and VW, to name just a few, for the past decade he has devoted much of his time to award winning television drama, working on some of the most successful and popular series that have been broadcast in recent years.",
+            "In 2012 David shot the second series of the BBC's highly acclaimed drama thriller &#8220;The Hour,&#8221; which won an Emmy&reg; award and starred Dominic West, Romola Garai, and Ben Whishaw, was also nominated for both a BAFTA and a Golden Globe&reg; Award. That same year David also worked on &#8220;Hit and Miss,&#8221; Paul Abbott's gritty series about a transsexual contract killer starring Chloe Sevigny, which was broadcast on SKY Atlantic. He filmed &#8220;The White Queen,&#8221; an adaptation of Phillipa Gregory's best-selling historical novel series, which was screened on BBC1 and on Starz. It was nominated for 3 Golden Globes&reg; and for which David received a nomination for Outstanding Achievement in Cinematography as one of the &#8216;most accomplished looking Mini Series Made for Television in 2013&#8217;.",
+            "Film is very much in David's blood. Born in Munich to Czech and Slovak parents David's father is the cinematographer Igor Luther responsible for the cult classic <i>Tin Drum</i>. From an early age David spent time on film sets learning his craft from his father and in his twenties he would go on to assist him before winning a place at the prestigious FAMU film school in Prague, where he studied cinematography. Afterwards he would continue his studies at the National Film and Television School in Beaconsfield, England, where he graduated with honors in cinematography.",
+            "Amongst his other drama credits are list of series for British TV, which include: &#8220;Wire in the Blood,&#8221; &#8220;The Children,&#8221; and &#8220;Law and Order, UK.&#8221; He was director of photography on &#8220;Wide Sargasso Sea,&#8221; a period drama for the BBC, starring Rebecca Hall and Rafe Spall, and also worked on Channel 4&#8217;s well-reviewed series &#8220;The Mill,&#8221; starring Kevin McNelly, set in rural-industrial England. In 2007 he completed his first feature film <i>Grow your Own</i> for Warp Films.",
+            "In 2013 he worked on a feature film <i>Dragonheart 3</i> for Universal, &#8220;The Smoke,&#8221; a television drama series for Sky and &#8220;The Driver,&#8221; a miniseries for the BBC, starring David Morrisey.",
+            "David is fluent in German, Czech and English."
+        ],
+        "image": false
+    }, {
+        "safename": "KROEGER",
+        "name": "WOLF KROEGER",
+        "role": "Production Designer",
+        "desc": [
+            "Wolf started his career as a scenic artist and art director for television productions in Sydney, Australia. His career has since spanned the globe.",
+            "In Munich, Germany he worked at The Bavarian Staats Opera for two seasons on Wagner&#8217;s &#8220;The Ring&#8221; and Zimmermann&#8217;s &#8220;The Soldiers&#8221; as well as other productions.",
+            "His early work on feature films earned him two Genie Awards and later a BAFTA&reg; nomination for director Michael Mann&#8217;s <i>The Last of The Mohicans</i> starring Daniel Day Lewis.",
+            "He worked on Robert Altman&#8217;s <i>Quintet</i> with Paul Newman, <i>Popeye</i> with Robin Williams, director Ted Kotcheff&#8217;s <i>Split Image</i>, <i>First Blood</i> starring Sylvester Stallone, Michael Cimino&#8217;s <i>Year of The Dragon</i> with Mickey Rourke, <i>The Sicilian</i> with Christopher Lambert and Terence Stamp, Richard Donner&#8217;s <i>Ladyhawke</i>, and <i>The Fortunate Pilgrim</i> with Sophia Loren.",
+            "Wolf also worked with Brian de Palm in Thailand on <i>Casualties of War</i>.  His other film credits include:  Neil Jordan&#8217;s <i>We Are No Angels</i>, <i>The 13th Warrior</i>, <i>The Edge</i>, <i>The Three Musketeers</i>, <i>Enemy At The Gates</i>, <i>Equilibrium</i>, <i>Mission Impossible</i>, <i>Reign of Fire</i>, <i>Beyond Borders</i>, <i>Cousin Bette</i>, <i>Eragon</i>, <i>The Adventurer</i>, <i>Love in the Time of Cholera</i>, and <i>Prince of Persia</i>."
+        ],
+        "image": false
+    }, {
+        "safename": "MCCREARY",
+        "name": "BEAR MCCREARY",
+        "role": "Composer",
+        "desc": [
+            "Emmy&reg; Award-winner for STARZ&#8217; &#8220;Da Vinci&#8217;s Demons,&#8221; Bear McCreary is one of the leading musical composers in television and has worked on some of the most successful shows in the industry. At the age of 24, he received widespread acclaim for his groundbreaking score to Syfy&#8217;s hit series &#8220;Battlestar Galactica,&#8221; for which he composed &#8220;the most innovative music on TV today,&#8221; according to Variety. He was declared as one of the &#8220;Ten Best Science Fiction Composers of All Time,&#8221; by io9.com, listing him alongside legends John Williams, Jerry Goldsmith, and Bernard Herrmann.",
+            "McCreary recently earned his fourth Emmy nomination for his work on the first season of the STARZ series &#8220;Outlander,&#8221; for Ronald D. Moore (&#8220;Battlestar Galactica&#8221;).  His current television credits include &#8220;Marvel&#8217;s Agents of S.H.I.E.L.D&#8221;, three series for STARZ including &#8220;Da Vinci's Demons&#8221;, &#8220;Black Sails&#8221;, and &#8220;Outlander&#8221;, and AMC&#8217;s smash hit, &#8220;The Walking Dead,&#8221; where he collaborated with writer/director Frank Darabont (<i>The Shawshank Redemption</i>) and producer Gale Anne Hurd (<i>The Terminator</i>).  McCreary&#8217;s many other credits include: &#8220;Terminator: The Sarah Connor Chronicles,&#8221; &#8220;Constantine,&#8221; &#8220;Defiance,&#8221; &#8220;Intruders,&#8221; &#8220;Eureka,&#8221; &#8220;Caprica,&#8221; &#8220;Trauma,&#8221; and &#8220;The Cape.&#8221; His score for the FOX series &#8220;Human Target&#8221; featured the largest orchestra ever assembled in the history of series television and earned him his first Emmy&reg; nomination.  His feature film work includes <i>Everly</i> (starring Salma Hayek), <i>Knights of Badassdom</i> (starring Peter Dinklage and Summer Glau) and his videogame credits include Sony&#8217;s successful &#8220;SOCOM 4: U.S. NAVY SEALs.&#8221;",
+            "With degrees in composition and recording arts from the prestigious Thornton School of Music at the University of Southern California, McCreary&#8217;s professional training came from film music legend Elmer Bernstein (<i>The Magnificent Seven</i>, <i>The Ten Commandments</i>). He has also conducted orchestral performances of his music in North America and Europe and has been invited to conduct at film music festivals such as Fimucit&eacute; in Tenerife and the International Film Music Festival in &Uacute;beda, Spain."
+        ],
+        "image": false
+    }, {
+        "safename": "ASLAM",
+        "name": "TIM ASLAM",
+        "role": "Costume Designer",
+        "desc": [
+            "Tim worked on &#8220;Black Sails&#8221; season one as the assistant costume designer and came back as costume designer for an epic season two, taking this season&#8217;s wardrobe to a whole new level.",
+            "Tim&#8217;s previous work includes stints as crowd costume supervisor for <i>Les Miserables</i>, &#8220;Gambit,&#8221; and &#8220;Sherlock Holmes: A Game of Shadows.&#8221;",
+            "With a wealth of experience in costume, his credits as assistant costume designer include:  <i>Hugo</i>, <i>Jhootha Hi Sahi</i>, <i>The Nutcracker in 3S</i>, <i>Miss Pettigrew Lives For a Day</i>, <i>Love in the Time of Cholera</i>, <i>Eragon</i>, <i>The League of Extraordinary Gentlemen</i>, <i>The Calling</i>, and <i>Smilla&#8217;s Sense of Snow</i>."
+        ],
+        "image": false
+    }, {
+        "safename": "KRUGER",
+        "name": "EGBERT KRUGER",
+        "role": "Property Master",
+        "desc": [
+            "Egbert Kruger has worked as both property master and art director on many of the films and television series made in South Africa.",
+            "His recent feature film work includes the Justin Chadwick film based on Nelson Mandela&#8217;s book <i>Long Walk To Freedom</i>, <i>Lost Boys: The Thirst</i>, <i>Themba</i>, <i>Safari</i>, <i>Disgrace</i>, <i>Scorpion King 2: Rise of a Warrior</i>, <i>Flashbacks of a Fool</i>, <i>Goodbye Bafana</i>, <i>Story of an African Farm</i>, <i>Malunde</i>, <i>Lord of War</i>, and <i>The Last Face</i> directed by Sean Penn and starting Charlize Theron and Javier Bardem.",
+            "Egbert also worked on the following television series:  &#8220;Treasure Guards,&#8221; &#8220;The Lost Future,&#8221; &#8220;Outcasts,&#8221; &#8220;The Prisoner,&#8221; &#8220;The Triangle,&#8221; &#8220;Flight of The Storks,&#8221; &#8220;Lion Girl,&#8221; &#8220;Spring Break Shark Attack,&#8221; &#8220;Diamond Hunters,&#8221; and &#8220;L&#8217;Ange Tombe du Ciel.&#8221;"
+        ],
+        "image": false
+    }, {
+        "safename": "COLES",
+        "name": "LOUISE COLES",
+        "role": "Assistant Hair and Make-up Designer",
+        "desc": [
+            "Louise worked on season two of &#8220;Black Sails,&#8221; took over from Pamela Haddock with a team that doubled in size to accommodate the ever-expanding world for season three, and she is now prepping season four.",
+            "UK-based, Louise has worked on many films and television series, including: <i>Gullivers Travels</i>, <i>Mamma Mia</i>, <i>Moon</i>, <i>Vampire Academy</i>, <i>The Adventure</i>; <i>Curse of the Midas Box</i>, <i>The Inbetweeners Movie</i>, <i>The Man Who Knew Infinity: A Life of the Genius</i>, <i>Ramanujan</i>, <i>Prince of Persia: Sands of Time</i>, <i>44 Inch Chest</i>, &#8220;The White Queen,&#8221; &#8220;Inspector George Gently,&#8221; &#8220;Sherlock&#8221; season two, &#8220;Sense and Sensibility,&#8221; &#8220;Any Human Heart,&#8221; &#8220;Dickensian,&#8221; &#8220;Glue,&#8221; and &#8220;Lennon Naked.&#8221;"
+        ],
+        "image": false
+    }, {
+        "safename": "PYRANHASTUNTS",
+        "name": "<span>FRANZ SPILLHAUS AND GRANT HULLEY OF PYRANHA STUNTS</spam>",
+        "role": "Stunt Coordinators",
+        "desc": [
+            "Franz and Grant started Pyranha Stunts with basic stunt and rigging equipment stored in their homes.  Going up against the more established houses proved a challenge but before long the industry responded to their dynamic and professional team and the value that they offer.",
+            "In 2006, they moved to their new warehouse in Killarney Gardens, Cape Town where they design and construct state of the art stunt and rigging equipment. No other stunt company in South Africa offers such a diverse range of equipment or level of professionalism.",
+            "As a result the company has been hired to provide services for, amongst other feature films and television series: <i>Avengers: Age of Ultron</i>, <i>Chappie</i>, <i>Blended</i>, <i>District 9</i>, &#8220;Lost City Raiders,&#8221; <i>Philanthropist</i>, <i>Casanova</i>, <i>Kings Ransom</i>, &#8220;Lost Future,&#8221; <i>Dredd</i>, <i>Safe House</i>, <i>Chronicle</i>, <i>Death Race 3</i>, <i>Strike Back 3</i>, <i>Kidnap & Ransom</i>, <i>Labyrinth</i>, and &#8220;How We Invented The World.&#8221;"
         ],
         "image": false
     }],
     "videos": [{
-        "name": "Video 1",
+        "name": "Season Two Recap",
         "desc": "",
-        "path": "https://www.starz.com/videos/embed/b50c0f20720d4d89bf7b1c200fcfa214",
+        "path": "",
         "thumb": "video.jpg"
     }, {
-        "name": "Video 3",
+        "name": "Season Three Overview",
         "desc": "",
-        "path": "https://www.starz.com/videos/embed/13cbd00afdeb40d9a2e77dcd9c9b3133",
-        "thumb": "video.jpg"
-    }, {
-        "name": "Video 3",
-        "desc": "",
-        "path": "https://www.starz.com/videos/embed/dec37aac463e416a94ec2e5b700f49dd",
-        "thumb": "video.jpg"
-    }, {
-        "name": "Video 4",
-        "desc": "",
-        "path": "https://www.starz.com/videos/embed/65b551708fc842fa8790131efcf1bb48",
+        "path": "",
         "thumb": "video.jpg"
     }],
     "pdfs": [{
@@ -124,33 +341,16 @@
     }, {
         "name": "Production Bios",
         "path": "pdfs/blacksails_productionbios.pdf"
-    }, {
-        "name": "Cast Credits",
-        "path": "pdfs/blacksails_castcredits.pdf"
-    }, {
-        "name": "Production Credits",
-        "path": "pdfs/blacksails_productioncredits.pdf"
-    }, {
-        "name": "Production Notes",
-        "path": "pdfs/blacksails_productionnotes.pdf"
-    }, {
-        "name": "Episode Synopses",
-        "path": "pdfs/blacksails_episodesynopses.pdf"
     }],
     "contacts": [{
-        "name": "Theano Apostolou",
-        "email": "theano@starz.com",
-        "phone": "(424) 204-4052",
-        "company": "STARZ Entertainment, LLC."
-    }, {
         "name": "Shannon Buck",
         "email": "shannon.buck@starz.com",
         "phone": "(424) 204-4173",
         "company": "STARZ Entertainment, LLC."
     }, {
-        "name": "Danielle Dusky",
-        "email": "danielle.dusky@starz.com",
-        "phone": "(424) 204-4101",
+        "name": "Kristin Silady",
+        "email": "kristin.silady@starz.com",
+        "phone": "(424) 204-4127",
         "company": "STARZ Entertainment, LLC."
     }]
 }

@@ -62,12 +62,12 @@
 			background-repeat: no-repeat;
 			background-position: 22px 17px;
 			
-			@media screen and (max-width: $downloads-break2) {
+			@media screen and (max-width: $downloads-break1) {
 				width:46%;
 				margin-right:3%;	
 			}
 			
-			@media screen and (max-width: $downloads-break3) {
+			@media screen and (max-width: $downloads-break2) {
 				width:99%;
 				margin-right: 0;	
 			}
@@ -78,18 +78,19 @@
 				.download-name{
 					@extend .downloads-largefont;
 					margin-left: $downloads-pdf-indent;
-					padding-top: 20px;
+					padding-top: 14px;
 					color:$onoverlay-title;
 					text-transform: uppercase;
 					font-weight: 700;
+					letter-spacing: 1.5px;
 
-					@media screen and (max-width: $downloads-break1) {
-						padding-top: 14px;
-					}
+					// @media screen and (max-width: $downloads-break1) {
+					// 	padding-top: 0px;
+					// }
 					
-					@media screen and (max-width: $downloads-break2) {
-						padding-top: 20px;	
-					}
+					// @media screen and (max-width: $downloads-break2) {
+					// 	padding-top: 14px;	
+					// }
 				}
 				
 				.clickto{
@@ -144,6 +145,11 @@
 					@media screen and (max-width: $break-mobile) {
 						padding-top:14px;
 						font-size: 13px;
+						width: auto;
+					}
+
+					@media screen and (max-width: 355px) {
+						padding-top:5px;
 					}
 				}
 			}

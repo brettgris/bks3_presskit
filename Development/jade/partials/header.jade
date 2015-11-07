@@ -7,10 +7,11 @@ div.header
 		//MENU
 		div.menu
 			- for (i in pages)
-				if pages[i].external
-					a.mlink(ng-click="mobilemenu=false" href="#{pages[i].path}" target="_blank" class="#{pages[i].highlight==true ? 'mhighlight' : ''}") #{pages[i].name}
-				else
-					a.mlink.plink(ng-click="menuClick('#{pages[i].path}','#{pages[i].background}')" class="l#{pages[i].path}" path="#{pages[i].path}") #{pages[i].name}
+				if pages[i].menu
+					if pages[i].external
+						a.mlink(ng-click="mobilemenu=false" href="#{pages[i].path}" target="_blank" class="#{pages[i].highlight==true ? 'mhighlight' : ''}") #{pages[i].name}
+					else
+						a.mlink.plink(ng-click="menuClick('#{pages[i].path}','#{pages[i].background}')" class="l#{pages[i].path}" path="#{pages[i].path}") #{pages[i].name}
 
 		//HEADER LOGO
 		a.headerlogo(href="http://www.starz.com/originals/blacksails/featured" target="_blank")
@@ -24,7 +25,8 @@ div.header
 div.mobile-menu(ng-show="mobilemenu" ng-init="mobilemenu = false" ng-cloak)
 	ul.menu-list
 		- for (i in pages)
-			if pages[i].external
-				a.mmlink(ng-click="mobilemenu=false" href="#{pages[i].path}" target="_blank"  class="#{pages[i].highlight==true ? 'mhighlight' : ''}") #{pages[i].name}
-			else
-				a.mmlink.mplink(ng-click="menuClick('#{pages[i].path}','#{pages[i].background}')") #{pages[i].name}
+			if pages[i].menu
+				if pages[i].external
+					a.mmlink(ng-click="mobilemenu=false" href="#{pages[i].path}" target="_blank"  class="#{pages[i].highlight==true ? 'mhighlight' : ''}") #{pages[i].name}
+				else
+					a.mmlink.mplink(ng-click="menuClick('#{pages[i].path}','#{pages[i].background}')") #{pages[i].name}

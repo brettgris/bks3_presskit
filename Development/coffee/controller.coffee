@@ -35,6 +35,10 @@ do ->
 
 		do $scope.windowSize = ->
 			$scope.contentHeight = $window.innerHeight-Number( $('.content').css('top').slice(0,-2) )-$('.footer').height()
+			$scope.contentWidth = $window.innerWidth
+
+		$scope.setQuoteHeight = (h) ->
+			h/526*100+'%'
 
 		angular.element($window).bind 'resize', ->
 			$scope.windowSize()

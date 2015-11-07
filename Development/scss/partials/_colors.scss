@@ -45,7 +45,7 @@ $link-highlight: $yellow;
 //MOBILE LINK
 $ml-background: rgba(256,256,256,.05);
 //MOBILE MENU
-$mm-background: rgba(38,23,3,.3);
+$mm-background: rgba(38,23,3,.5);
 $mm-hover-background: $black;
 $mm-item-background: rgba(38,23,3,.9);
 
@@ -54,10 +54,10 @@ $mm-item-background: rgba(38,23,3,.9);
 /*********************** KEYART ************************/
 
 /************************ CAST *************************/
-$thumb-background: url(#{$imgPath}bg/pattern.jpg) #000 center center repeat-x;
+$thumb-background: url(#{$imgPath}bg/castlist.png) center center;
 
 /************************ PROD *************************/
-$prod-background: url(#{$imgPath}bg/prodlist.jpg) $yellow center center;
+$prod-background: url(#{$imgPath}bg/prodlist2.png) center center;
 
 $prod-thumb-background: transparent;
 $prod-thumb-hover: $overlay-item-hover;

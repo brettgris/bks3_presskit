@@ -13,7 +13,10 @@ div#cast.cast.section(ng-show="page==='cast'" ng-init="castNum=0")
 		div.character(ng-repeat="Cast in cast" ng-show="$index==castNum" class="{{(direction)?'forward':'backward'}}")
 			div.character-image(style="background-image:url(images/cast/{{Cast.safename}}_l.jpg)")
 			div.character-copy
-				div.character-name(ng-bind-html="safeHTML(Cast.name)")
+				div.icon(style="background-image:url(images/cast/{{Cast.safename}}_i.png)")
+				div.quote(style="background-image:url(images/cast/{{Cast.safename}}_q.png);padding-top:{{ setQuoteHeight(Cast.quoteheight) }};")
+				//div.character-name(ng-bind-html="safeHTML(Cast.name)")
+				div.character-name(style="background-image:url(images/cast/{{Cast.safename}}_n.png)")
 				div.actor-name(ng-bind-html="safeHTML(Cast.actor)")
 				div.character-desc(ng-bind-html="safeHTML(Cast.desc)")
 

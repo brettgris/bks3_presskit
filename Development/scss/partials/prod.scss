@@ -6,6 +6,7 @@
 		position:absolute;
 		left: 50%;
 		margin-left: -1*$prod-container-width/2;
+		height: 600px;
 		
 		@media screen and (max-width: $prod-container-width) {
 			position:static;
@@ -18,8 +19,7 @@
 			padding-bottom:100px;
 			position: absolute;
 			width:$prod-width;
-			margin-left: $prod-width/-2 + .12*$prod-container-width;
-			left:50%;
+			left: $prod-left;
 			top:30px;
 			
 			@media screen and (max-width: $prod-container-width) {
@@ -28,7 +28,7 @@
 				margin-left: -34%;
 			}
 			
-			@media screen and (max-width: $prod-arrow-break) {
+			@media screen and (max-width: $break-medium) {
 				width:90%;
 				left:50%;
 				margin-left: -45%;
@@ -51,14 +51,14 @@
 			}
 
 			&.forward.ng-hide-add {
-				left:50%;
+				left:$prod-left;
 				opacity:1;
 
 				@media screen and (max-width: $prod-container-width) {
 					left:$prod-offcenter;
 				}
 				
-				@media screen and (max-width: $prod-arrow-break) {
+				@media screen and (max-width: $break-medium) {
 					left:50%;
 				}
 			}
@@ -71,27 +71,27 @@
 				opacity: 0;
 			}
 			&.forward.ng-hide-remove.ng-hide-remove-active {
-				left:50%;
+				left:$prod-left;
 				opacity:1;
 
 				@media screen and (max-width: $prod-container-width) {
 					left:$prod-offcenter;
 				}
 				
-				@media screen and (max-width: $prod-arrow-break) {
+				@media screen and (max-width: $break-medium) {
 					left:50%;
 				}
 			}
 
 			&.backward.ng-hide-add {
-				left:50%;
+				left:$prod-left;
 				opacity:1;
 
 				@media screen and (max-width: $prod-container-width) {
 					left:$prod-offcenter;
 				}
 				
-				@media screen and (max-width: $prod-arrow-break) {
+				@media screen and (max-width: $break-medium) {
 					left:50%;
 				}
 			}
@@ -104,14 +104,14 @@
 				opacity: 0;
 			}
 			&.backward.ng-hide-remove.ng-hide-remove-active {
-				left:50%;
+				left:$prod-left;
 				opacity:1;
 
 				@media screen and (max-width: $prod-container-width) {
 					left:$prod-offcenter;
 				}
 				
-				@media screen and (max-width: $prod-arrow-break) {
+				@media screen and (max-width: $break-medium) {
 					left:50%;
 				}
 			}
@@ -144,6 +144,7 @@
 			&-name{
 				@extend .nameitem;
 				margin-top: 40px;
+				width:60%;
 			}
 			
 			&-position{
@@ -168,8 +169,9 @@
 		.prod-list{
 			background: $prod-background;
 			background-size: 100% auto;
-			border-right:$prod-border;
-			border-left:$prod-border;
+			background-repeat: no-repeat;
+			//border-right:$prod-border;
+			//border-left:$prod-border;
 			width:$prod-list-width;
 			height:100%;
 			top:$menu-height;
@@ -178,36 +180,48 @@
 			//margin-top: 10px;
 			
 			@media screen and (max-width: $prod-container-width) {
-				border-left: 1px solid transparent;
+				//border-left: 1px solid transparent;
 				width: 28%;	
 			}
 			
-			@media screen and (max-width: $prod-arrow-break) {
+			@media screen and (max-width: $break-medium) {
 				display:none;
 			}
 			
 			.t-prod{
 				display: block;
-				height:$prod-thumb-height;
-				padding-left: $prod-thumb-spacing;
+				//height:$prod-thumb-height;
+				margin-left: $prod-thumb-spacing;
+				margin-right: $prod-thumb-spacing;
+				padding: 0 20px;
 				line-height: $prod-thumb-height;
 				border-bottom:$prod-border-light;
-				background: $prod-thumb-background;
+				text-align: center;
+				font-size: $font-size - 1;
+				//background: $prod-thumb-background;
+				
 				//text-align: center;
 				border-top:1px solid transparent;
 				border-bottom:1px solid transparent;
 				margin-bottom: 1px;
 				color: $prod-thumb-color;
+				cursor: pointer;
 				
 				&:first-child{
 					margin-top: 10px;
 				}
+
+				span{
+					display: block;
+					line-height: normal;
+				}
 				
 				&:hover, &.selected{
 					background: $prod-thumb-hover;
-					border-top:$prod-thumb-border-hover;
-					border-bottom:$prod-thumb-border-hover;
-					color:white;
+					border:$prod-thumb-border-hover;
+					//border-bottom:$prod-thumb-border-hover;
+					color:$white;
+					//text-decoration: underline;
 				}
 			}
 		}
@@ -216,7 +230,7 @@
 			@extend .arrow-container;
 			width:$prod-arrows-width;
 			z-index: $prod-zindex;
-			left:$prod-left + ($prod-width - $prod-arrows-width)/2;
+			left:$prod-arrow-left;
 			top:$prod-arrows-top;
 			
 			@media screen and (max-width: $prod-container-width) {
@@ -226,17 +240,21 @@
 				margin-left: -34%;	
 			}
 			
-			@media screen and (max-width: $prod-arrow-break) {
+			@media screen and (max-width: $break-medium) {
 				width:90%;
 				left:50%;
 				margin-left: -45%;
 				top:60px
 			}
+
+			@media screen and (max-width: $break-mobile) {
+				top: 40px;
+			}
 			
 			&.withimage{
 				top: $prod-arrows-top2;	
 				
-				@media screen and (max-width: $prod-arrow-break) {
+				@media screen and (max-width: $break-medium) {
 					//top:$prod-arrows-top2*.5;
 					top:85px;
 				}

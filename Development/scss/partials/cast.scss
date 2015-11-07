@@ -3,7 +3,9 @@
 	
 	.thumb-container{
 		background: $thumb-background;
-		border-bottom:$thumb-border;
+		background-repeat: repeat-x;
+		background-position: center bottom;
+		//border-bottom:$thumb-border;
 		height: $thumb-item-height + ($thumb-padding*2);
 		margin-bottom: $thumb-margin-bottom;
 		position: fixed;
@@ -164,9 +166,39 @@
 			@media screen and (max-width: $break-cast-small) {
 				width:100%;	
 			}
+
+			.icon{
+				width: $character-quote-width;
+				margin: auto;
+				padding-top: $character-icon-height;
+				background-size: contain;
+				background-repeat: no-repeat;
+			}
+
+			.quote{
+				width: $character-quote-width;
+				margin: auto;
+				//padding-top: $character-quote-height;
+				background-size: contain;
+				background-repeat: no-repeat;
+				margin-bottom: 5px;
+
+				@media screen and (max-width: $break-mobile) {
+					width:100%;
+					//padding-top: $character-quote-height-mobile;
+				}
+			}
 			
 			.character-name{
 				@extend .nameitem;
+				width: $character-quote-width;
+				background-position: center center;
+				padding-top: 20px;
+				background-size:auto;
+
+				@media screen and (max-width: $break-mobile) {
+					width:100%;
+				}
 			}
 			
 			.actor-name{
@@ -196,14 +228,14 @@
 		@media screen and (max-width: $break-cast-medium) {
 			width: $character-width;
 			margin-left: -1*$character-width/2;
-			top: $thumb-item-height + $thumb-item-spacing*2 + 34 + $character-photo-height;
+			top: $thumb-item-height + $thumb-item-spacing*2 + 94 + $character-photo-height;
 		}
 		
 		@media screen and (max-width: $break-cast-small) {
 			width:90%;
 			margin-left:-45%;
 			//top: $character-photo-height*.5 + $thumb-item-height;
-			top: $character-photo-height*.5 + 20;
+			top: $character-photo-height*.5 + 40;
 		}
 
 		.cast-prev{

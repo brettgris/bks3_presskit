@@ -41,6 +41,7 @@
 /********************** DOWNLOADS **********************/
 /*********************** FOOTER ************************/
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700,100,300,900,400italic);
+@import url(https://fonts.googleapis.com/css?family=EB+Garamond);
 /************************ HEADER ***********************/
 /************************ INTRO ************************/
 /*********************** KEYART ************************/
@@ -82,26 +83,26 @@
     .header {
       height: 50px; } }
   .header .header-container {
-    width: 1080px;
+    width: 1100px;
     margin: auto;
     position: relative; }
-    @media screen and (max-width: 1080px) {
+    @media screen and (max-width: 1100px) {
       .header .header-container {
         width: 100%; } }
     .header .header-container .logo {
       position: absolute;
       background: url(../images/ta.png) no-repeat center center;
-      width: 304px;
-      height: 49px;
-      top: 15.5px;
+      width: 280px;
+      height: 45.13158px;
+      top: 17.43421px;
       left: 10px;
       background-size: contain;
       cursor: hand; }
       @media screen and (max-width: 500px) {
         .header .header-container .logo {
-          width: 167.2px;
-          height: 26.95px;
-          top: 11.525px; } }
+          width: 154px;
+          height: 24.82237px;
+          top: 12.58882px; } }
     .header .header-container .headerlogo {
       position: absolute;
       right: 10px;
@@ -118,13 +119,14 @@
     .header .header-container .menu {
       text-align: center;
       position: absolute;
-      width: 643px;
-      top: 32px;
-      left: 324px; }
+      width: 687px;
+      top: 31.5px;
+      left: 300px; }
       .header .header-container .menu .mlink {
         color: #ddd;
         font-size: 16px;
         border-right: 1px solid rgba(115, 139, 156, 0.4);
+        letter-spacing: 1.5px;
         padding: 0 5px;
         display: inline-block; }
         .header .header-container .menu .mlink:last-child {
@@ -133,7 +135,7 @@
           color: #ebca84; }
         .header .header-container .menu .mlink:hover {
           color: #fff; }
-      @media screen and (max-width: 1080px) {
+      @media screen and (max-width: 1100px) {
         .header .header-container .menu {
           display: none; } }
     .header .header-container .mobile-link {
@@ -141,18 +143,18 @@
       width: 35px;
       height: 35px;
       position: absolute;
-      left: 324px;
+      left: 300px;
       border: 2px solid #ddd;
       top: 20.5px;
       display: none; }
-      @media screen and (max-width: 1080px) {
+      @media screen and (max-width: 1100px) {
         .header .header-container .mobile-link {
           display: block; } }
       @media screen and (max-width: 500px) {
         .header .header-container .mobile-link {
           width: 30px;
           height: 30px;
-          left: 187.2px;
+          left: 174px;
           top: 8px; } }
       .header .header-container .mobile-link span {
         display: block;
@@ -221,13 +223,16 @@
   .mobile-menu.ng-hide-remove.ng-hide-remove-active {
     opacity: 1;
     height: 100%; }
+  @media screen and (min-width: 1101px) {
+    .mobile-menu {
+      display: none !important; } }
   .mobile-menu .menu-list {
     width: 100%;
     height: 1000px;
     position: absolute;
     right: 0px;
     top: 80px;
-    background: rgba(38, 23, 3, 0.3); }
+    background: rgba(38, 23, 3, 0.5); }
     @media screen and (max-width: 500px) {
       .mobile-menu .menu-list {
         top: 50px; } }
@@ -253,8 +258,9 @@
   padding: 0; }
 
 body {
-  font-family: "Lato", Helvetica, Arial, sans-serif;
-  font-size: 15px;
+  font-family: "EB Garamond", "Times New Roman", Georgia, Serif;
+  font-size: 16px;
+  letter-spacing: 1.2px;
   width: 100%;
   height: 100%;
   color: #000;
@@ -297,8 +303,8 @@ li {
 TEXT
 ***************/
 .textblock, .keyart .copy-container .synposis, .cast .character-copy .character-desc, .production .prod-container .prod .prod-copy p {
-  font-size: 15px;
-  line-height: 20px;
+  font-size: 16px;
+  line-height: 22px;
   text-align: justify;
   color: #aaa; }
   @media screen and (max-width: 500px) {
@@ -406,17 +412,17 @@ CAST / PROD
     .nameitem, .cast .character-copy .character-name, .production .prod-container .prod-name {
       background-size: contain;
       font-size: 16px;
-      line-height: 12px; } }
+      line-height: 18px; } }
 
 .titleitem, .cast .character-copy .actor-name, .production .prod-container .prod-position {
-  font-size: 18px;
+  font-size: 15px;
   line-height: 20px;
   text-align: center;
   text-transform: uppercase;
   font-style: italic;
   margin-top: 5px;
   margin-bottom: 10px;
-  color: #ddd; }
+  color: #ebca84; }
   @media screen and (max-width: 500px) {
     .titleitem, .cast .character-copy .actor-name, .production .prod-container .prod-position {
       width: 100%;
@@ -452,7 +458,8 @@ PAGES
   width: 100%;
   z-index: 5;
   padding-top: 0px !important;
-  overflow: hidden; }
+  overflow: hidden;
+  color: #fff; }
   .intro .intro-container {
     height: 500px; }
     .intro .intro-container .intro-item {
@@ -616,9 +623,10 @@ PAGES
 .cast {
   padding-top: 0px !important; }
   .cast .thumb-container {
-    background: url(../images/bg/pattern.jpg) #000 center center repeat-x;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
-    height: 85px;
+    background: url(../images/bg/castlist.png) center center;
+    background-repeat: repeat-x;
+    background-position: center bottom;
+    height: 95px;
     margin-bottom: 20px;
     position: fixed;
     width: 100%;
@@ -628,7 +636,7 @@ PAGES
         display: none; } }
     .cast .thumb-container .thumb-list {
       height: 67px;
-      margin: 9px auto 0 auto;
+      margin: 14px auto 0 auto;
       width: 560px;
       overflow: hidden; }
       .cast .thumb-container .thumb-list .t-cast {
@@ -650,7 +658,7 @@ PAGES
     left: 50%;
     width: 526px;
     margin-left: -264px;
-    top: 100px; }
+    top: 130px; }
     .cast .character.ng-hide-add, .cast .character.ng-hide-remove {
       -moz-transition-property: all;
       -o-transition-property: all;
@@ -757,13 +765,36 @@ PAGES
       @media screen and (max-width: 570px) {
         .cast .character-copy {
           width: 100%; } }
+      .cast .character-copy .icon {
+        width: 100%;
+        margin: auto;
+        padding-top: 22.43346%;
+        background-size: contain;
+        background-repeat: no-repeat; }
+      .cast .character-copy .quote {
+        width: 100%;
+        margin: auto;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-bottom: 5px; }
+        @media screen and (max-width: 500px) {
+          .cast .character-copy .quote {
+            width: 100%; } }
+      .cast .character-copy .character-name {
+        width: 100%;
+        background-position: center center;
+        padding-top: 20px;
+        background-size: auto; }
+        @media screen and (max-width: 500px) {
+          .cast .character-copy .character-name {
+            width: 100%; } }
       .cast .character-copy .character-desc {
         margin-top: 10px; }
   .cast .cast-arrows {
     left: 50%;
     width: 616px;
     margin-left: -308px;
-    top: 225px; }
+    top: 255px; }
     @media screen and (max-height: 900px) {
       .cast .cast-arrows {
         width: 481.6px;
@@ -773,12 +804,12 @@ PAGES
       .cast .cast-arrows {
         width: 526px;
         margin-left: -263px;
-        top: 419px; } }
+        top: 479px; } }
     @media screen and (max-width: 570px) {
       .cast .cast-arrows {
         width: 90%;
         margin-left: -45%;
-        top: 170px; } }
+        top: 190px; } }
 
 .production {
   padding-top: 0px !important; }
@@ -786,7 +817,8 @@ PAGES
     width: 1100px;
     position: absolute;
     left: 50%;
-    margin-left: -550px; }
+    margin-left: -550px;
+    height: 600px; }
     @media screen and (max-width: 1100px) {
       .production .prod-container {
         position: static;
@@ -797,15 +829,14 @@ PAGES
       padding-bottom: 100px;
       position: absolute;
       width: 682px;
-      margin-left: -209px;
-      left: 50%;
+      left: 33.77273%;
       top: 30px; }
       @media screen and (max-width: 1100px) {
         .production .prod-container .prod {
           width: 68%;
           left: 64%;
           margin-left: -34%; } }
-      @media screen and (max-width: 745px) {
+      @media screen and (max-width: 1020px) {
         .production .prod-container .prod {
           width: 90%;
           left: 50%;
@@ -840,12 +871,12 @@ PAGES
         -webkit-transition-timing-function: linear;
         transition-timing-function: linear; }
       .production .prod-container .prod.forward.ng-hide-add {
-        left: 50%;
+        left: 33.77273%;
         opacity: 1; }
         @media screen and (max-width: 1100px) {
           .production .prod-container .prod.forward.ng-hide-add {
             left: 64%; } }
-        @media screen and (max-width: 745px) {
+        @media screen and (max-width: 1020px) {
           .production .prod-container .prod.forward.ng-hide-add {
             left: 50%; } }
       .production .prod-container .prod.forward.ng-hide-add.ng-hide-add-active {
@@ -855,21 +886,21 @@ PAGES
         left: 100%;
         opacity: 0; }
       .production .prod-container .prod.forward.ng-hide-remove.ng-hide-remove-active {
-        left: 50%;
+        left: 33.77273%;
         opacity: 1; }
         @media screen and (max-width: 1100px) {
           .production .prod-container .prod.forward.ng-hide-remove.ng-hide-remove-active {
             left: 64%; } }
-        @media screen and (max-width: 745px) {
+        @media screen and (max-width: 1020px) {
           .production .prod-container .prod.forward.ng-hide-remove.ng-hide-remove-active {
             left: 50%; } }
       .production .prod-container .prod.backward.ng-hide-add {
-        left: 50%;
+        left: 33.77273%;
         opacity: 1; }
         @media screen and (max-width: 1100px) {
           .production .prod-container .prod.backward.ng-hide-add {
             left: 64%; } }
-        @media screen and (max-width: 745px) {
+        @media screen and (max-width: 1020px) {
           .production .prod-container .prod.backward.ng-hide-add {
             left: 50%; } }
       .production .prod-container .prod.backward.ng-hide-add.ng-hide-add-active {
@@ -879,12 +910,12 @@ PAGES
         left: 0%;
         opacity: 0; }
       .production .prod-container .prod.backward.ng-hide-remove.ng-hide-remove-active {
-        left: 50%;
+        left: 33.77273%;
         opacity: 1; }
         @media screen and (max-width: 1100px) {
           .production .prod-container .prod.backward.ng-hide-remove.ng-hide-remove-active {
             left: 64%; } }
-        @media screen and (max-width: 745px) {
+        @media screen and (max-width: 1020px) {
           .production .prod-container .prod.backward.ng-hide-remove.ng-hide-remove-active {
             left: 50%; } }
       .production .prod-container .prod-image {
@@ -907,7 +938,8 @@ PAGES
         width: 100%;
         margin: auto; }
       .production .prod-container .prod-name {
-        margin-top: 40px; }
+        margin-top: 40px;
+        width: 60%; }
       .production .prod-container .prod-position {
         width: 50%;
         margin-left: auto;
@@ -920,44 +952,47 @@ PAGES
       .production .prod-container .prod .prod-copy p {
         margin-top: 10px; }
     .production .prod-container .prod-list {
-      background: url(../images/bg/prodlist.jpg) #ebca84 center center;
+      background: url(../images/bg/prodlist2.png) center center;
       background-size: 100% auto;
-      border-right: 1px solid rgba(0, 0, 0, 0.5);
-      border-left: 1px solid rgba(0, 0, 0, 0.5);
-      width: 235px;
+      background-repeat: no-repeat;
+      width: 325px;
       height: 100%;
       top: 80px;
       position: fixed;
       z-index: 5; }
       @media screen and (max-width: 1100px) {
         .production .prod-container .prod-list {
-          border-left: 1px solid transparent;
           width: 28%; } }
-      @media screen and (max-width: 745px) {
+      @media screen and (max-width: 1020px) {
         .production .prod-container .prod-list {
           display: none; } }
       .production .prod-container .prod-list .t-prod {
         display: block;
-        height: 32px;
-        padding-left: 20px;
-        line-height: 32px;
+        margin-left: 25px;
+        margin-right: 25px;
+        padding: 0 20px;
+        line-height: 26px;
         border-bottom: 1px solid transparent;
-        background: transparent;
+        text-align: center;
+        font-size: 15px;
         border-top: 1px solid transparent;
         border-bottom: 1px solid transparent;
         margin-bottom: 1px;
-        color: #404040; }
+        color: #404040;
+        cursor: pointer; }
         .production .prod-container .prod-list .t-prod:first-child {
           margin-top: 10px; }
+        .production .prod-container .prod-list .t-prod span {
+          display: block;
+          line-height: normal; }
         .production .prod-container .prod-list .t-prod:hover, .production .prod-container .prod-list .t-prod.selected {
           background: rgba(38, 23, 3, 0.95);
-          border-top: 1px solid rgba(0, 0, 0, 0.5);
-          border-bottom: 1px solid rgba(0, 0, 0, 0.5);
-          color: white; }
+          border: 1px solid rgba(0, 0, 0, 0.5);
+          color: #fff; }
     .production .prod-container .prod-arrows {
       width: 561px;
       z-index: 5;
-      left: 387px;
+      left: 432px;
       top: 70px; }
       @media screen and (max-width: 1100px) {
         .production .prod-container .prod-arrows {
@@ -965,15 +1000,18 @@ PAGES
           margin-left: -280.5px;
           width: 68%;
           margin-left: -34%; } }
-      @media screen and (max-width: 745px) {
+      @media screen and (max-width: 1020px) {
         .production .prod-container .prod-arrows {
           width: 90%;
           left: 50%;
           margin-left: -45%;
           top: 60px; } }
+      @media screen and (max-width: 500px) {
+        .production .prod-container .prod-arrows {
+          top: 40px; } }
       .production .prod-container .prod-arrows.withimage {
         top: 150px; }
-        @media screen and (max-width: 745px) {
+        @media screen and (max-width: 1020px) {
           .production .prod-container .prod-arrows.withimage {
             top: 85px; } }
 
@@ -1188,6 +1226,8 @@ PAGES
     @media screen and (max-width: 725px) {
       .video-list .video-items {
         width: 85%; } }
+    .video-list .video-items h3 {
+      margin-bottom: 10px; }
     .video-list .video-items .video-item {
       width: 100%;
       background: url(../images/video/video.jpg) rgba(38, 23, 3, 0.75) 10px 10px no-repeat;
@@ -1258,26 +1298,21 @@ PAGES
     background-image: url(../images/pdf_icon.png);
     background-repeat: no-repeat;
     background-position: 22px 17px; }
-    @media screen and (max-width: 1000px) {
+    @media screen and (max-width: 1100px) {
       .downloads-content .downloads-list li {
         width: 46%;
         margin-right: 3%; } }
-    @media screen and (max-width: 700px) {
+    @media screen and (max-width: 1000px) {
       .downloads-content .downloads-list li {
         width: 99%;
         margin-right: 0; } }
     .downloads-content .downloads-list li a .download-name {
       margin-left: 65px;
-      padding-top: 20px;
+      padding-top: 14px;
       color: #fff;
       text-transform: uppercase;
-      font-weight: 700; }
-      @media screen and (max-width: 1100px) {
-        .downloads-content .downloads-list li a .download-name {
-          padding-top: 14px; } }
-      @media screen and (max-width: 1000px) {
-        .downloads-content .downloads-list li a .download-name {
-          padding-top: 20px; } }
+      font-weight: 700;
+      letter-spacing: 1.5px; }
     .downloads-content .downloads-list li a .clickto {
       margin-left: 65px;
       font-size: 12px;
@@ -1311,7 +1346,11 @@ PAGES
       @media screen and (max-width: 500px) {
         .downloads-content .mediaroom .mediaroom-list a span {
           padding-top: 14px;
-          font-size: 13px; } }
+          font-size: 13px;
+          width: auto; } }
+      @media screen and (max-width: 355px) {
+        .downloads-content .mediaroom .mediaroom-list a span {
+          padding-top: 5px; } }
   .downloads-content .contacts li {
     width: 30%;
     float: left;

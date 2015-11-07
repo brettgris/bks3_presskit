@@ -1,39 +1,52 @@
 {
     "pages": [{
+        "name": "Intro",
+        "path": "intro",
+        "external": false,
+        "menu": false,
+        "background": "black no-repeat center top"
+    }, {
         "name": "Synopsis",
         "path": "synopsis",
         "external": false,
+        "menu": true,
         "background": "black no-repeat center top"
     }, {
         "name": "Cast",
         "path": "cast",
         "external": false,
+        "menu": true,
         "background": "url(images/bg/shipstorm.jpg) black no-repeat center top "
     }, {
         "name": "Production Bios",
         "path": "production",
         "external": false,
+        "menu": true,
         "background": "url(images/bg/river.jpg) black no-repeat center top"
     }, {
         "name": "Gallery",
         "path": "http://starz.mediaroom.com/index.php?s=64&cat=81",
         "external": true,
+        "menu": true,
         "background": "black no-repeat center top"
     }, {
         "name": "Videos",
         "path": "videos",
         "external": false,
+        "menu": true,
         "background": "url(images/bg/fireships.jpg) black no-repeat center top"
     }, {
         "name": "Screening Room",
         "path": "https://microsites.starz.com/ScreeningRoom/Account/Login",
         "external": true,
         "highlight": true,
+        "menu": true,
         "background": ""
     }, {
         "name": "Press Materials",
         "path": "downloads",
         "external": false,
+        "menu": true,
         "background": "url(images/bg/ships.jpg) black no-repeat center top"
     }]
 }

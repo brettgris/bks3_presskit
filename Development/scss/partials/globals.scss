@@ -6,6 +6,7 @@
 body{
 	font-family: $font-family;
 	font-size: $font-size;
+	letter-spacing: $font-spacing;
 	width:100%;
 	height:100%;
 	color:$font-color;
@@ -175,19 +176,19 @@ CAST / PROD
 	@media screen and (max-width: $break-mobile) {
 		background-size:contain;
 		font-size:16px;
-		line-height: 12px;
+		line-height: 18px;
 	}
 }
 
 .titleitem{
-	font-size: 18px;
+	font-size: 15px;
 	line-height: 20px;
 	text-align: center;
 	text-transform: uppercase;
 	font-style: italic;
 	margin-top: 5px;
 	margin-bottom: 10px;
-	color:$light-grey;
+	color: $castprod-title;
 				
 	@media screen and (max-width: $break-mobile) {
 		width:	100%;

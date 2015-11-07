@@ -5,11 +5,13 @@ $arrow-height: 50px;
 
 /************************ HEADER ***********************/
 $menu-height:80px;
-$menu-width:1080px;
+$menu-width:1100px;
 
 //SHOW TA
-$logo-width:304px;
-$logo-height:49px;
+$logo-width:280px;
+
+$logo-height: $logo-width*49/304;
+//$logo-height:49px;
 $logo-space:10px;
 
 //STARZ LOGO
@@ -52,7 +54,7 @@ $key-tunein-ratio: 53/346;
 
 /************************ CAST *************************/
 //THUMBS
-$thumb-padding: 10px;
+$thumb-padding: 15px;
 $thumb-margin-bottom: 20px;
 $thumb-item-width:45px;
 $thumb-item-height:65px;
@@ -61,13 +63,19 @@ $thumb-item-spacing:10px;
 $thumb-width: ( $thumb-item-width + $thumb-item-border-size*2 )*$character-count + ($thumb-item-spacing * ($character-count - 1));
 
 //CHARACTER
-$character-top: $menu-height+20;
+$character-top: $menu-height+50;
 $character-width:526px;
 $character-width-wide: 975px;
 $character-photo-height:300px;
 
 $character-name-width:342px;
 $character-name-height:72px;
+
+//QUOTE SIZING
+$character-quote-width: 100%;
+$character-quote-height: 62/526 * $character-quote-width;
+$character-quote-height-mobile: 62/526 *100%;
+$character-icon-height: 118/526 * $character-quote-width;
 
 //ARROWS
 $arrow-width:29px;
@@ -82,19 +90,22 @@ $prod-width:$prod-container-width*.62;
 $prod-image-width:403px;
 $prod-image-height: 300px;
 
-$prod-list-width:235px;
+$prod-list-width:325px;
 
-$prod-thumb-height:32px;
-$prod-thumb-spacing:20px;
+$prod-thumb-height:26px;
+$prod-thumb-spacing:25px;
 
-$prod-arrows-width:$prod-image-width+$arrow-width*2+100;
+$prod-arrows-width: $prod-image-width+$arrow-width*2+100;
 $prod-arrows-top:70px;
 $prod-arrows-top2:150px;
 
 $prod-name-width: 342px;
 $prod-name-height: 72px;
 
-$prod-left:$prod-list-width + ($prod-container-width - ($prod-list-width + $prod-width))/2;
+$prod-left: ($prod-container-width - $prod-list-width - $prod-width)/2 + $prod-list-width;
+$prod-arrow-left: $prod-left+($prod-width - $prod-arrows-width)/2;
+
+$prod-left: $prod-left/$prod-container-width * 100%;
 
 $prod-offcenter: 64%;
 

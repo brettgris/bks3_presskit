@@ -12,6 +12,7 @@ div#video.videos.section(ng-show="page==='videos'" ng-init="videoNum=-1")
 				div.video-desc {{videos[videoNum].desc}}
 		//VIDEO ITEMS
 		div.video-items(ng-show="videoNum<0")
+			div.pagetitle(style="background-image:url(images/titles/videos.png);")
 			a.video-item(ng-repeat="Video in videos" ng-click="thumbClick($index,'videoNum')" style="background-image:url(images/video/{{Video.thumb}})")
 				div.video-copy
 					div.video-name {{Video.name}}

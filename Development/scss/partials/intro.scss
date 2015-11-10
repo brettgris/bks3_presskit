@@ -6,35 +6,71 @@
 	color: $white;
 
 	.intro-container{
-		height: 500px;
+		height: $intro-item-height;
 
 		.intro-item{
-			width:100%;
-			height: 500px;
 			position: absolute;
-			top:0;
 			left:50%;
-			display: none;
-			margin-left: -50%;
-			height:1000px;
+			width: $intro-item-width;
+			height: $intro-item-height;
+			top:30px;
+			margin-left: $intro-item-width/-2;
+			background-size:contain;
+			background-position: center center;
+			background-repeat: no-repeat;
 
-			&:first-child{
-				display: block;
+			&.ng-hide-add, &.ng-hide-remove{
+				@include transition-property(all);
+	  			@include transition-duration(0s);
+	  			@include transition-timing-function(linear);
 			}
 
-			.intro-animate{
-				position: absolute;
-				top:0;
-				left:0;
-				display: none;
+			&.forward.ng-hide-add-active, &.forward.ng-hide-remove-active, &.backward.ng-hide-add-active, &.backward.ng-hide-remove-active{
+				@include transition-property(all);
+	  			@include transition-duration(.2s);
+	  			@include transition-timing-function(linear);
+			}
 
-				div{
-					position: absolute;
-					top:0;
-					left:0;
-					width: 100%;
-					height: 100%;
-				}
+			&.forward.ng-hide-add {
+				left:50%;
+				opacity:1;
+			}
+			&.forward.ng-hide-add.ng-hide-add-active { 
+				left:0%;
+				opacity:0;
+			}
+			&.forward.ng-hide-remove {
+				left:100%;
+				opacity: 0;
+			}
+			&.forward.ng-hide-remove.ng-hide-remove-active {
+				left:50%;
+				opacity:1;
+			}
+
+			&.backward.ng-hide-add {
+				left:50%;
+				opacity:1;
+			}
+			&.backward.ng-hide-add.ng-hide-add-active { 
+				left:100%;
+				opacity:0;
+			}
+			&.backward.ng-hide-remove {
+				left:0%;
+				opacity: 0;
+			}
+			&.backward.ng-hide-remove.ng-hide-remove-active {
+				left:50%;
+				opacity:1;
+			}
+
+			@media screen and (max-width: $downloads-break1) {
+				width: 85%;
+				margin-left: -42.5%;
+
+				height: auto;
+				padding-top: $intro-item-height/$intro-item-width * 85%;
 			}
 		}
 
@@ -44,6 +80,22 @@
 			left:50%;
 			margin-left: $intro-arrow-width/-2;
 			top:$intro-arrows-top;
+
+			@media screen and (max-width: $downloads-break1) {
+				width: 95%;
+				margin-left: -47.5%;
+
+				top:30px;
+				padding-top: $intro-item-height/$intro-item-width * 37.5%;
+
+				a{
+					top:auto !important;
+				}
+			}
+
+			@media screen and (max-width: $downloads-break3) {
+				display: none;
+			}
 
 			.next{
 				@extend .nextbtn;

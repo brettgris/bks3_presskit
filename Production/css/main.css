@@ -299,6 +299,14 @@ li {
 [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
   display: none !important; }
 
+.pagetitle {
+  width: 100%;
+  height: 22px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left center;
+  margin-bottom: 15px; }
+
 /***************
 TEXT
 ***************/
@@ -461,34 +469,89 @@ PAGES
   overflow: hidden;
   color: #fff; }
   .intro .intro-container {
-    height: 500px; }
+    height: 768px; }
     .intro .intro-container .intro-item {
-      width: 100%;
-      height: 500px;
       position: absolute;
-      top: 0;
       left: 50%;
-      display: none;
-      margin-left: -50%;
-      height: 1000px; }
-      .intro .intro-container .intro-item:first-child {
-        display: block; }
-      .intro .intro-container .intro-item .intro-animate {
-        position: absolute;
-        top: 0;
-        left: 0;
-        display: none; }
-        .intro .intro-container .intro-item .intro-animate div {
-          position: absolute;
-          top: 0;
-          left: 0;
-          width: 100%;
-          height: 100%; }
+      width: 1000px;
+      height: 768px;
+      top: 30px;
+      margin-left: -500px;
+      background-size: contain;
+      background-position: center center;
+      background-repeat: no-repeat; }
+      .intro .intro-container .intro-item.ng-hide-add, .intro .intro-container .intro-item.ng-hide-remove {
+        -moz-transition-property: all;
+        -o-transition-property: all;
+        -webkit-transition-property: all;
+        transition-property: all;
+        -moz-transition-duration: 0s;
+        -o-transition-duration: 0s;
+        -webkit-transition-duration: 0s;
+        transition-duration: 0s;
+        -moz-transition-timing-function: linear;
+        -o-transition-timing-function: linear;
+        -webkit-transition-timing-function: linear;
+        transition-timing-function: linear; }
+      .intro .intro-container .intro-item.forward.ng-hide-add-active, .intro .intro-container .intro-item.forward.ng-hide-remove-active, .intro .intro-container .intro-item.backward.ng-hide-add-active, .intro .intro-container .intro-item.backward.ng-hide-remove-active {
+        -moz-transition-property: all;
+        -o-transition-property: all;
+        -webkit-transition-property: all;
+        transition-property: all;
+        -moz-transition-duration: 0.2s;
+        -o-transition-duration: 0.2s;
+        -webkit-transition-duration: 0.2s;
+        transition-duration: 0.2s;
+        -moz-transition-timing-function: linear;
+        -o-transition-timing-function: linear;
+        -webkit-transition-timing-function: linear;
+        transition-timing-function: linear; }
+      .intro .intro-container .intro-item.forward.ng-hide-add {
+        left: 50%;
+        opacity: 1; }
+      .intro .intro-container .intro-item.forward.ng-hide-add.ng-hide-add-active {
+        left: 0%;
+        opacity: 0; }
+      .intro .intro-container .intro-item.forward.ng-hide-remove {
+        left: 100%;
+        opacity: 0; }
+      .intro .intro-container .intro-item.forward.ng-hide-remove.ng-hide-remove-active {
+        left: 50%;
+        opacity: 1; }
+      .intro .intro-container .intro-item.backward.ng-hide-add {
+        left: 50%;
+        opacity: 1; }
+      .intro .intro-container .intro-item.backward.ng-hide-add.ng-hide-add-active {
+        left: 100%;
+        opacity: 0; }
+      .intro .intro-container .intro-item.backward.ng-hide-remove {
+        left: 0%;
+        opacity: 0; }
+      .intro .intro-container .intro-item.backward.ng-hide-remove.ng-hide-remove-active {
+        left: 50%;
+        opacity: 1; }
+      @media screen and (max-width: 1100px) {
+        .intro .intro-container .intro-item {
+          width: 85%;
+          margin-left: -42.5%;
+          height: auto;
+          padding-top: 65.28%; } }
     .intro .intro-container .intro-arrows {
       width: 1098px;
       left: 50%;
       margin-left: -549px;
-      top: 325px; }
+      top: 355px; }
+      @media screen and (max-width: 1100px) {
+        .intro .intro-container .intro-arrows {
+          width: 95%;
+          margin-left: -47.5%;
+          top: 30px;
+          padding-top: 28.8%; }
+          .intro .intro-container .intro-arrows a {
+            top: auto !important; } }
+      @media screen and (max-width: 700px) {
+        .intro .intro-container .intro-arrows {
+          display: none; } }
 
 .keyart {
   width: 100%;
@@ -653,12 +716,32 @@ PAGES
           margin-right: 0px; }
         .cast .thumb-container .thumb-list .t-cast:hover, .cast .thumb-container .thumb-list .t-cast.selected {
           border: 1px solid #fff; }
+  .cast .pagetitle {
+    top: 110px;
+    position: absolute;
+    left: 50%;
+    width: 526px;
+    margin-left: -264px;
+    background-position: center center; }
+    @media screen and (max-height: 900px) {
+      .cast .pagetitle {
+        width: 975px;
+        margin-left: -487.5px; } }
+    @media screen and (max-width: 980px) {
+      .cast .pagetitle {
+        width: 526px;
+        margin-left: -264px; } }
+    @media screen and (max-width: 570px) {
+      .cast .pagetitle {
+        width: 90%;
+        margin-left: -45%;
+        top: 15px; } }
   .cast .character {
     position: absolute;
     left: 50%;
     width: 526px;
     margin-left: -264px;
-    top: 130px; }
+    top: 145px; }
     .cast .character.ng-hide-add, .cast .character.ng-hide-remove {
       -moz-transition-property: all;
       -o-transition-property: all;
@@ -721,7 +804,7 @@ PAGES
       .cast .character {
         width: 90%;
         margin-left: -45%;
-        top: 10px; } }
+        top: 50px; } }
     .cast .character:first-child {
       display: block; }
     .cast .character-image {
@@ -794,7 +877,7 @@ PAGES
     left: 50%;
     width: 616px;
     margin-left: -308px;
-    top: 255px; }
+    top: 295px; }
     @media screen and (max-height: 900px) {
       .cast .cast-arrows {
         width: 481.6px;
@@ -809,7 +892,7 @@ PAGES
       .cast .cast-arrows {
         width: 90%;
         margin-left: -45%;
-        top: 190px; } }
+        top: 230px; } }
 
 .production {
   padding-top: 0px !important; }
@@ -825,12 +908,31 @@ PAGES
         margin-left: 0;
         left: 0;
         width: 100%; } }
+    .production .prod-container .pagetitle {
+      position: absolute;
+      width: 682px;
+      left: 33.77273%;
+      top: 20px;
+      background-position: center center; }
+      @media screen and (max-width: 1100px) {
+        .production .prod-container .pagetitle {
+          width: 68%;
+          left: 64%;
+          margin-left: -34%; } }
+      @media screen and (max-width: 1020px) {
+        .production .prod-container .pagetitle {
+          width: 90%;
+          left: 50%;
+          margin-left: -45%; } }
+      @media screen and (max-width: 500px) {
+        .production .prod-container .pagetitle {
+          top: 15px; } }
     .production .prod-container .prod {
       padding-bottom: 100px;
       position: absolute;
       width: 682px;
       left: 33.77273%;
-      top: 30px; }
+      top: 50px; }
       @media screen and (max-width: 1100px) {
         .production .prod-container .prod {
           width: 68%;
@@ -843,7 +945,7 @@ PAGES
           margin-left: -45%; } }
       @media screen and (max-width: 500px) {
         .production .prod-container .prod {
-          top: 10px; } }
+          top: 50px; } }
       .production .prod-container .prod.ng-hide-add, .production .prod-container .prod.ng-hide-remove {
         -moz-transition-property: all;
         -o-transition-property: all;
@@ -993,7 +1095,7 @@ PAGES
       width: 561px;
       z-index: 5;
       left: 432px;
-      top: 70px; }
+      top: 110px; }
       @media screen and (max-width: 1100px) {
         .production .prod-container .prod-arrows {
           left: 64%;
@@ -1005,15 +1107,15 @@ PAGES
           width: 90%;
           left: 50%;
           margin-left: -45%;
-          top: 60px; } }
+          top: 100px; } }
       @media screen and (max-width: 500px) {
         .production .prod-container .prod-arrows {
-          top: 40px; } }
+          top: 80px; } }
       .production .prod-container .prod-arrows.withimage {
         top: 150px; }
         @media screen and (max-width: 1020px) {
           .production .prod-container .prod-arrows.withimage {
-            top: 85px; } }
+            top: 125px; } }
 
 .gallery-container {
   width: 1182px;
@@ -1272,6 +1374,10 @@ PAGES
   .downloads-content h3 {
     margin-top: 20px;
     color: #000; }
+  .downloads-content .pagetitle {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto; }
   .downloads-content .downloads-section, .downloads-content .downloads-list, .downloads-content .mediaroom .mediaroom-list, .downloads-content .contacts {
     width: 100%;
     margin: 10px auto 0 auto; }

@@ -14,13 +14,37 @@
 			left:0;
 			width:100%;	
 		}
+
+		.pagetitle{
+			position: absolute;
+			width:$prod-width;
+			left: $prod-left;
+			top:20px;
+			background-position: center center;
+
+			@media screen and (max-width: $prod-container-width) {
+				width: 68%;	
+				left:$prod-offcenter;
+				margin-left: -34%;
+			}
+			
+			@media screen and (max-width: $break-medium) {
+				width:90%;
+				left:50%;
+				margin-left: -45%;
+			}
+			
+			@media screen and (max-width: $break-mobile) {
+				top:15px;
+			}
+		}
 		
 		.prod{
 			padding-bottom:100px;
 			position: absolute;
 			width:$prod-width;
 			left: $prod-left;
-			top:30px;
+			top:50px;
 			
 			@media screen and (max-width: $prod-container-width) {
 				width: 68%;	
@@ -35,7 +59,7 @@
 			}
 			
 			@media screen and (max-width: $break-mobile) {
-				top:10px;
+				top:50px;
 			}
 
 			&.ng-hide-add, &.ng-hide-remove{
@@ -231,7 +255,7 @@
 			width:$prod-arrows-width;
 			z-index: $prod-zindex;
 			left:$prod-arrow-left;
-			top:$prod-arrows-top;
+			top:$prod-arrows-top+40;
 			
 			@media screen and (max-width: $prod-container-width) {
 				left:$prod-offcenter;
@@ -244,11 +268,11 @@
 				width:90%;
 				left:50%;
 				margin-left: -45%;
-				top:60px
+				top:60px+40;
 			}
 
 			@media screen and (max-width: $break-mobile) {
-				top: 40px;
+				top: 40px+40;
 			}
 			
 			&.withimage{
@@ -256,7 +280,7 @@
 				
 				@media screen and (max-width: $break-medium) {
 					//top:$prod-arrows-top2*.5;
-					top:85px;
+					top:85px+40;
 				}
 			}
 			

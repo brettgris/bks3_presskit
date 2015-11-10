@@ -1,4 +1,41 @@
 {
+    "intro": [
+        {
+            "name": "page1.png"
+        },{
+            "name": "page2.png"
+        },{
+            "name": "page3.png"
+        },{
+            "name": "page4.png"
+        },{
+            "name": "page5.png"
+        },{
+            "name": "page6.png"
+        },{
+            "name": "page7.png"
+        },{
+            "name": "page8.png"
+        },{
+            "name": "page9.png"
+        },{
+            "name": "page10.png"
+        },{
+            "name": "page11.png"
+        },{
+            "name": "page12.png"
+        },{
+            "name": "page13.png"
+        },{
+            "name": "page14.png"
+        },{
+            "name": "page15.png"
+        },{
+            "name": "page16.png"
+        },{
+            "name": "page17.png"
+        }
+    ],
     "synopsis": [
         "In the wake of the burning of Charles Town, all the New World lives in fear of Captain Flint. But when his campaign of terror crosses over into madness, and new threats emerge to challenge his supremacy, it falls to John Silver to locate the man within the monster, before Flint&#8217;s war against the world consumes them all. Meanwhile, on the pirate island of Nassau, it&#8217;s a new day. With Eleanor Guthrie facing judgment in London, Jack Rackham sits atop a fortune in Spanish gold, hoping to secure his legacy as a king among thieves. To do so, he&#8217;ll have to compete with the return of one of history&#8217;s most notorious captains, who holds a different vision for their home, as well as a complicated past with Rackham&#8217;s chief ally, Captain Charles Vane. All will be tested when a new opponent arrives to claim Nassau, one the pirates could never have anticipated. It knows them. It understands them. And in the blink of an eye, it will do the one thing they never thought possible&#8230; turn them against each other."
     ],
@@ -24,19 +61,19 @@
         "safename": "max",
         "name": "MAX",
         "actor": "Jessica Parker Kennedy",
-        "quoteheight":100,
+        "quoteheight":98,
         "desc": "With Eleanor exiled, Max is now the nexus between the pirates and the street, a position of great power and influence. But when the return of civilization threatens to unseat her, Max sets a plan in motion that will have dire consequences for the island, as well as her relationship with Anne Bonny."
     }, {
         "safename": "billy",
         "name": "BILLY BONES",
         "actor": "Tom Hopper",
-        "quoteheight":100,
+        "quoteheight":93,
         "desc": "Still mistrustful of his leadership, Billy must set aside his feelings for the sake of his crew&#8217;s survival. But when a new front opens in the war on civilization, Billy sees a different role for himself. One where he need never be beholden to Flint again."
     }, {
         "safename": "vane",
         "name": "CAPTAIN CHARLES VANE",
         "actor": "Zach McGowan",
-        "quoteheight":100,
+        "quoteheight":60,
         "desc": "Allied with former enemies. Forced to betray his own values. Marked for death by civilization. For Captain Charles Vane, the costs of defending Nassau continue to mount. Is he strong enough to survive what&#8217;s coming?"
     }, {
         "safename": "rackham",
@@ -48,19 +85,19 @@
         "safename": "anne",
         "name": "ANNE BONNY",
         "actor": "Clara Paget",
-        "quoteheight":100,
+        "quoteheight":71,
         "desc": "A beacon of loyalty in a sea of shifting alliances, Bonny is caught between her partnership with Rackham, and her love for Max. But when upheaval on the island forces unpleasant truths to the surface, Bonny must choose once and for all where and with whom she belongs."
     }, {
         "safename": "scott",
         "name": "MR. SCOTT",
         "actor": "Hakeem Kae-Kazim",
-        "quoteheight":100,
+        "quoteheight":89,
         "desc": "More than anyone, Scott recognizes the perils of a Nassau without Eleanor Guthrie. With the ground shifting beneath his feet, he must make a decision to protect that which he truly loves."
     }, {
         "safename": "teach",
         "name": "EDWARD TEACH",
         "actor": "Ray Stevenson",
-        "quoteheight":100,
+        "quoteheight":95,
         "desc": "One of the most notorious pirates to have ever lived, Edward Teach, also known as Blackbeard, returns to the account to settle some unfinished business. But a great deal has changed in his absence, and to cement his legacy he will have to challenge Nassau&#8217;s most powerful&#8230; at sea. On land. And at the end of a sword."
     }],
     "prod": [{
@@ -319,12 +356,12 @@
         "image": false
     }],
     "videos": [{
-        "name": "Season Two Recap",
-        "desc": "",
-        "path": "",
-        "thumb": "video.jpg"
-    }, {
         "name": "Season Three Overview",
+        "desc": "",
+        "path": "http://www.starz.com/videos/embed/8d8572875ce9481b972bc193259e4335?footer=false&cid=bks3nxtcptr2016",
+        "thumb": "seasonthree.jpg"
+    },{
+        "name": "Season Two Recap",
         "desc": "",
         "path": "",
         "thumb": "video.jpg"

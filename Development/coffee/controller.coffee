@@ -3,6 +3,25 @@ do ->
 	app.controller 'PressKitController', ['$scope','$http','$filter','$sce','$timeout','$window', ($scope,$http,$filter,$sce,$timeout,$window) ->
 		$http.get('data/data.json').then (data) ->
 			$.extend $scope, data.data
+			$scope.introTimeout()
+			
+		TO = $timeout
+		$scope.intronum = 0
+		$scope.introClick = (v) ->
+			if v == 1 then $scope.forward = true else $scope.forward = false
+			$timeout ->
+				$scope.introTimeout()
+				$scope.intronum += v
+				if $scope.intronum < 0 then $scope.intronum = $scope.intro.length - 1
+				if $scope.intronum >= $scope.intro.length then $scope.intronum = 0
+			,1
+
+		$scope.introTimeout = ->
+			$timeout.cancel TO
+			TO = $timeout ->
+				$scope.introClick 1
+			, 7000
+			
 
 		$scope.thumbClick = (i,v) ->
 			if i>$scope[v] then $scope.direction = true else $scope.direction = false

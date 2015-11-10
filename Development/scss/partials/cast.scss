@@ -43,13 +43,38 @@
 			}
 		}
 	}
+
+	.pagetitle{
+		top: $character-top - 20px;
+		position: absolute;
+		left:50%;
+		width: $character-width;
+		margin-left: -1*($character-width+$character-photo-border-size*2)/2;
+		background-position: center center;
+
+		@media screen and (max-height: $break-tabheight) {
+			width: $character-width-wide;
+			margin-left: -1*$character-width-wide/2;
+		}
+		
+		@media screen and (max-width: $break-cast-medium) {
+			width: $character-width;
+			margin-left: -1*($character-width+$character-photo-border-size*2)/2;
+		}
+		
+		@media screen and (max-width: $break-cast-small) {
+			width:90%;
+			margin-left: -45%;
+			top:15px;
+		}
+	}
 	
 	.character{
 		position: absolute;
 		left:50%;
 		width: $character-width;
 		margin-left: -1*($character-width+$character-photo-border-size*2)/2;
-		top: $character-top;
+		top: $character-top +15;
 
 		&.ng-hide-add, &.ng-hide-remove{
 			@include transition-property(all);
@@ -110,7 +135,7 @@
 		@media screen and (max-width: $break-cast-small) {
 			width:90%;
 			margin-left: -45%;
-			top:10px;
+			top:50px;
 		}
 		
 		&:first-child{
@@ -217,7 +242,7 @@
 		left:50%;
 		width: $arrow-container-width;
 		margin-left: -1*$arrow-container-width/2;
-		top:$arrow-top;
+		top:$arrow-top+40;
 		
 		@media screen and (max-height: $break-tabheight) {
 			width: $character-width-wide - ( $character-width*.9 ) - 20;
@@ -235,7 +260,7 @@
 			width:90%;
 			margin-left:-45%;
 			//top: $character-photo-height*.5 + $thumb-item-height;
-			top: $character-photo-height*.5 + 40;
+			top: $character-photo-height*.5 + 80;
 		}
 
 		.cast-prev{

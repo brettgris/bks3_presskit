@@ -3,6 +3,7 @@ div#cast.cast.section(ng-show="page==='cast'" ng-init="castNum=0")
 	//THUMBS
 	div.thumb-container
 		div.thumb-list
+
 			a.t-cast(ng-repeat="Cast in cast" ng-click="thumbClick($index,'castNum')" class=" {{(castNum==$index)?'selected':''}} " style="background-image:url(images/cast/{{Cast.safename}}_t.jpg)")
 	//ARROWS
 	div.cast-arrows
@@ -10,6 +11,7 @@ div#cast.cast.section(ng-show="page==='cast'" ng-init="castNum=0")
 		a.cast-prev(ng-click="changeItem(-1,'castNum', 'cast')")
 	//CHARACTER BIOS
 	div.character-content
+		div.pagetitle(style="background-image:url(images/titles/cast_w.png);")
 		div.character(ng-repeat="Cast in cast" ng-show="$index==castNum" class="{{(direction)?'forward':'backward'}}")
 			div.character-image(style="background-image:url(images/cast/{{Cast.safename}}_l.jpg)")
 			div.character-copy

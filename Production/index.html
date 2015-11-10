@@ -6,12 +6,12 @@
     <title>Black Sails Season 3 Press Kit</title>
     <link href="css/main.css" rel="stylesheet" type="text/css">
   </head>
-  <body ng-controller="PressKitController" ng-cloak ng-init="page='cast';pagebg='url(images/bg/shipstorm.jpg) black no-repeat center top '; " style="background:{{pagebg}}">
+  <body ng-controller="PressKitController" ng-cloak ng-init="page='intro';pagebg='url(images/bg/ships.jpg) black no-repeat center top'; " style="background:{{pagebg}}">
     <div class="container">
       <!--HEADER-->
       <div class="header">
         <div class="header-container">
-          <!--LOGO--><a ng-click="menuClick('intro','black no-repeat center top')" href="javascript:void(0);" class="logo"></a>
+          <!--LOGO--><a ng-click="menuClick('intro','url(images/bg/ships.jpg) black no-repeat center top')" href="javascript:void(0);" class="logo"></a>
           <!--MENU-->
           <div class="menu"><a ng-click="menuClick('synopsis','black no-repeat center top')" path="synopsis" class="mlink plink lsynopsis">Synopsis</a><a ng-click="menuClick('cast','url(images/bg/shipstorm.jpg) black no-repeat center top ')" path="cast" class="mlink plink lcast">Cast</a><a ng-click="menuClick('production','url(images/bg/river.jpg) black no-repeat center top')" path="production" class="mlink plink lproduction">Production Bios</a><a ng-click="mobilemenu=false" href="http://starz.mediaroom.com/index.php?s=64&amp;cat=81" target="_blank" class="mlink">Gallery</a><a ng-click="menuClick('videos','url(images/bg/fireships.jpg) black no-repeat center top')" path="videos" class="mlink plink lvideos">Videos</a><a ng-click="mobilemenu=false" href="https://microsites.starz.com/ScreeningRoom/Account/Login" target="_blank" class="mlink mhighlight">Screening Room</a><a ng-click="menuClick('downloads','url(images/bg/ships.jpg) black no-repeat center top')" path="downloads" class="mlink plink ldownloads">Press Materials</a>
           </div>
@@ -27,7 +27,10 @@
       <div class="content">
         <!--INTRO-->
         <div id="intro" ng-show="page==='intro'" class="intro section">
-          <h1>INTRO</h1>
+          <div class="intro-container">
+            <div ng-repeat="Item in intro" ng-show="$index==intronum" ng-class="{'forward':forward, 'backward':forward!=undefined&amp;&amp;!forward}" style="background-image:url(images/intro/{{Item.name}});" class="intro-item"></div>
+            <div class="intro-arrows"><a ng-click="introClick(1)" class="next"></a><a ng-click="introClick(-1)" class="prev"></a></div>
+          </div>
         </div>
         <!--KEYART-->
         <div id="keyart" ng-show="page==='synopsis'" style="height:{{contentHeight}}px;" class="keyart section">
@@ -56,6 +59,7 @@
           <div class="cast-arrows"><a ng-click="changeItem(1,'castNum', 'cast')" class="cast-next"></a><a ng-click="changeItem(-1,'castNum', 'cast')" class="cast-prev"></a></div>
           <!--CHARACTER BIOS-->
           <div class="character-content">
+            <div style="background-image:url(images/titles/cast_w.png);" class="pagetitle"></div>
             <div ng-repeat="Cast in cast" ng-show="$index==castNum" class="character {{(direction)?'forward':'backward'}}">
               <div style="background-image:url(images/cast/{{Cast.safename}}_l.jpg)" class="character-image"></div>
               <div class="character-copy">
@@ -78,6 +82,7 @@
             <div class="prod-arrows {{(prod[prodNum].image==true)?'withimage':''}}"><a ng-click="changeItem(1,'prodNum', 'prod')" class="prod-next"></a><a ng-click="changeItem(-1,'prodNum', 'prod')" class="prod-prev"></a></div>
             <!--PROD BIOS-->
             <div class="prod-content">
+              <div style="background-image:url(images/titles/prod_w.png);" class="pagetitle"></div>
               <div ng-repeat="Prod in prod" ng-show="$index==prodNum" class="prod {{(direction)?'forward':'backward'}}">
                 <div ng-if="prod[$index].image" style="background-image:url(images/prod/{{Prod.safename}}_l.jpg)" class="prod-image"></div>
                 <div class="prod-copy">
@@ -105,17 +110,20 @@
               </div>
             </div>
             <!--VIDEO ITEMS-->
-            <div ng-show="videoNum&lt;0" class="video-items"><a ng-repeat="Video in videos" ng-click="thumbClick($index,'videoNum')" style="background-image:url(images/video/{{Video.thumb}})" class="video-item">
+            <div ng-show="videoNum&lt;0" class="video-items">
+              <div style="background-image:url(images/titles/videos.png);" class="pagetitle"></div><a ng-repeat="Video in videos" ng-click="thumbClick($index,'videoNum')" style="background-image:url(images/video/{{Video.thumb}})" class="video-item">
                 <div class="video-copy">
                   <div class="video-name">{{Video.name}}</div>
                   <div class="video-desc">{{Video.desc}}</div>
                   <div class="clickheretoplay">Click here to play</div>
-                </div></a></div>
+                </div></a>
+            </div>
           </div>
         </div>
         <!--DOWNLOADS-->
         <div id="downloads" ng-show="page==='downloads'" class="downloads section">
           <div class="downloads-content">
+            <div style="background-image:url(images/titles/downloads.png);" class="pagetitle"></div>
             <!--PDFS-->
             <div class="downloads dl-section">
               <h3>DOWNLOAD PDF FILES</h3>

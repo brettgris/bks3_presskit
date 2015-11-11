@@ -28,7 +28,7 @@
         <!--INTRO-->
         <div id="intro" ng-show="page==='intro'" class="intro section">
           <div class="intro-container">
-            <div ng-repeat="Item in intro" ng-show="$index==intronum" ng-class="{'forward':forward, 'backward':forward!=undefined&amp;&amp;!forward}" style="background-image:url(images/intro/{{Item.name}});" class="intro-item"></div>
+            <div ng-repeat="Item in intro" ng-show="$index==intronum" ng-class="{'forward':forward, 'backward':forward!=undefined&amp;&amp;!forward}" data-lazy="images/intro/{{Item.name}}" intro-item class="intro-item"></div>
             <div class="intro-arrows"><a ng-click="introClick(1)" class="next"></a><a ng-click="introClick(-1)" class="prev"></a></div>
           </div>
         </div>
@@ -136,7 +136,7 @@
             <!--MEDIA ROOM-->
             <div class="mediaroom dl-section">
               <h3>HIGH RESOLUTION IMAGES</h3>
-              <div class="mediaroom-list"><a href="http://starz.mediaroom.com/index.php?s=56" target="_blank"><span>Visit STARZ Media Room to download high resolution images and videos</span></a></div>
+              <div class="mediaroom-list"><a href="http://www.starz.com/pressroomstatic/pr_blacksails_s3/index.html" target="_blank"><span>Visit STARZ Media Room to download high resolution images and videos</span></a></div>
             </div>
             <!--PRESS CONTACTS-->
             <div class="press-contacts dl-section">

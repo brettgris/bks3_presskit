@@ -66,4 +66,16 @@ do ->
 		$scope
 	]
 
+	app.directive 'introItem', ->
+		restrict: 'A'
+		controller: ['$scope','$timeout', ($scope,$timeout) ->
+			if $scope.$last
+				$timeout ->
+					$('.intro-container').imageloader
+						selector: '.intro-item',
+						dataattr: 'lazy',
+						background: true
+				,10
+		]
+
 	app

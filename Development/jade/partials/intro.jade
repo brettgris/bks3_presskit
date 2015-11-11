@@ -1,7 +1,7 @@
 //INTRO
 div#intro.intro.section(ng-show="page==='intro'")
 	div.intro-container
-		div.intro-item(ng-repeat="Item in intro" ng-show="$index==intronum" ng-class="{'forward':forward, 'backward':forward!=undefined&&!forward}" style="background-image:url(images/intro/{{Item.name}});")
+		div.intro-item(ng-repeat="Item in intro" ng-show="$index==intronum" ng-class="{'forward':forward, 'backward':forward!=undefined&&!forward}" data-lazy="images/intro/{{Item.name}}" intro-item)
 
 		div.intro-arrows
 			a.next(ng-click="introClick(1)")

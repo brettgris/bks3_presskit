@@ -255,7 +255,7 @@
 			width:$prod-arrows-width;
 			z-index: $prod-zindex;
 			left:$prod-arrow-left;
-			top:$prod-arrows-top+40;
+			top:$prod-arrows-top+30;
 			
 			@media screen and (max-width: $prod-container-width) {
 				left:$prod-offcenter;

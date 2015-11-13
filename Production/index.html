@@ -6,14 +6,14 @@
     <title>Black Sails Season 3 Press Kit</title>
     <link href="css/main.css" rel="stylesheet" type="text/css">
   </head>
-  <body ng-controller="PressKitController" ng-cloak ng-init="page='intro';pagebg='url(images/bg/ships.jpg) black no-repeat center top'; " style="background:{{pagebg}}">
+  <body ng-controller="PressKitController" ng-cloak ng-init="page='intro';pagebg='url(images/bg/shipstorm.jpg) black no-repeat center top'; " style="background:{{pagebg}}">
     <div class="container">
       <!--HEADER-->
       <div class="header">
         <div class="header-container">
-          <!--LOGO--><a ng-click="menuClick('intro','url(images/bg/ships.jpg) black no-repeat center top')" href="javascript:void(0);" class="logo"></a>
+          <!--LOGO--><a ng-click="menuClick('intro','url(images/bg/shipstorm.jpg) black no-repeat center top')" href="javascript:void(0);" class="logo"></a>
           <!--MENU-->
-          <div class="menu"><a ng-click="menuClick('synopsis','black no-repeat center top')" path="synopsis" class="mlink plink lsynopsis">Synopsis</a><a ng-click="menuClick('cast','url(images/bg/shipstorm.jpg) black no-repeat center top ')" path="cast" class="mlink plink lcast">Cast</a><a ng-click="menuClick('production','url(images/bg/river.jpg) black no-repeat center top')" path="production" class="mlink plink lproduction">Production Bios</a><a ng-click="mobilemenu=false" href="http://starz.mediaroom.com/index.php?s=64&amp;cat=81" target="_blank" class="mlink">Gallery</a><a ng-click="menuClick('videos','url(images/bg/fireships.jpg) black no-repeat center top')" path="videos" class="mlink plink lvideos">Videos</a><a ng-click="mobilemenu=false" href="https://microsites.starz.com/ScreeningRoom/Account/Login" target="_blank" class="mlink mhighlight">Screening Room</a><a ng-click="menuClick('downloads','url(images/bg/ships.jpg) black no-repeat center top')" path="downloads" class="mlink plink ldownloads">Press Materials</a>
+          <div class="menu"><a ng-click="menuClick('synopsis','black no-repeat center top')" path="synopsis" class="mlink plink lsynopsis">Synopsis</a><a ng-click="menuClick('production','url(images/bg/river.jpg) black no-repeat center top')" path="production" class="mlink plink lproduction">Production Bios</a><a ng-click="mobilemenu=false" href="http://starz.mediaroom.com/index.php?s=64&amp;cat=87" target="_blank" class="mlink">Gallery</a><a ng-click="menuClick('videos','url(images/bg/fireships.jpg) black no-repeat center top')" path="videos" class="mlink plink lvideos">Videos</a><a ng-click="mobilemenu=false" href="https://microsites.starz.com/ScreeningRoom/Account/Login" target="_blank" class="mlink mhighlight">Screening Room</a><a ng-click="menuClick('downloads','url(images/bg/ships.jpg) black no-repeat center top')" path="downloads" class="mlink plink ldownloads">Press Materials</a>
           </div>
           <!--HEADER LOGO--><a href="http://www.starz.com/originals/blacksails/featured" target="_blank" class="headerlogo"></a>
           <!--MOBILE LINK--><a ng-click="mobilemenu = !mobilemenu" class="mobile-link"><span></span><span></span><span></span></a>
@@ -21,7 +21,7 @@
       </div>
       <!--MOBILE MENU-->
       <div ng-show="mobilemenu" ng-init="mobilemenu = false" ng-cloak class="mobile-menu">
-        <ul class="menu-list"><a ng-click="menuClick('synopsis','black no-repeat center top')" class="mmlink mplink">Synopsis</a><a ng-click="menuClick('cast','url(images/bg/shipstorm.jpg) black no-repeat center top ')" class="mmlink mplink">Cast</a><a ng-click="menuClick('production','url(images/bg/river.jpg) black no-repeat center top')" class="mmlink mplink">Production Bios</a><a ng-click="mobilemenu=false" href="http://starz.mediaroom.com/index.php?s=64&amp;cat=81" target="_blank" class="mmlink">Gallery</a><a ng-click="menuClick('videos','url(images/bg/fireships.jpg) black no-repeat center top')" class="mmlink mplink">Videos</a><a ng-click="mobilemenu=false" href="https://microsites.starz.com/ScreeningRoom/Account/Login" target="_blank" class="mmlink mhighlight">Screening Room</a><a ng-click="menuClick('downloads','url(images/bg/ships.jpg) black no-repeat center top')" class="mmlink mplink">Press Materials</a>
+        <ul class="menu-list"><a ng-click="menuClick('synopsis','black no-repeat center top')" class="mmlink mplink">Synopsis</a><a ng-click="menuClick('production','url(images/bg/river.jpg) black no-repeat center top')" class="mmlink mplink">Production Bios</a><a ng-click="mobilemenu=false" href="http://starz.mediaroom.com/index.php?s=64&amp;cat=87" target="_blank" class="mmlink">Gallery</a><a ng-click="menuClick('videos','url(images/bg/fireships.jpg) black no-repeat center top')" class="mmlink mplink">Videos</a><a ng-click="mobilemenu=false" href="https://microsites.starz.com/ScreeningRoom/Account/Login" target="_blank" class="mmlink mhighlight">Screening Room</a><a ng-click="menuClick('downloads','url(images/bg/ships.jpg) black no-repeat center top')" class="mmlink mplink">Press Materials</a>
         </ul>
       </div>
       <div class="content">
@@ -47,30 +47,6 @@
               <p ng-repeat="p in synopsis" ng-bind-html="safeHTML(p)"></p>
             </div>
             <div class="key-tunein"></div>
-          </div>
-        </div>
-        <!--CAST-->
-        <div id="cast" ng-show="page==='cast'" ng-init="castNum=0" class="cast section">
-          <!--THUMBS-->
-          <div class="thumb-container">
-            <div class="thumb-list"><a ng-repeat="Cast in cast" ng-click="thumbClick($index,'castNum')" style="background-image:url(images/cast/{{Cast.safename}}_t.jpg)" class="t-cast  {{(castNum==$index)?'selected':''}} "></a></div>
-          </div>
-          <!--ARROWS-->
-          <div class="cast-arrows"><a ng-click="changeItem(1,'castNum', 'cast')" class="cast-next"></a><a ng-click="changeItem(-1,'castNum', 'cast')" class="cast-prev"></a></div>
-          <!--CHARACTER BIOS-->
-          <div class="character-content">
-            <div style="background-image:url(images/titles/cast_w.png);" class="pagetitle"></div>
-            <div ng-repeat="Cast in cast" ng-show="$index==castNum" class="character {{(direction)?'forward':'backward'}}">
-              <div style="background-image:url(images/cast/{{Cast.safename}}_l.jpg)" class="character-image"></div>
-              <div class="character-copy">
-                <div style="background-image:url(images/cast/{{Cast.safename}}_i.png)" class="icon"></div>
-                <div style="background-image:url(images/cast/{{Cast.safename}}_q.png);padding-top:{{ setQuoteHeight(Cast.quoteheight) }};" class="quote"></div>
-                <!--div.character-name(ng-bind-html="safeHTML(Cast.name)")-->
-                <div style="background-image:url(images/cast/{{Cast.safename}}_n.png)" class="character-name"></div>
-                <div ng-bind-html="safeHTML(Cast.actor)" class="actor-name"></div>
-                <div ng-bind-html="safeHTML(Cast.desc)" class="character-desc"></div>
-              </div>
-            </div>
           </div>
         </div>
         <!--PRODUCTION-->
@@ -136,7 +112,7 @@
             <!--MEDIA ROOM-->
             <div class="mediaroom dl-section">
               <h3>HIGH RESOLUTION IMAGES</h3>
-              <div class="mediaroom-list"><a href="http://www.starz.com/pressroomstatic/pr_blacksails_s3/index.html" target="_blank"><span>Visit STARZ Media Room to download high resolution images and videos</span></a></div>
+              <div class="mediaroom-list"><a href="http://starz.mediaroom.com/index.php?s=64&amp;cat=87" target="_blank"><span>Visit STARZ Media Room to download high resolution images and videos</span></a></div>
             </div>
             <!--PRESS CONTACTS-->
             <div class="press-contacts dl-section">

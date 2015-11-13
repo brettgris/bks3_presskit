@@ -16,6 +16,11 @@ body{
 	background-size: cover;
 	background-color:$background-color;
 	overflow-x: hidden;
+
+	-webkit-user-select: none;
+     -moz-user-select: -moz-none;
+      -ms-user-select: none;
+          user-select: none;
 	
 	@include transition-property(background-color);
 	@include transition-duration(.5s);
